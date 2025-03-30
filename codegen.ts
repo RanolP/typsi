@@ -159,7 +159,7 @@ function generateEspansoEntry(
   replacement: Replacement,
 ): string {
   return `${
-    replacement.deprecation ? `// ${replacement.deprecation}\n` : ''
+    replacement.deprecation ? `# ${replacement.deprecation}\n` : ''
   }- { trigger: ${JSON.stringify(
     `${surround}${replacement.match}${surround}`,
   )}, replace: ${JSON.stringify(replacement.replacement)} }`;

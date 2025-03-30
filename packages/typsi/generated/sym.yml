@@ -412,7 +412,7 @@ matches:
   - { trigger: "\\intersq\\", replace: "⊓" }
   - { trigger: "\\intersq.big\\", replace: "⨅" }
   - { trigger: "\\intersq.double\\", replace: "⩎" }
-  // deprecated: `sect` is deprecated, use `inter` instead
+  # deprecated: `sect` is deprecated, use `inter` instead
   - { trigger: "\\sect\\", replace: "∩" }
   - { trigger: "\\sectand\\", replace: "⩄" }
   - { trigger: "\\sectbig\\", replace: "⋂" }
