@@ -19,36 +19,42 @@ matches:
   - { trigger: "\\space.punct\\", replace: "U+2008" }
   - { trigger: "\\space.thin\\", replace: "U+2009" }
   - { trigger: "\\space.hair\\", replace: "U+200A" }
+  - { trigger: "\\paren\\", replace: "(" }
   - { trigger: "\\paren.l\\", replace: "(" }
   - { trigger: "\\paren.l.double\\", replace: "⦅" }
   - { trigger: "\\paren.r\\", replace: ")" }
   - { trigger: "\\paren.r.double\\", replace: "⦆" }
   - { trigger: "\\paren.t\\", replace: "⏜" }
   - { trigger: "\\paren.b\\", replace: "⏝" }
+  - { trigger: "\\brace\\", replace: "U+7B" }
   - { trigger: "\\brace.l\\", replace: "U+7B" }
   - { trigger: "\\brace.l.double\\", replace: "⦃" }
   - { trigger: "\\brace.r\\", replace: "U+7D" }
   - { trigger: "\\brace.r.double\\", replace: "⦄" }
   - { trigger: "\\brace.t\\", replace: "⏞" }
   - { trigger: "\\brace.b\\", replace: "⏟" }
+  - { trigger: "\\bracket\\", replace: "[" }
   - { trigger: "\\bracket.l\\", replace: "[" }
   - { trigger: "\\bracket.l.double\\", replace: "⟦" }
   - { trigger: "\\bracket.r\\", replace: "]" }
   - { trigger: "\\bracket.r.double\\", replace: "⟧" }
   - { trigger: "\\bracket.t\\", replace: "⎴" }
   - { trigger: "\\bracket.b\\", replace: "⎵" }
+  - { trigger: "\\shell\\", replace: "❲" }
   - { trigger: "\\shell.l\\", replace: "❲" }
   - { trigger: "\\shell.l.double\\", replace: "⟬" }
   - { trigger: "\\shell.r\\", replace: "❳" }
   - { trigger: "\\shell.r.double\\", replace: "⟭" }
   - { trigger: "\\shell.t\\", replace: "⏠" }
   - { trigger: "\\shell.b\\", replace: "⏡" }
+  - { trigger: "\\bar\\", replace: "|" }
   - { trigger: "\\bar.v\\", replace: "|" }
   - { trigger: "\\bar.v.double\\", replace: "‖" }
   - { trigger: "\\bar.v.triple\\", replace: "⦀" }
   - { trigger: "\\bar.v.broken\\", replace: "¦" }
   - { trigger: "\\bar.v.circle\\", replace: "⦶" }
   - { trigger: "\\bar.h\\", replace: "―" }
+  - { trigger: "\\fence\\", replace: "⧘" }
   - { trigger: "\\fence.l\\", replace: "⧘" }
   - { trigger: "\\fence.l.double\\", replace: "⧚" }
   - { trigger: "\\fence.r\\", replace: "⧙" }
@@ -78,12 +84,15 @@ matches:
   - { trigger: "\\angle.spheric\\", replace: "∢" }
   - { trigger: "\\angle.spheric.rev\\", replace: "⦠" }
   - { trigger: "\\angle.spheric.top\\", replace: "⦡" }
+  - { trigger: "\\ceil\\", replace: "⌈" }
   - { trigger: "\\ceil.l\\", replace: "⌈" }
   - { trigger: "\\ceil.r\\", replace: "⌉" }
+  - { trigger: "\\floor\\", replace: "⌊" }
   - { trigger: "\\floor.l\\", replace: "⌊" }
   - { trigger: "\\floor.r\\", replace: "⌋" }
   - { trigger: "\\amp\\", replace: "&" }
   - { trigger: "\\amp.inv\\", replace: "⅋" }
+  - { trigger: "\\ast\\", replace: "∗" }
   - { trigger: "\\ast.op\\", replace: "∗" }
   - { trigger: "\\ast.basic\\", replace: "*" }
   - { trigger: "\\ast.low\\", replace: "⁎" }
@@ -110,6 +119,7 @@ matches:
   - { trigger: "\\dagger.l\\", replace: "⸶" }
   - { trigger: "\\dagger.r\\", replace: "⸷" }
   - { trigger: "\\dagger.inv\\", replace: "⸸" }
+  - { trigger: "\\dash\\", replace: "–" }
   - { trigger: "\\dash.en\\", replace: "–" }
   - { trigger: "\\dash.em\\", replace: "—" }
   - { trigger: "\\dash.em.two\\", replace: "⸺" }
@@ -119,6 +129,7 @@ matches:
   - { trigger: "\\dash.colon\\", replace: "∹" }
   - { trigger: "\\dash.circle\\", replace: "⊝" }
   - { trigger: "\\dash.wave.double\\", replace: "〰" }
+  - { trigger: "\\dot\\", replace: "⋅" }
   - { trigger: "\\dot.op\\", replace: "⋅" }
   - { trigger: "\\dot.basic\\", replace: "U+2E" }
   - { trigger: "\\dot.c\\", replace: "·" }
@@ -155,11 +166,13 @@ matches:
   - { trigger: "\\slash.double\\", replace: "⫽" }
   - { trigger: "\\slash.triple\\", replace: "⫻" }
   - { trigger: "\\slash.big\\", replace: "⧸" }
+  - { trigger: "\\dots\\", replace: "⋯" }
   - { trigger: "\\dots.h.c\\", replace: "⋯" }
   - { trigger: "\\dots.h\\", replace: "…" }
   - { trigger: "\\dots.v\\", replace: "⋮" }
   - { trigger: "\\dots.down\\", replace: "⋱" }
   - { trigger: "\\dots.up\\", replace: "⋰" }
+  - { trigger: "\\tilde\\", replace: "∼" }
   - { trigger: "\\tilde.op\\", replace: "∼" }
   - { trigger: "\\tilde.basic\\", replace: "~" }
   - { trigger: "\\tilde.dot\\", replace: "⩪" }
@@ -182,6 +195,7 @@ matches:
   - { trigger: "\\diaer\\", replace: "¨" }
   - { trigger: "\\grave\\", replace: "`" }
   - { trigger: "\\macron\\", replace: "¯" }
+  - { trigger: "\\quote\\", replace: "\"" }
   - { trigger: "\\quote.double\\", replace: "\"" }
   - { trigger: "\\quote.single\\", replace: "'" }
   - { trigger: "\\quote.l.double\\", replace: "“" }
@@ -512,10 +526,12 @@ matches:
   - { trigger: "\\join.r\\", replace: "⟖" }
   - { trigger: "\\join.l\\", replace: "⟕" }
   - { trigger: "\\join.l.r\\", replace: "⟗" }
+  - { trigger: "\\hourglass\\", replace: "⧖" }
   - { trigger: "\\hourglass.stroked\\", replace: "⧖" }
   - { trigger: "\\hourglass.filled\\", replace: "⧗" }
   - { trigger: "\\degree\\", replace: "°" }
   - { trigger: "\\smash\\", replace: "⨳" }
+  - { trigger: "\\power\\", replace: "⏻" }
   - { trigger: "\\power.standby\\", replace: "⏻" }
   - { trigger: "\\power.on\\", replace: "⏽" }
   - { trigger: "\\power.off\\", replace: "⭘" }
@@ -552,6 +568,7 @@ matches:
   - { trigger: "\\trademark.registered\\", replace: "®" }
   - { trigger: "\\trademark.service\\", replace: "℠" }
   - { trigger: "\\maltese\\", replace: "✠" }
+  - { trigger: "\\suit\\", replace: "♣" }
   - { trigger: "\\suit.club.filled\\", replace: "♣" }
   - { trigger: "\\suit.club.stroked\\", replace: "♧" }
   - { trigger: "\\suit.diamond.filled\\", replace: "♦" }
@@ -560,6 +577,7 @@ matches:
   - { trigger: "\\suit.heart.stroked\\", replace: "♡" }
   - { trigger: "\\suit.spade.filled\\", replace: "♠" }
   - { trigger: "\\suit.spade.stroked\\", replace: "♤" }
+  - { trigger: "\\note\\", replace: "🎜" }
   - { trigger: "\\note.up\\", replace: "🎜" }
   - { trigger: "\\note.down\\", replace: "🎝" }
   - { trigger: "\\note.whole\\", replace: "𝅝" }
@@ -573,6 +591,7 @@ matches:
   - { trigger: "\\note.sixteenth.beamed\\", replace: "♬" }
   - { trigger: "\\note.grace\\", replace: "𝆕" }
   - { trigger: "\\note.grace.slash\\", replace: "𝆔" }
+  - { trigger: "\\rest\\", replace: "𝄻" }
   - { trigger: "\\rest.whole\\", replace: "𝄻" }
   - { trigger: "\\rest.multiple\\", replace: "𝄺" }
   - { trigger: "\\rest.multiple.measure\\", replace: "𝄩" }
@@ -594,6 +613,7 @@ matches:
   - { trigger: "\\sharp.double\\", replace: "𝄪" }
   - { trigger: "\\sharp.quarter\\", replace: "𝄲" }
   - { trigger: "\\bullet\\", replace: "•" }
+  - { trigger: "\\circle\\", replace: "○" }
   - { trigger: "\\circle.stroked\\", replace: "○" }
   - { trigger: "\\circle.stroked.tiny\\", replace: "∘" }
   - { trigger: "\\circle.stroked.small\\", replace: "⚬" }
@@ -604,10 +624,12 @@ matches:
   - { trigger: "\\circle.filled.big\\", replace: "⬤" }
   - { trigger: "\\circle.dotted\\", replace: "◌" }
   - { trigger: "\\circle.nested\\", replace: "⊚" }
+  - { trigger: "\\ellipse\\", replace: "⬭" }
   - { trigger: "\\ellipse.stroked.h\\", replace: "⬭" }
   - { trigger: "\\ellipse.stroked.v\\", replace: "⬯" }
   - { trigger: "\\ellipse.filled.h\\", replace: "⬬" }
   - { trigger: "\\ellipse.filled.v\\", replace: "⬮" }
+  - { trigger: "\\triangle\\", replace: "△" }
   - { trigger: "\\triangle.stroked.t\\", replace: "△" }
   - { trigger: "\\triangle.stroked.b\\", replace: "▽" }
   - { trigger: "\\triangle.stroked.r\\", replace: "▷" }
@@ -635,6 +657,7 @@ matches:
   - { trigger: "\\triangle.filled.small.b\\", replace: "▾" }
   - { trigger: "\\triangle.filled.small.r\\", replace: "▸" }
   - { trigger: "\\triangle.filled.small.l\\", replace: "◂" }
+  - { trigger: "\\square\\", replace: "□" }
   - { trigger: "\\square.stroked\\", replace: "□" }
   - { trigger: "\\square.stroked.tiny\\", replace: "▫" }
   - { trigger: "\\square.stroked.small\\", replace: "◽" }
@@ -647,14 +670,18 @@ matches:
   - { trigger: "\\square.filled.small\\", replace: "◾" }
   - { trigger: "\\square.filled.medium\\", replace: "◼" }
   - { trigger: "\\square.filled.big\\", replace: "⬛" }
+  - { trigger: "\\rect\\", replace: "▭" }
   - { trigger: "\\rect.stroked.h\\", replace: "▭" }
   - { trigger: "\\rect.stroked.v\\", replace: "▯" }
   - { trigger: "\\rect.filled.h\\", replace: "▬" }
   - { trigger: "\\rect.filled.v\\", replace: "▮" }
+  - { trigger: "\\penta\\", replace: "⬠" }
   - { trigger: "\\penta.stroked\\", replace: "⬠" }
   - { trigger: "\\penta.filled\\", replace: "⬟" }
+  - { trigger: "\\hexa\\", replace: "⬡" }
   - { trigger: "\\hexa.stroked\\", replace: "⬡" }
   - { trigger: "\\hexa.filled\\", replace: "⬢" }
+  - { trigger: "\\diamond\\", replace: "◇" }
   - { trigger: "\\diamond.stroked\\", replace: "◇" }
   - { trigger: "\\diamond.stroked.small\\", replace: "⋄" }
   - { trigger: "\\diamond.stroked.medium\\", replace: "⬦" }
@@ -662,17 +689,21 @@ matches:
   - { trigger: "\\diamond.filled\\", replace: "◆" }
   - { trigger: "\\diamond.filled.medium\\", replace: "⬥" }
   - { trigger: "\\diamond.filled.small\\", replace: "⬩" }
+  - { trigger: "\\lozenge\\", replace: "◊" }
   - { trigger: "\\lozenge.stroked\\", replace: "◊" }
   - { trigger: "\\lozenge.stroked.small\\", replace: "⬫" }
   - { trigger: "\\lozenge.stroked.medium\\", replace: "⬨" }
   - { trigger: "\\lozenge.filled\\", replace: "⧫" }
   - { trigger: "\\lozenge.filled.small\\", replace: "⬪" }
   - { trigger: "\\lozenge.filled.medium\\", replace: "⬧" }
+  - { trigger: "\\parallelogram\\", replace: "▱" }
   - { trigger: "\\parallelogram.stroked\\", replace: "▱" }
   - { trigger: "\\parallelogram.filled\\", replace: "▰" }
+  - { trigger: "\\star\\", replace: "⋆" }
   - { trigger: "\\star.op\\", replace: "⋆" }
   - { trigger: "\\star.stroked\\", replace: "☆" }
   - { trigger: "\\star.filled\\", replace: "★" }
+  - { trigger: "\\arrow\\", replace: "→" }
   - { trigger: "\\arrow.r\\", replace: "→" }
   - { trigger: "\\arrow.r.long.bar\\", replace: "⟼" }
   - { trigger: "\\arrow.r.bar\\", replace: "↦" }
@@ -823,6 +854,7 @@ matches:
   - { trigger: "\\arrow.cw\\", replace: "↻" }
   - { trigger: "\\arrow.cw.half\\", replace: "↷" }
   - { trigger: "\\arrow.zigzag\\", replace: "↯" }
+  - { trigger: "\\arrows\\", replace: "⇉" }
   - { trigger: "\\arrows.rr\\", replace: "⇉" }
   - { trigger: "\\arrows.ll\\", replace: "⇇" }
   - { trigger: "\\arrows.tt\\", replace: "⇈" }
@@ -834,8 +866,10 @@ matches:
   - { trigger: "\\arrows.bt\\", replace: "⇵" }
   - { trigger: "\\arrows.rrr\\", replace: "⇶" }
   - { trigger: "\\arrows.lll\\", replace: "⬱" }
+  - { trigger: "\\arrowhead\\", replace: "⌃" }
   - { trigger: "\\arrowhead.t\\", replace: "⌃" }
   - { trigger: "\\arrowhead.b\\", replace: "⌄" }
+  - { trigger: "\\harpoon\\", replace: "⇀" }
   - { trigger: "\\harpoon.rt\\", replace: "⇀" }
   - { trigger: "\\harpoon.rt.bar\\", replace: "⥛" }
   - { trigger: "\\harpoon.rt.stop\\", replace: "⥓" }
@@ -868,6 +902,7 @@ matches:
   - { trigger: "\\harpoon.tr.br\\", replace: "⥏" }
   - { trigger: "\\harpoon.tl.br\\", replace: "⥍" }
   - { trigger: "\\harpoon.tr.bl\\", replace: "⥌" }
+  - { trigger: "\\harpoons\\", replace: "⥤" }
   - { trigger: "\\harpoons.rtrb\\", replace: "⥤" }
   - { trigger: "\\harpoons.blbr\\", replace: "⥥" }
   - { trigger: "\\harpoons.bltr\\", replace: "⥯" }
@@ -880,6 +915,7 @@ matches:
   - { trigger: "\\harpoons.rtlt\\", replace: "⥨" }
   - { trigger: "\\harpoons.tlbr\\", replace: "⥮" }
   - { trigger: "\\harpoons.tltr\\", replace: "⥣" }
+  - { trigger: "\\tack\\", replace: "⊢" }
   - { trigger: "\\tack.r\\", replace: "⊢" }
   - { trigger: "\\tack.r.not\\", replace: "⊬" }
   - { trigger: "\\tack.r.long\\", replace: "⟝" }
@@ -998,14 +1034,17 @@ matches:
   - { trigger: "\\planck\\", replace: "ħ" }
   - { trigger: "\\Re\\", replace: "ℜ" }
   - { trigger: "\\Im\\", replace: "ℑ" }
+  - { trigger: "\\dotless\\", replace: "ı" }
   - { trigger: "\\dotless.i\\", replace: "ı" }
   - { trigger: "\\dotless.j\\", replace: "ȷ" }
+  - { trigger: "\\die\\", replace: "⚅" }
   - { trigger: "\\die.six\\", replace: "⚅" }
   - { trigger: "\\die.five\\", replace: "⚄" }
   - { trigger: "\\die.four\\", replace: "⚃" }
   - { trigger: "\\die.three\\", replace: "⚂" }
   - { trigger: "\\die.two\\", replace: "⚁" }
   - { trigger: "\\die.one\\", replace: "⚀" }
+  - { trigger: "\\errorbar\\", replace: "⧮" }
   - { trigger: "\\errorbar.square.stroked\\", replace: "⧮" }
   - { trigger: "\\errorbar.square.filled\\", replace: "⧯" }
   - { trigger: "\\errorbar.diamond.stroked\\", replace: "⧰" }

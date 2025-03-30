@@ -18,11 +18,14 @@ matches:
   - { trigger: ":anchor:", replace: "⚓" }
   - { trigger: ":anger:", replace: "💢" }
   - { trigger: ":ant:", replace: "🐜" }
+  - { trigger: ":apple:", replace: "🍏" }
   - { trigger: ":apple.green:", replace: "🍏" }
   - { trigger: ":apple.red:", replace: "🍎" }
+  - { trigger: ":arm:", replace: "🦾" }
   - { trigger: ":arm.mech:", replace: "🦾" }
   - { trigger: ":arm.muscle:", replace: "💪" }
   - { trigger: ":arm.selfie:", replace: "🤳" }
+  - { trigger: ":arrow:", replace: "➡" }
   - { trigger: ":arrow.r.filled:", replace: "➡" }
   - { trigger: ":arrow.r.hook:", replace: "↪" }
   - { trigger: ":arrow.r.soon:", replace: "🔜" }
@@ -42,6 +45,7 @@ matches:
   - { trigger: ":arrow.br:", replace: "↘" }
   - { trigger: ":arrow.tl:", replace: "↖" }
   - { trigger: ":arrow.tr:", replace: "↗" }
+  - { trigger: ":arrows:", replace: "🔄" }
   - { trigger: ":arrows.cycle:", replace: "🔄" }
   - { trigger: ":ast:", replace: "*" }
   - { trigger: ":ast.box:", replace: "✳" }
@@ -62,6 +66,7 @@ matches:
   - { trigger: ":baggageclaim:", replace: "🛄" }
   - { trigger: ":baguette:", replace: "🥖" }
   - { trigger: ":balloon:", replace: "🎈" }
+  - { trigger: ":ballot:", replace: "☑" }
   - { trigger: ":ballot.check:", replace: "☑" }
   - { trigger: ":ballotbox:", replace: "🗳" }
   - { trigger: ":banana:", replace: "🍌" }
@@ -78,6 +83,7 @@ matches:
   - { trigger: ":bathtub.foam:", replace: "🛁" }
   - { trigger: ":battery:", replace: "🔋" }
   - { trigger: ":battery.low:", replace: "🪫" }
+  - { trigger: ":beach:", replace: "🏝" }
   - { trigger: ":beach.palm:", replace: "🏝" }
   - { trigger: ":beach.umbrella:", replace: "🏖" }
   - { trigger: ":beads:", replace: "📿" }
@@ -111,6 +117,7 @@ matches:
   - { trigger: ":blowfish:", replace: "🐡" }
   - { trigger: ":blueberries:", replace: "🫐" }
   - { trigger: ":boar:", replace: "🐗" }
+  - { trigger: ":boat:", replace: "⛵" }
   - { trigger: ":boat.sail:", replace: "⛵" }
   - { trigger: ":boat.row:", replace: "🚣" }
   - { trigger: ":boat.motor:", replace: "🛥" }
@@ -119,6 +126,7 @@ matches:
   - { trigger: ":bolt:", replace: "🔩" }
   - { trigger: ":bomb:", replace: "💣" }
   - { trigger: ":bone:", replace: "🦴" }
+  - { trigger: ":book:", replace: "📕" }
   - { trigger: ":book.red:", replace: "📕" }
   - { trigger: ":book.blue:", replace: "📘" }
   - { trigger: ":book.green:", replace: "📗" }
@@ -131,6 +139,7 @@ matches:
   - { trigger: ":bordercontrol:", replace: "🛂" }
   - { trigger: ":bouquet:", replace: "💐" }
   - { trigger: ":bow:", replace: "🏹" }
+  - { trigger: ":bowl:", replace: "🥣" }
   - { trigger: ":bowl.spoon:", replace: "🥣" }
   - { trigger: ":bowl.steam:", replace: "🍜" }
   - { trigger: ":bowling:", replace: "🎳" }
@@ -140,15 +149,18 @@ matches:
   - { trigger: ":bread:", replace: "🍞" }
   - { trigger: ":brick:", replace: "🧱" }
   - { trigger: ":bride:", replace: "👰" }
+  - { trigger: ":bridge:", replace: "🌁" }
   - { trigger: ":bridge.fog:", replace: "🌁" }
   - { trigger: ":bridge.night:", replace: "🌉" }
   - { trigger: ":briefcase:", replace: "💼" }
   - { trigger: ":briefs:", replace: "🩲" }
+  - { trigger: ":brightness:", replace: "🔆" }
   - { trigger: ":brightness.high:", replace: "🔆" }
   - { trigger: ":brightness.low:", replace: "🔅" }
   - { trigger: ":broccoli:", replace: "🥦" }
   - { trigger: ":broom:", replace: "🧹" }
   - { trigger: ":brush:", replace: "🖌" }
+  - { trigger: ":bubble:", replace: "💬" }
   - { trigger: ":bubble.speech.r:", replace: "💬" }
   - { trigger: ":bubble.speech.l:", replace: "🗨" }
   - { trigger: ":bubble.thought:", replace: "💭" }
@@ -156,6 +168,7 @@ matches:
   - { trigger: ":bubbles:", replace: "🫧" }
   - { trigger: ":bubbletea:", replace: "🧋" }
   - { trigger: ":bucket:", replace: "🪣" }
+  - { trigger: ":buffalo:", replace: "🐃" }
   - { trigger: ":buffalo.water:", replace: "🐃" }
   - { trigger: ":bug:", replace: "🐛" }
   - { trigger: ":builder:", replace: "👷" }
@@ -171,6 +184,7 @@ matches:
   - { trigger: ":button:", replace: "🔲" }
   - { trigger: ":button.alt:", replace: "🔳" }
   - { trigger: ":button.radio:", replace: "🔘" }
+  - { trigger: ":cabinet:", replace: "🗄" }
   - { trigger: ":cabinet.file:", replace: "🗄" }
   - { trigger: ":cablecar:", replace: "🚠" }
   - { trigger: ":cablecar.small:", replace: "🚡" }
@@ -202,12 +216,14 @@ matches:
   - { trigger: ":car.racing:", replace: "🏎" }
   - { trigger: ":car.rickshaw:", replace: "🛺" }
   - { trigger: ":car.suv:", replace: "🚙" }
+  - { trigger: ":card:", replace: "💳" }
   - { trigger: ":card.credit:", replace: "💳" }
   - { trigger: ":card.id:", replace: "🪪" }
   - { trigger: ":cardindex:", replace: "📇" }
   - { trigger: ":carrot:", replace: "🥕" }
   - { trigger: ":cart:", replace: "🛒" }
   - { trigger: ":cassette:", replace: "📼" }
+  - { trigger: ":castle:", replace: "🏰" }
   - { trigger: ":castle.eu:", replace: "🏰" }
   - { trigger: ":castle.jp:", replace: "🏯" }
   - { trigger: ":cat:", replace: "🐈" }
@@ -225,10 +241,12 @@ matches:
   - { trigger: ":chains:", replace: "⛓" }
   - { trigger: ":chair:", replace: "🪑" }
   - { trigger: ":champagne:", replace: "🍾" }
+  - { trigger: ":chart:", replace: "📊" }
   - { trigger: ":chart.bar:", replace: "📊" }
   - { trigger: ":chart.up:", replace: "📈" }
   - { trigger: ":chart.down:", replace: "📉" }
   - { trigger: ":chart.yen.up:", replace: "💹" }
+  - { trigger: ":checkmark:", replace: "✔" }
   - { trigger: ":checkmark.heavy:", replace: "✔" }
   - { trigger: ":checkmark.box:", replace: "✅" }
   - { trigger: ":cheese:", replace: "🧀" }
@@ -249,6 +267,7 @@ matches:
   - { trigger: ":church.love:", replace: "💒" }
   - { trigger: ":cigarette:", replace: "🚬" }
   - { trigger: ":cigarette.not:", replace: "🚭" }
+  - { trigger: ":circle:", replace: "⚫" }
   - { trigger: ":circle.black:", replace: "⚫" }
   - { trigger: ":circle.blue:", replace: "🔵" }
   - { trigger: ":circle.brown:", replace: "🟤" }
@@ -270,6 +289,7 @@ matches:
   - { trigger: ":clip:", replace: "📎" }
   - { trigger: ":clipboard:", replace: "📋" }
   - { trigger: ":clips:", replace: "🖇" }
+  - { trigger: ":clock:", replace: "🕐" }
   - { trigger: ":clock.one:", replace: "🕐" }
   - { trigger: ":clock.one.thirty:", replace: "🕜" }
   - { trigger: ":clock.two:", replace: "🕑" }
@@ -309,6 +329,7 @@ matches:
   - { trigger: ":coat:", replace: "🧥" }
   - { trigger: ":coat.lab:", replace: "🥼" }
   - { trigger: ":cockroach:", replace: "🪳" }
+  - { trigger: ":cocktail:", replace: "🍸" }
   - { trigger: ":cocktail.martini:", replace: "🍸" }
   - { trigger: ":cocktail.tropical:", replace: "🍹" }
   - { trigger: ":coconut:", replace: "🥥" }
@@ -346,6 +367,7 @@ matches:
   - { trigger: ":crutch:", replace: "🩼" }
   - { trigger: ":crystal:", replace: "🔮" }
   - { trigger: ":cucumber:", replace: "🥒" }
+  - { trigger: ":cup:", replace: "🥤" }
   - { trigger: ":cup.straw:", replace: "🥤" }
   - { trigger: ":cupcake:", replace: "🧁" }
   - { trigger: ":curling:", replace: "🥌" }
@@ -354,22 +376,27 @@ matches:
   - { trigger: ":customs:", replace: "🛃" }
   - { trigger: ":cutlery:", replace: "🍴" }
   - { trigger: ":cyclone:", replace: "🌀" }
+  - { trigger: ":dancing:", replace: "🕺" }
   - { trigger: ":dancing.man:", replace: "🕺" }
   - { trigger: ":dancing.woman:", replace: "💃" }
   - { trigger: ":dancing.women.bunny:", replace: "👯" }
   - { trigger: ":darts:", replace: "🎯" }
+  - { trigger: ":dash:", replace: "〰" }
   - { trigger: ":dash.wave.double:", replace: "〰" }
   - { trigger: ":deer:", replace: "🦌" }
   - { trigger: ":desert:", replace: "🏜" }
   - { trigger: ":detective:", replace: "🕵" }
+  - { trigger: ":diamond:", replace: "🔷" }
   - { trigger: ":diamond.blue:", replace: "🔷" }
   - { trigger: ":diamond.blue.small:", replace: "🔹" }
   - { trigger: ":diamond.orange:", replace: "🔶" }
   - { trigger: ":diamond.orange.small:", replace: "🔸" }
   - { trigger: ":diamond.dot:", replace: "💠" }
   - { trigger: ":die:", replace: "🎲" }
+  - { trigger: ":dino:", replace: "🦕" }
   - { trigger: ":dino.pod:", replace: "🦕" }
   - { trigger: ":dino.rex:", replace: "🦖" }
+  - { trigger: ":disc:", replace: "💿" }
   - { trigger: ":disc.cd:", replace: "💿" }
   - { trigger: ":disc.dvd:", replace: "📀" }
   - { trigger: ":disc.mini:", replace: "💽" }
@@ -384,6 +411,7 @@ matches:
   - { trigger: ":dolphin:", replace: "🐬" }
   - { trigger: ":donut:", replace: "🍩" }
   - { trigger: ":door:", replace: "🚪" }
+  - { trigger: ":dove:", replace: "🕊" }
   - { trigger: ":dove.peace:", replace: "🕊" }
   - { trigger: ":dragon:", replace: "🐉" }
   - { trigger: ":dragon.face:", replace: "🐲" }
@@ -400,6 +428,7 @@ matches:
   - { trigger: ":ear:", replace: "👂" }
   - { trigger: ":ear.aid:", replace: "🦻" }
   - { trigger: ":egg:", replace: "🥚" }
+  - { trigger: ":eighteen:", replace: "🔞" }
   - { trigger: ":eighteen.not:", replace: "🔞" }
   - { trigger: ":elephant:", replace: "🐘" }
   - { trigger: ":elevator:", replace: "🛗" }
@@ -413,6 +442,7 @@ matches:
   - { trigger: ":extinguisher:", replace: "🧯" }
   - { trigger: ":eye:", replace: "👁" }
   - { trigger: ":eyes:", replace: "👀" }
+  - { trigger: ":face:", replace: "😀" }
   - { trigger: ":face.grin:", replace: "😀" }
   - { trigger: ":face.angry:", replace: "😠" }
   - { trigger: ":face.angry.red:", replace: "😡" }
@@ -518,6 +548,7 @@ matches:
   - { trigger: ":face.zip:", replace: "🤐" }
   - { trigger: ":factory:", replace: "🏭" }
   - { trigger: ":fairy:", replace: "🧚" }
+  - { trigger: ":faith:", replace: "✝" }
   - { trigger: ":faith.christ:", replace: "✝" }
   - { trigger: ":faith.dharma:", replace: "☸" }
   - { trigger: ":faith.islam:", replace: "☪" }
@@ -533,12 +564,14 @@ matches:
   - { trigger: ":family:", replace: "👪" }
   - { trigger: ":fax:", replace: "📠" }
   - { trigger: ":feather:", replace: "🪶" }
+  - { trigger: ":feeding:", replace: "🤱" }
   - { trigger: ":feeding.breast:", replace: "🤱" }
   - { trigger: ":fencing:", replace: "🤺" }
   - { trigger: ":ferriswheel:", replace: "🎡" }
   - { trigger: ":filebox:", replace: "🗃" }
   - { trigger: ":filedividers:", replace: "🗂" }
   - { trigger: ":film:", replace: "🎞" }
+  - { trigger: ":finger:", replace: "👉" }
   - { trigger: ":finger.r:", replace: "👉" }
   - { trigger: ":finger.l:", replace: "👈" }
   - { trigger: ":finger.t:", replace: "👆" }
@@ -547,6 +580,7 @@ matches:
   - { trigger: ":finger.front:", replace: "🫵" }
   - { trigger: ":finger.m:", replace: "🖕" }
   - { trigger: ":fingerprint:", replace: "🫆" }
+  - { trigger: ":fingers:", replace: "🤞" }
   - { trigger: ":fingers.cross:", replace: "🤞" }
   - { trigger: ":fingers.pinch:", replace: "🤌" }
   - { trigger: ":fingers.snap:", replace: "🫰" }
@@ -557,21 +591,25 @@ matches:
   - { trigger: ":fish:", replace: "🐟" }
   - { trigger: ":fish.tropical:", replace: "🐠" }
   - { trigger: ":fishing:", replace: "🎣" }
+  - { trigger: ":fist:", replace: "👊" }
   - { trigger: ":fist.front:", replace: "👊" }
   - { trigger: ":fist.r:", replace: "🤜" }
   - { trigger: ":fist.l:", replace: "🤛" }
   - { trigger: ":fist.raised:", replace: "✊" }
+  - { trigger: ":flag:", replace: "🏴" }
   - { trigger: ":flag.black:", replace: "🏴" }
   - { trigger: ":flag.white:", replace: "🏳" }
   - { trigger: ":flag.goal:", replace: "🏁" }
   - { trigger: ":flag.golf:", replace: "⛳" }
   - { trigger: ":flag.red:", replace: "🚩" }
+  - { trigger: ":flags:", replace: "🎌" }
   - { trigger: ":flags.jp.crossed:", replace: "🎌" }
   - { trigger: ":flamingo:", replace: "🦩" }
   - { trigger: ":flashlight:", replace: "🔦" }
   - { trigger: ":flatbread:", replace: "🫓" }
   - { trigger: ":fleur:", replace: "⚜" }
   - { trigger: ":floppy:", replace: "💾" }
+  - { trigger: ":flower:", replace: "🌺" }
   - { trigger: ":flower.hibiscus:", replace: "🌺" }
   - { trigger: ":flower.lotus:", replace: "🪷" }
   - { trigger: ":flower.pink:", replace: "🌸" }
@@ -595,6 +633,7 @@ matches:
   - { trigger: ":free:", replace: "🆓" }
   - { trigger: ":fries:", replace: "🍟" }
   - { trigger: ":frisbee:", replace: "🥏" }
+  - { trigger: ":frog:", replace: "🐸" }
   - { trigger: ":frog.face:", replace: "🐸" }
   - { trigger: ":fuelpump:", replace: "⛽" }
   - { trigger: ":garlic:", replace: "🧄" }
@@ -604,12 +643,14 @@ matches:
   - { trigger: ":ghost:", replace: "👻" }
   - { trigger: ":giraffe:", replace: "🦒" }
   - { trigger: ":girl:", replace: "👧" }
+  - { trigger: ":glass:", replace: "🥂" }
   - { trigger: ":glass.clink:", replace: "🥂" }
   - { trigger: ":glass.milk:", replace: "🥛" }
   - { trigger: ":glass.pour:", replace: "🫗" }
   - { trigger: ":glass.tumbler:", replace: "🥃" }
   - { trigger: ":glasses:", replace: "👓" }
   - { trigger: ":glasses.sun:", replace: "🕶" }
+  - { trigger: ":globe:", replace: "🌎" }
   - { trigger: ":globe.am:", replace: "🌎" }
   - { trigger: ":globe.as.au:", replace: "🌏" }
   - { trigger: ":globe.eu.af:", replace: "🌍" }
@@ -621,6 +662,7 @@ matches:
   - { trigger: ":golfing:", replace: "🏌" }
   - { trigger: ":gorilla:", replace: "🦍" }
   - { trigger: ":grapes:", replace: "🍇" }
+  - { trigger: ":guard:", replace: "💂" }
   - { trigger: ":guard.man:", replace: "💂" }
   - { trigger: ":guitar:", replace: "🎸" }
   - { trigger: ":gymnastics:", replace: "🤸" }
@@ -629,7 +671,9 @@ matches:
   - { trigger: ":hammer.pick:", replace: "⚒" }
   - { trigger: ":hammer.wrench:", replace: "🛠" }
   - { trigger: ":hamsa:", replace: "🪬" }
+  - { trigger: ":hamster:", replace: "🐹" }
   - { trigger: ":hamster.face:", replace: "🐹" }
+  - { trigger: ":hand:", replace: "✋" }
   - { trigger: ":hand.raised:", replace: "✋" }
   - { trigger: ":hand.raised.alt:", replace: "🤚" }
   - { trigger: ":hand.r:", replace: "🫱" }
@@ -648,9 +692,11 @@ matches:
   - { trigger: ":hand.write:", replace: "✍" }
   - { trigger: ":handbag:", replace: "👜" }
   - { trigger: ":handball:", replace: "🤾" }
+  - { trigger: ":handholding:", replace: "👬" }
   - { trigger: ":handholding.man.man:", replace: "👬" }
   - { trigger: ":handholding.woman.man:", replace: "👫" }
   - { trigger: ":handholding.woman.woman:", replace: "👭" }
+  - { trigger: ":hands:", replace: "🙏" }
   - { trigger: ":hands.folded:", replace: "🙏" }
   - { trigger: ":hands.palms:", replace: "🤲" }
   - { trigger: ":hands.clap:", replace: "👏" }
@@ -660,6 +706,7 @@ matches:
   - { trigger: ":hands.shake:", replace: "🤝" }
   - { trigger: ":harp:", replace: "🪉" }
   - { trigger: ":hash:", replace: "#" }
+  - { trigger: ":hat:", replace: "👒" }
   - { trigger: ":hat.ribbon:", replace: "👒" }
   - { trigger: ":hat.top:", replace: "🎩" }
   - { trigger: ":headphone:", replace: "🎧" }
@@ -686,6 +733,7 @@ matches:
   - { trigger: ":hedgehog:", replace: "🦔" }
   - { trigger: ":helicopter:", replace: "🚁" }
   - { trigger: ":helix:", replace: "🧬" }
+  - { trigger: ":helmet:", replace: "⛑" }
   - { trigger: ":helmet.cross:", replace: "⛑" }
   - { trigger: ":helmet.military:", replace: "🪖" }
   - { trigger: ":hippo:", replace: "🦛" }
@@ -694,6 +742,7 @@ matches:
   - { trigger: ":honey:", replace: "🍯" }
   - { trigger: ":hongbao:", replace: "🧧" }
   - { trigger: ":hook:", replace: "🪝" }
+  - { trigger: ":horn:", replace: "📯" }
   - { trigger: ":horn.postal:", replace: "📯" }
   - { trigger: ":horse:", replace: "🐎" }
   - { trigger: ":horse.carousel:", replace: "🎠" }
@@ -770,6 +819,7 @@ matches:
   - { trigger: ":label:", replace: "🏷" }
   - { trigger: ":lacrosse:", replace: "🥍" }
   - { trigger: ":ladder:", replace: "🪜" }
+  - { trigger: ":lamp:", replace: "🪔" }
   - { trigger: ":lamp.diya:", replace: "🪔" }
   - { trigger: ":laptop:", replace: "💻" }
   - { trigger: ":a:", replace: "🅰" }
@@ -777,6 +827,7 @@ matches:
   - { trigger: ":b:", replace: "🅱" }
   - { trigger: ":cl:", replace: "🆑" }
   - { trigger: ":o:", replace: "🅾" }
+  - { trigger: ":leaf:", replace: "☘" }
   - { trigger: ":leaf.clover.three:", replace: "☘" }
   - { trigger: ":leaf.clover.four:", replace: "🍀" }
   - { trigger: ":leaf.fall:", replace: "🍂" }
@@ -788,6 +839,7 @@ matches:
   - { trigger: ":leg.mech:", replace: "🦿" }
   - { trigger: ":lemon:", replace: "🍋" }
   - { trigger: ":leopard:", replace: "🐆" }
+  - { trigger: ":letter:", replace: "💌" }
   - { trigger: ":letter.love:", replace: "💌" }
   - { trigger: ":liberty:", replace: "🗽" }
   - { trigger: ":lightbulb:", replace: "💡" }
@@ -809,17 +861,21 @@ matches:
   - { trigger: ":lungs:", replace: "🫁" }
   - { trigger: ":mage:", replace: "🧙" }
   - { trigger: ":magnet:", replace: "🧲" }
+  - { trigger: ":magnify:", replace: "🔎" }
   - { trigger: ":magnify.r:", replace: "🔎" }
   - { trigger: ":magnify.l:", replace: "🔍" }
+  - { trigger: ":mahjong:", replace: "🀄" }
   - { trigger: ":mahjong.dragon.red:", replace: "🀄" }
   - { trigger: ":mail:", replace: "✉" }
   - { trigger: ":mail.arrow:", replace: "📩" }
+  - { trigger: ":mailbox:", replace: "📪" }
   - { trigger: ":mailbox.closed.empty:", replace: "📪" }
   - { trigger: ":mailbox.closed.full:", replace: "📫" }
   - { trigger: ":mailbox.open.empty:", replace: "📭" }
   - { trigger: ":mailbox.open.full:", replace: "📬" }
   - { trigger: ":mammoth:", replace: "🦣" }
   - { trigger: ":mango:", replace: "🥭" }
+  - { trigger: ":map:", replace: "🗺" }
   - { trigger: ":map.world:", replace: "🗺" }
   - { trigger: ":map.jp:", replace: "🗾" }
   - { trigger: ":martialarts:", replace: "🥋" }
@@ -828,6 +884,7 @@ matches:
   - { trigger: ":matryoshka:", replace: "🪆" }
   - { trigger: ":meat:", replace: "🥩" }
   - { trigger: ":meat.bone:", replace: "🍖" }
+  - { trigger: ":medal:", replace: "🥇" }
   - { trigger: ":medal.first:", replace: "🥇" }
   - { trigger: ":medal.second:", replace: "🥈" }
   - { trigger: ":medal.third:", replace: "🥉" }
@@ -845,6 +902,7 @@ matches:
   - { trigger: ":milkyway:", replace: "🌌" }
   - { trigger: ":mirror:", replace: "🪞" }
   - { trigger: ":mixer:", replace: "🎛" }
+  - { trigger: ":money:", replace: "💰" }
   - { trigger: ":money.bag:", replace: "💰" }
   - { trigger: ":money.dollar:", replace: "💵" }
   - { trigger: ":money.euro:", replace: "💶" }
@@ -856,6 +914,7 @@ matches:
   - { trigger: ":monkey.hear.not:", replace: "🙉" }
   - { trigger: ":monkey.see.not:", replace: "🙈" }
   - { trigger: ":monkey.speak.not:", replace: "🙊" }
+  - { trigger: ":moon:", replace: "🌙" }
   - { trigger: ":moon.crescent:", replace: "🌙" }
   - { trigger: ":moon.full:", replace: "🌕" }
   - { trigger: ":moon.full.face:", replace: "🌝" }
@@ -887,11 +946,13 @@ matches:
   - { trigger: ":museum:", replace: "🏛" }
   - { trigger: ":mushroom:", replace: "🍄" }
   - { trigger: ":musicalscore:", replace: "🎼" }
+  - { trigger: ":nails:", replace: "💅" }
   - { trigger: ":nails.polish:", replace: "💅" }
   - { trigger: ":namebadge:", replace: "📛" }
   - { trigger: ":nazar:", replace: "🧿" }
   - { trigger: ":necktie:", replace: "👔" }
   - { trigger: ":needle:", replace: "🪡" }
+  - { trigger: ":nest:", replace: "🪹" }
   - { trigger: ":nest.empty:", replace: "🪹" }
   - { trigger: ":nest.eggs:", replace: "🪺" }
   - { trigger: ":new:", replace: "🆕" }
@@ -926,6 +987,7 @@ matches:
   - { trigger: ":page.curl:", replace: "📃" }
   - { trigger: ":page.pencil:", replace: "📝" }
   - { trigger: ":pager:", replace: "📟" }
+  - { trigger: ":pages:", replace: "📑" }
   - { trigger: ":pages.tabs:", replace: "📑" }
   - { trigger: ":painting:", replace: "🖼" }
   - { trigger: ":palette:", replace: "🎨" }
@@ -943,6 +1005,7 @@ matches:
   - { trigger: ":pear:", replace: "🍐" }
   - { trigger: ":pedestrian:", replace: "🚶" }
   - { trigger: ":pedestrian.not:", replace: "🚷" }
+  - { trigger: ":pen:", replace: "🖊" }
   - { trigger: ":pen.ball:", replace: "🖊" }
   - { trigger: ":pen.fountain:", replace: "🖋" }
   - { trigger: ":pencil:", replace: "✏" }
@@ -998,7 +1061,9 @@ matches:
   - { trigger: ":planet:", replace: "🪐" }
   - { trigger: ":plant:", replace: "🪴" }
   - { trigger: ":plaster:", replace: "🩹" }
+  - { trigger: ":plate:", replace: "🍽" }
   - { trigger: ":plate.cutlery:", replace: "🍽" }
+  - { trigger: ":playback:", replace: "⏬" }
   - { trigger: ":playback.down:", replace: "⏬" }
   - { trigger: ":playback.eject:", replace: "⏏" }
   - { trigger: ":playback.forward:", replace: "⏩" }
@@ -1014,12 +1079,14 @@ matches:
   - { trigger: ":playback.stop:", replace: "⏹" }
   - { trigger: ":playback.toggle:", replace: "⏯" }
   - { trigger: ":playback.up:", replace: "⏫" }
+  - { trigger: ":playingcard:", replace: "🎴" }
   - { trigger: ":playingcard.flower:", replace: "🎴" }
   - { trigger: ":playingcard.joker:", replace: "🃏" }
   - { trigger: ":plunger:", replace: "🪠" }
   - { trigger: ":policeofficer:", replace: "👮" }
   - { trigger: ":poo:", replace: "💩" }
   - { trigger: ":popcorn:", replace: "🍿" }
+  - { trigger: ":post:", replace: "🏤" }
   - { trigger: ":post.eu:", replace: "🏤" }
   - { trigger: ":post.jp:", replace: "🏣" }
   - { trigger: ":postbox:", replace: "📮" }
@@ -1030,10 +1097,12 @@ matches:
   - { trigger: ":present:", replace: "🎁" }
   - { trigger: ":pretzel:", replace: "🥨" }
   - { trigger: ":printer:", replace: "🖨" }
+  - { trigger: ":prints:", replace: "👣" }
   - { trigger: ":prints.foot:", replace: "👣" }
   - { trigger: ":prints.paw:", replace: "🐾" }
   - { trigger: ":prohibited:", replace: "🚫" }
   - { trigger: ":projector:", replace: "📽" }
+  - { trigger: ":pumpkin:", replace: "🎃" }
   - { trigger: ":pumpkin.lantern:", replace: "🎃" }
   - { trigger: ":purse:", replace: "👛" }
   - { trigger: ":quest:", replace: "❓" }
@@ -1076,6 +1145,7 @@ matches:
   - { trigger: ":salad:", replace: "🥗" }
   - { trigger: ":salt:", replace: "🧂" }
   - { trigger: ":sandwich:", replace: "🥪" }
+  - { trigger: ":santa:", replace: "🎅" }
   - { trigger: ":santa.man:", replace: "🎅" }
   - { trigger: ":santa.woman:", replace: "🤶" }
   - { trigger: ":satdish:", replace: "📡" }
@@ -1096,11 +1166,13 @@ matches:
   - { trigger: ":seedling:", replace: "🌱" }
   - { trigger: ":shark:", replace: "🦈" }
   - { trigger: ":sheep:", replace: "🐑" }
+  - { trigger: ":shell:", replace: "🐚" }
   - { trigger: ":shell.spiral:", replace: "🐚" }
   - { trigger: ":shield:", replace: "🛡" }
   - { trigger: ":ship:", replace: "🚢" }
   - { trigger: ":ship.cruise:", replace: "🛳" }
   - { trigger: ":ship.ferry:", replace: "⛴" }
+  - { trigger: ":shirt:", replace: "🎽" }
   - { trigger: ":shirt.sports:", replace: "🎽" }
   - { trigger: ":shirt.t:", replace: "👕" }
   - { trigger: ":shoe:", replace: "👞" }
@@ -1123,6 +1195,7 @@ matches:
   - { trigger: ":shrimp:", replace: "🦐" }
   - { trigger: ":shrimp.fried:", replace: "🍤" }
   - { trigger: ":shrine:", replace: "⛩" }
+  - { trigger: ":sign:", replace: "🚸" }
   - { trigger: ":sign.crossing:", replace: "🚸" }
   - { trigger: ":sign.stop:", replace: "🛑" }
   - { trigger: ":silhouette:", replace: "👤" }
@@ -1131,6 +1204,7 @@ matches:
   - { trigger: ":silhouette.speak:", replace: "🗣" }
   - { trigger: ":siren:", replace: "🚨" }
   - { trigger: ":skateboard:", replace: "🛹" }
+  - { trigger: ":skewer:", replace: "🍡" }
   - { trigger: ":skewer.dango:", replace: "🍡" }
   - { trigger: ":skewer.oden:", replace: "🍢" }
   - { trigger: ":skiing:", replace: "⛷" }
@@ -1154,6 +1228,7 @@ matches:
   - { trigger: ":sos:", replace: "🆘" }
   - { trigger: ":soup:", replace: "🍲" }
   - { trigger: ":spaghetti:", replace: "🍝" }
+  - { trigger: ":sparkle:", replace: "❇" }
   - { trigger: ":sparkle.box:", replace: "❇" }
   - { trigger: ":sparkler:", replace: "🎇" }
   - { trigger: ":sparkles:", replace: "✨" }
@@ -1167,6 +1242,7 @@ matches:
   - { trigger: ":splatter:", replace: "🫟" }
   - { trigger: ":sponge:", replace: "🧽" }
   - { trigger: ":spoon:", replace: "🥄" }
+  - { trigger: ":square:", replace: "⬛" }
   - { trigger: ":square.black:", replace: "⬛" }
   - { trigger: ":square.black.tiny:", replace: "▪" }
   - { trigger: ":square.black.small:", replace: "◾" }
@@ -1190,9 +1266,11 @@ matches:
   - { trigger: ":star.glow:", replace: "🌟" }
   - { trigger: ":star.shoot:", replace: "🌠" }
   - { trigger: ":stethoscope:", replace: "🩺" }
+  - { trigger: ":store:", replace: "🏬" }
   - { trigger: ":store.big:", replace: "🏬" }
   - { trigger: ":store.small:", replace: "🏪" }
   - { trigger: ":strawberry:", replace: "🍓" }
+  - { trigger: ":suit:", replace: "♣" }
   - { trigger: ":suit.club:", replace: "♣" }
   - { trigger: ":suit.diamond:", replace: "♦" }
   - { trigger: ":suit.heart:", replace: "♥" }
@@ -1233,8 +1311,10 @@ matches:
   - { trigger: ":testtube:", replace: "🧪" }
   - { trigger: ":thermometer:", replace: "🌡" }
   - { trigger: ":thread:", replace: "🧵" }
+  - { trigger: ":thumb:", replace: "👍" }
   - { trigger: ":thumb.up:", replace: "👍" }
   - { trigger: ":thumb.down:", replace: "👎" }
+  - { trigger: ":ticket:", replace: "🎟" }
   - { trigger: ":ticket.event:", replace: "🎟" }
   - { trigger: ":ticket.travel:", replace: "🎫" }
   - { trigger: ":tiger:", replace: "🐅" }
@@ -1249,9 +1329,11 @@ matches:
   - { trigger: ":tooth:", replace: "🦷" }
   - { trigger: ":toothbrush:", replace: "🪥" }
   - { trigger: ":tornado:", replace: "🌪" }
+  - { trigger: ":tower:", replace: "🗼" }
   - { trigger: ":tower.tokyo:", replace: "🗼" }
   - { trigger: ":trackball:", replace: "🖲" }
   - { trigger: ":tractor:", replace: "🚜" }
+  - { trigger: ":trafficlight:", replace: "🚦" }
   - { trigger: ":trafficlight.v:", replace: "🚦" }
   - { trigger: ":trafficlight.h:", replace: "🚥" }
   - { trigger: ":train:", replace: "🚆" }
@@ -1268,14 +1350,17 @@ matches:
   - { trigger: ":train.tram:", replace: "🚊" }
   - { trigger: ":train.tram.car:", replace: "🚋" }
   - { trigger: ":transgender:", replace: "⚧" }
+  - { trigger: ":tray:", replace: "📥" }
   - { trigger: ":tray.inbox:", replace: "📥" }
   - { trigger: ":tray.mail:", replace: "📨" }
   - { trigger: ":tray.outbox:", replace: "📤" }
+  - { trigger: ":tree:", replace: "🌳" }
   - { trigger: ":tree.deciduous:", replace: "🌳" }
   - { trigger: ":tree.evergreen:", replace: "🌲" }
   - { trigger: ":tree.leafless:", replace: "🪾" }
   - { trigger: ":tree.palm:", replace: "🌴" }
   - { trigger: ":tree.xmas:", replace: "🎄" }
+  - { trigger: ":triangle:", replace: "▶" }
   - { trigger: ":triangle.r:", replace: "▶" }
   - { trigger: ":triangle.l:", replace: "◀" }
   - { trigger: ":triangle.t:", replace: "🔼" }
@@ -1293,6 +1378,7 @@ matches:
   - { trigger: ":turtle:", replace: "🐢" }
   - { trigger: ":tv:", replace: "📺" }
   - { trigger: ":ufo:", replace: "🛸" }
+  - { trigger: ":umbrella:", replace: "☂" }
   - { trigger: ":umbrella.open:", replace: "☂" }
   - { trigger: ":umbrella.closed:", replace: "🌂" }
   - { trigger: ":umbrella.rain:", replace: "☔" }
@@ -1340,6 +1426,7 @@ matches:
   - { trigger: ":yarn:", replace: "🧶" }
   - { trigger: ":yoyo:", replace: "🪀" }
   - { trigger: ":zebra:", replace: "🦓" }
+  - { trigger: ":zodiac:", replace: "♒" }
   - { trigger: ":zodiac.aquarius:", replace: "♒" }
   - { trigger: ":zodiac.aries:", replace: "♈" }
   - { trigger: ":zodiac.cancer:", replace: "♋" }

@@ -97,8 +97,8 @@ await fs.writeFile(
   },
 );
 
-function parse(content: string): Replacement[] {
-  const result: Replacement[] = [];
+function parse(content: string): Map<string, Replacement> {
+  const result = new Map<string, Replacement>();
 
   let mostRecentDeprecation: string | null = null;
   let mostRecentStem: string | null = null;
@@ -117,7 +117,7 @@ function parse(content: string): Replacement[] {
       name = refineString(name);
       value = refineString(value);
       if (value) {
-        result.push({
+        result.set(name, {
           match: name,
           replacement: value,
           deprecation: mostRecentDeprecation,
@@ -130,8 +130,15 @@ function parse(content: string): Replacement[] {
       name = refineString(name);
       value = refineString(value);
       if (value) {
-        result.push({
-          match: mostRecentStem + name,
+        if (!result.has(mostRecentStem!)) {
+          result.set(mostRecentStem!, {
+            match: mostRecentStem!,
+            replacement: value,
+            deprecation: mostRecentDeprecation,
+          });
+        }
+        result.set(mostRecentStem! + name, {
+          match: mostRecentStem! + name,
           replacement: value,
           deprecation: mostRecentDeprecation,
         });
@@ -154,9 +161,9 @@ interface Replacement {
 function generateEspansoFile(
   prefix: string,
   suffix: string,
-  entries: Replacement[],
+  map: Map<string, Replacement>,
 ): string {
-  const lines = entries.map((replacement) =>
+  const lines = Array.from(map).map(([_, replacement]) =>
     generateEspansoEntry(prefix, suffix, replacement)
       .split('\n')
       .map((line) => `  ${line}`)
