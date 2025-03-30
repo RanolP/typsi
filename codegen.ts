@@ -50,21 +50,29 @@ if (!(await fs.exists(Paths.codegen.codex.root))) {
   await $`git checkout origin/main -- src/modules/emoji.txt src/modules/sym.txt`;
 }
 
-const targetSeq: Array<{ path: string; output: string; surround: string }> = [
+const targetSeq: Array<{
+  path: string;
+  output: string;
+  prefix: string;
+  suffix: string;
+}> = [
   {
     path: Paths.codegen.codex.emoji,
     output: Paths.generated.emoji,
-    surround: ':',
+    prefix: ':',
+    suffix: ':',
   },
   {
     path: Paths.codegen.codex.sym,
     output: Paths.generated.sym,
-    surround: '\\',
+    prefix: '\\',
+    suffix: '\\',
   },
   {
     path: Paths.src.customRules,
     output: Paths.generated.customRules,
-    surround: '\\',
+    prefix: '',
+    suffix: '\\',
   },
 ];
 
@@ -73,7 +81,7 @@ for (const target of targetSeq) {
     encoding: 'utf-8',
   });
   const parsed = parse(src);
-  const file = generateEspansoFile(target.surround, parsed);
+  const file = generateEspansoFile(target.prefix, target.suffix, parsed);
   await fs.mkdir(path.dirname(target.output), { recursive: true });
   await fs.writeFile(target.output, file, { encoding: 'utf-8' });
 }
@@ -143,9 +151,13 @@ interface Replacement {
   deprecation: string | null;
 }
 
-function generateEspansoFile(surround: string, entries: Replacement[]): string {
+function generateEspansoFile(
+  prefix: string,
+  suffix: string,
+  entries: Replacement[],
+): string {
   const lines = entries.map((replacement) =>
-    generateEspansoEntry(surround, replacement)
+    generateEspansoEntry(prefix, suffix, replacement)
       .split('\n')
       .map((line) => `  ${line}`)
       .join('\n'),
@@ -155,13 +167,14 @@ function generateEspansoFile(surround: string, entries: Replacement[]): string {
 }
 
 function generateEspansoEntry(
-  surround: string,
+  prefix: string,
+  suffix: string,
   replacement: Replacement,
 ): string {
   return `${
     replacement.deprecation ? `# ${replacement.deprecation}\n` : ''
   }- { trigger: ${JSON.stringify(
-    `${surround}${replacement.match}${surround}`,
+    `${prefix}${replacement.match}${suffix}`,
   )}, replace: ${JSON.stringify(replacement.replacement)} }`;
 }
 
