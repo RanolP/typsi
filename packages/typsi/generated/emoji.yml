@@ -7,52 +7,52 @@ matches:
   - { trigger: ":accordion:", replace: "🪗" }
   - { trigger: ":aesculapius:", replace: "⚕" }
   - { trigger: ":airplane:", replace: "✈" }
-  - { trigger: ":airplanelanding:", replace: "🛬" }
-  - { trigger: ":airplanesmall:", replace: "🛩" }
-  - { trigger: ":airplanetakeoff:", replace: "🛫" }
+  - { trigger: ":airplane.landing:", replace: "🛬" }
+  - { trigger: ":airplane.small:", replace: "🛩" }
+  - { trigger: ":airplane.takeoff:", replace: "🛫" }
   - { trigger: ":alembic:", replace: "⚗" }
   - { trigger: ":alien:", replace: "👽" }
-  - { trigger: ":alienmonster:", replace: "👾" }
+  - { trigger: ":alien.monster:", replace: "👾" }
   - { trigger: ":ambulance:", replace: "🚑" }
   - { trigger: ":amphora:", replace: "🏺" }
   - { trigger: ":anchor:", replace: "⚓" }
   - { trigger: ":anger:", replace: "💢" }
   - { trigger: ":ant:", replace: "🐜" }
-  - { trigger: ":applegreen:", replace: "🍏" }
-  - { trigger: ":applered:", replace: "🍎" }
-  - { trigger: ":armmech:", replace: "🦾" }
-  - { trigger: ":armmuscle:", replace: "💪" }
-  - { trigger: ":armselfie:", replace: "🤳" }
-  - { trigger: ":arrowr.filled:", replace: "➡" }
-  - { trigger: ":arrowr.hook:", replace: "↪" }
-  - { trigger: ":arrowr.soon:", replace: "🔜" }
-  - { trigger: ":arrowl.filled:", replace: "⬅" }
-  - { trigger: ":arrowl.hook:", replace: "↩" }
-  - { trigger: ":arrowl.back:", replace: "🔙" }
-  - { trigger: ":arrowl.end:", replace: "🔚" }
-  - { trigger: ":arrowt.filled:", replace: "⬆" }
-  - { trigger: ":arrowt.curve:", replace: "⤴" }
-  - { trigger: ":arrowt.top:", replace: "🔝" }
-  - { trigger: ":arrowb.filled:", replace: "⬇" }
-  - { trigger: ":arrowb.curve:", replace: "⤵" }
-  - { trigger: ":arrowl.r:", replace: "↔" }
-  - { trigger: ":arrowl.r.on:", replace: "🔛" }
-  - { trigger: ":arrowt.b:", replace: "↕" }
-  - { trigger: ":arrowbl:", replace: "↙" }
-  - { trigger: ":arrowbr:", replace: "↘" }
-  - { trigger: ":arrowtl:", replace: "↖" }
-  - { trigger: ":arrowtr:", replace: "↗" }
-  - { trigger: ":arrowscycle:", replace: "🔄" }
+  - { trigger: ":apple.green:", replace: "🍏" }
+  - { trigger: ":apple.red:", replace: "🍎" }
+  - { trigger: ":arm.mech:", replace: "🦾" }
+  - { trigger: ":arm.muscle:", replace: "💪" }
+  - { trigger: ":arm.selfie:", replace: "🤳" }
+  - { trigger: ":arrow.r.filled:", replace: "➡" }
+  - { trigger: ":arrow.r.hook:", replace: "↪" }
+  - { trigger: ":arrow.r.soon:", replace: "🔜" }
+  - { trigger: ":arrow.l.filled:", replace: "⬅" }
+  - { trigger: ":arrow.l.hook:", replace: "↩" }
+  - { trigger: ":arrow.l.back:", replace: "🔙" }
+  - { trigger: ":arrow.l.end:", replace: "🔚" }
+  - { trigger: ":arrow.t.filled:", replace: "⬆" }
+  - { trigger: ":arrow.t.curve:", replace: "⤴" }
+  - { trigger: ":arrow.t.top:", replace: "🔝" }
+  - { trigger: ":arrow.b.filled:", replace: "⬇" }
+  - { trigger: ":arrow.b.curve:", replace: "⤵" }
+  - { trigger: ":arrow.l.r:", replace: "↔" }
+  - { trigger: ":arrow.l.r.on:", replace: "🔛" }
+  - { trigger: ":arrow.t.b:", replace: "↕" }
+  - { trigger: ":arrow.bl:", replace: "↙" }
+  - { trigger: ":arrow.br:", replace: "↘" }
+  - { trigger: ":arrow.tl:", replace: "↖" }
+  - { trigger: ":arrow.tr:", replace: "↗" }
+  - { trigger: ":arrows.cycle:", replace: "🔄" }
   - { trigger: ":ast:", replace: "*" }
-  - { trigger: ":astbox:", replace: "✳" }
+  - { trigger: ":ast.box:", replace: "✳" }
   - { trigger: ":atm:", replace: "🏧" }
   - { trigger: ":atom:", replace: "⚛" }
   - { trigger: ":aubergine:", replace: "🍆" }
   - { trigger: ":avocado:", replace: "🥑" }
   - { trigger: ":axe:", replace: "🪓" }
   - { trigger: ":baby:", replace: "👶" }
-  - { trigger: ":babyangel:", replace: "👼" }
-  - { trigger: ":babybox:", replace: "🚼" }
+  - { trigger: ":baby.angel:", replace: "👼" }
+  - { trigger: ":baby.box:", replace: "🚼" }
   - { trigger: ":babybottle:", replace: "🍼" }
   - { trigger: ":backpack:", replace: "🎒" }
   - { trigger: ":bacon:", replace: "🥓" }
@@ -62,7 +62,7 @@ matches:
   - { trigger: ":baggageclaim:", replace: "🛄" }
   - { trigger: ":baguette:", replace: "🥖" }
   - { trigger: ":balloon:", replace: "🎈" }
-  - { trigger: ":ballotcheck:", replace: "☑" }
+  - { trigger: ":ballot.check:", replace: "☑" }
   - { trigger: ":ballotbox:", replace: "🗳" }
   - { trigger: ":banana:", replace: "🍌" }
   - { trigger: ":banjo:", replace: "🪕" }
@@ -72,34 +72,34 @@ matches:
   - { trigger: ":basecap:", replace: "🧢" }
   - { trigger: ":basket:", replace: "🧺" }
   - { trigger: ":basketball:", replace: "⛹" }
-  - { trigger: ":basketballball:", replace: "🏀" }
+  - { trigger: ":basketball.ball:", replace: "🏀" }
   - { trigger: ":bat:", replace: "🦇" }
   - { trigger: ":bathtub:", replace: "🛀" }
-  - { trigger: ":bathtubfoam:", replace: "🛁" }
+  - { trigger: ":bathtub.foam:", replace: "🛁" }
   - { trigger: ":battery:", replace: "🔋" }
-  - { trigger: ":batterylow:", replace: "🪫" }
-  - { trigger: ":beachpalm:", replace: "🏝" }
-  - { trigger: ":beachumbrella:", replace: "🏖" }
+  - { trigger: ":battery.low:", replace: "🪫" }
+  - { trigger: ":beach.palm:", replace: "🏝" }
+  - { trigger: ":beach.umbrella:", replace: "🏖" }
   - { trigger: ":beads:", replace: "📿" }
   - { trigger: ":beans:", replace: "🫘" }
   - { trigger: ":bear:", replace: "🐻" }
   - { trigger: ":beaver:", replace: "🦫" }
   - { trigger: ":bed:", replace: "🛏" }
-  - { trigger: ":bedperson:", replace: "🛌" }
+  - { trigger: ":bed.person:", replace: "🛌" }
   - { trigger: ":bee:", replace: "🐝" }
   - { trigger: ":beer:", replace: "🍺" }
-  - { trigger: ":beerclink:", replace: "🍻" }
+  - { trigger: ":beer.clink:", replace: "🍻" }
   - { trigger: ":beet:", replace: "🫜" }
   - { trigger: ":beetle:", replace: "🪲" }
-  - { trigger: ":beetlelady:", replace: "🐞" }
+  - { trigger: ":beetle.lady:", replace: "🐞" }
   - { trigger: ":bell:", replace: "🔔" }
-  - { trigger: ":bellding:", replace: "🛎" }
-  - { trigger: ":bellnot:", replace: "🔕" }
+  - { trigger: ":bell.ding:", replace: "🛎" }
+  - { trigger: ":bell.not:", replace: "🔕" }
   - { trigger: ":bento:", replace: "🍱" }
   - { trigger: ":bicyclist:", replace: "🚴" }
-  - { trigger: ":bicyclistmountain:", replace: "🚵" }
+  - { trigger: ":bicyclist.mountain:", replace: "🚵" }
   - { trigger: ":bike:", replace: "🚲" }
-  - { trigger: ":bikenot:", replace: "🚳" }
+  - { trigger: ":bike.not:", replace: "🚳" }
   - { trigger: ":bikini:", replace: "👙" }
   - { trigger: ":billiards:", replace: "🎱" }
   - { trigger: ":bin:", replace: "🗑" }
@@ -111,28 +111,28 @@ matches:
   - { trigger: ":blowfish:", replace: "🐡" }
   - { trigger: ":blueberries:", replace: "🫐" }
   - { trigger: ":boar:", replace: "🐗" }
-  - { trigger: ":boatsail:", replace: "⛵" }
-  - { trigger: ":boatrow:", replace: "🚣" }
-  - { trigger: ":boatmotor:", replace: "🛥" }
-  - { trigger: ":boatspeed:", replace: "🚤" }
-  - { trigger: ":boatcanoe:", replace: "🛶" }
+  - { trigger: ":boat.sail:", replace: "⛵" }
+  - { trigger: ":boat.row:", replace: "🚣" }
+  - { trigger: ":boat.motor:", replace: "🛥" }
+  - { trigger: ":boat.speed:", replace: "🚤" }
+  - { trigger: ":boat.canoe:", replace: "🛶" }
   - { trigger: ":bolt:", replace: "🔩" }
   - { trigger: ":bomb:", replace: "💣" }
   - { trigger: ":bone:", replace: "🦴" }
-  - { trigger: ":bookred:", replace: "📕" }
-  - { trigger: ":bookblue:", replace: "📘" }
-  - { trigger: ":bookgreen:", replace: "📗" }
-  - { trigger: ":bookorange:", replace: "📙" }
-  - { trigger: ":bookspiral:", replace: "📒" }
-  - { trigger: ":bookopen:", replace: "📖" }
+  - { trigger: ":book.red:", replace: "📕" }
+  - { trigger: ":book.blue:", replace: "📘" }
+  - { trigger: ":book.green:", replace: "📗" }
+  - { trigger: ":book.orange:", replace: "📙" }
+  - { trigger: ":book.spiral:", replace: "📒" }
+  - { trigger: ":book.open:", replace: "📖" }
   - { trigger: ":bookmark:", replace: "🔖" }
   - { trigger: ":books:", replace: "📚" }
   - { trigger: ":boomerang:", replace: "🪃" }
   - { trigger: ":bordercontrol:", replace: "🛂" }
   - { trigger: ":bouquet:", replace: "💐" }
   - { trigger: ":bow:", replace: "🏹" }
-  - { trigger: ":bowlspoon:", replace: "🥣" }
-  - { trigger: ":bowlsteam:", replace: "🍜" }
+  - { trigger: ":bowl.spoon:", replace: "🥣" }
+  - { trigger: ":bowl.steam:", replace: "🍜" }
   - { trigger: ":bowling:", replace: "🎳" }
   - { trigger: ":boxing:", replace: "🥊" }
   - { trigger: ":boy:", replace: "👦" }
@@ -140,177 +140,177 @@ matches:
   - { trigger: ":bread:", replace: "🍞" }
   - { trigger: ":brick:", replace: "🧱" }
   - { trigger: ":bride:", replace: "👰" }
-  - { trigger: ":bridgefog:", replace: "🌁" }
-  - { trigger: ":bridgenight:", replace: "🌉" }
+  - { trigger: ":bridge.fog:", replace: "🌁" }
+  - { trigger: ":bridge.night:", replace: "🌉" }
   - { trigger: ":briefcase:", replace: "💼" }
   - { trigger: ":briefs:", replace: "🩲" }
-  - { trigger: ":brightnesshigh:", replace: "🔆" }
-  - { trigger: ":brightnesslow:", replace: "🔅" }
+  - { trigger: ":brightness.high:", replace: "🔆" }
+  - { trigger: ":brightness.low:", replace: "🔅" }
   - { trigger: ":broccoli:", replace: "🥦" }
   - { trigger: ":broom:", replace: "🧹" }
   - { trigger: ":brush:", replace: "🖌" }
-  - { trigger: ":bubblespeech.r:", replace: "💬" }
-  - { trigger: ":bubblespeech.l:", replace: "🗨" }
-  - { trigger: ":bubblethought:", replace: "💭" }
-  - { trigger: ":bubbleanger.r:", replace: "🗯" }
+  - { trigger: ":bubble.speech.r:", replace: "💬" }
+  - { trigger: ":bubble.speech.l:", replace: "🗨" }
+  - { trigger: ":bubble.thought:", replace: "💭" }
+  - { trigger: ":bubble.anger.r:", replace: "🗯" }
   - { trigger: ":bubbles:", replace: "🫧" }
   - { trigger: ":bubbletea:", replace: "🧋" }
   - { trigger: ":bucket:", replace: "🪣" }
-  - { trigger: ":buffalowater:", replace: "🐃" }
+  - { trigger: ":buffalo.water:", replace: "🐃" }
   - { trigger: ":bug:", replace: "🐛" }
   - { trigger: ":builder:", replace: "👷" }
   - { trigger: ":burger:", replace: "🍔" }
   - { trigger: ":burrito:", replace: "🌯" }
   - { trigger: ":bus:", replace: "🚌" }
-  - { trigger: ":busfront:", replace: "🚍" }
-  - { trigger: ":bussmall:", replace: "🚐" }
-  - { trigger: ":busstop:", replace: "🚏" }
-  - { trigger: ":bustrolley:", replace: "🚎" }
+  - { trigger: ":bus.front:", replace: "🚍" }
+  - { trigger: ":bus.small:", replace: "🚐" }
+  - { trigger: ":bus.stop:", replace: "🚏" }
+  - { trigger: ":bus.trolley:", replace: "🚎" }
   - { trigger: ":butter:", replace: "🧈" }
   - { trigger: ":butterfly:", replace: "🦋" }
   - { trigger: ":button:", replace: "🔲" }
-  - { trigger: ":buttonalt:", replace: "🔳" }
-  - { trigger: ":buttonradio:", replace: "🔘" }
-  - { trigger: ":cabinetfile:", replace: "🗄" }
+  - { trigger: ":button.alt:", replace: "🔳" }
+  - { trigger: ":button.radio:", replace: "🔘" }
+  - { trigger: ":cabinet.file:", replace: "🗄" }
   - { trigger: ":cablecar:", replace: "🚠" }
-  - { trigger: ":cablecarsmall:", replace: "🚡" }
+  - { trigger: ":cablecar.small:", replace: "🚡" }
   - { trigger: ":cactus:", replace: "🌵" }
   - { trigger: ":cake:", replace: "🎂" }
-  - { trigger: ":cakefish:", replace: "🍥" }
-  - { trigger: ":cakemoon:", replace: "🥮" }
-  - { trigger: ":cakeslice:", replace: "🍰" }
+  - { trigger: ":cake.fish:", replace: "🍥" }
+  - { trigger: ":cake.moon:", replace: "🥮" }
+  - { trigger: ":cake.slice:", replace: "🍰" }
   - { trigger: ":calendar:", replace: "📅" }
-  - { trigger: ":calendarspiral:", replace: "🗓" }
-  - { trigger: ":calendartearoff:", replace: "📆" }
+  - { trigger: ":calendar.spiral:", replace: "🗓" }
+  - { trigger: ":calendar.tearoff:", replace: "📆" }
   - { trigger: ":camel:", replace: "🐫" }
-  - { trigger: ":cameldromedar:", replace: "🐪" }
+  - { trigger: ":camel.dromedar:", replace: "🐪" }
   - { trigger: ":camera:", replace: "📷" }
-  - { trigger: ":cameraflash:", replace: "📸" }
-  - { trigger: ":cameramovie:", replace: "🎥" }
-  - { trigger: ":cameramovie.box:", replace: "🎦" }
-  - { trigger: ":cameravideo:", replace: "📹" }
+  - { trigger: ":camera.flash:", replace: "📸" }
+  - { trigger: ":camera.movie:", replace: "🎥" }
+  - { trigger: ":camera.movie.box:", replace: "🎦" }
+  - { trigger: ":camera.video:", replace: "📹" }
   - { trigger: ":camping:", replace: "🏕" }
   - { trigger: ":can:", replace: "🥫" }
   - { trigger: ":candle:", replace: "🕯" }
   - { trigger: ":candy:", replace: "🍬" }
   - { trigger: ":cane:", replace: "🦯" }
   - { trigger: ":car:", replace: "🚗" }
-  - { trigger: ":carfront:", replace: "🚘" }
-  - { trigger: ":carpickup:", replace: "🛻" }
-  - { trigger: ":carpolice:", replace: "🚓" }
-  - { trigger: ":carpolice.front:", replace: "🚔" }
-  - { trigger: ":carracing:", replace: "🏎" }
-  - { trigger: ":carrickshaw:", replace: "🛺" }
-  - { trigger: ":carsuv:", replace: "🚙" }
-  - { trigger: ":cardcredit:", replace: "💳" }
-  - { trigger: ":cardid:", replace: "🪪" }
+  - { trigger: ":car.front:", replace: "🚘" }
+  - { trigger: ":car.pickup:", replace: "🛻" }
+  - { trigger: ":car.police:", replace: "🚓" }
+  - { trigger: ":car.police.front:", replace: "🚔" }
+  - { trigger: ":car.racing:", replace: "🏎" }
+  - { trigger: ":car.rickshaw:", replace: "🛺" }
+  - { trigger: ":car.suv:", replace: "🚙" }
+  - { trigger: ":card.credit:", replace: "💳" }
+  - { trigger: ":card.id:", replace: "🪪" }
   - { trigger: ":cardindex:", replace: "📇" }
   - { trigger: ":carrot:", replace: "🥕" }
   - { trigger: ":cart:", replace: "🛒" }
   - { trigger: ":cassette:", replace: "📼" }
-  - { trigger: ":castleeu:", replace: "🏰" }
-  - { trigger: ":castlejp:", replace: "🏯" }
+  - { trigger: ":castle.eu:", replace: "🏰" }
+  - { trigger: ":castle.jp:", replace: "🏯" }
   - { trigger: ":cat:", replace: "🐈" }
-  - { trigger: ":catface:", replace: "🐱" }
-  - { trigger: ":catface.angry:", replace: "😾" }
-  - { trigger: ":catface.cry:", replace: "😿" }
-  - { trigger: ":catface.heart:", replace: "😻" }
-  - { trigger: ":catface.joy:", replace: "😹" }
-  - { trigger: ":catface.kiss:", replace: "😽" }
-  - { trigger: ":catface.laugh:", replace: "😸" }
-  - { trigger: ":catface.shock:", replace: "🙀" }
-  - { trigger: ":catface.smile:", replace: "😺" }
-  - { trigger: ":catface.smirk:", replace: "😼" }
+  - { trigger: ":cat.face:", replace: "🐱" }
+  - { trigger: ":cat.face.angry:", replace: "😾" }
+  - { trigger: ":cat.face.cry:", replace: "😿" }
+  - { trigger: ":cat.face.heart:", replace: "😻" }
+  - { trigger: ":cat.face.joy:", replace: "😹" }
+  - { trigger: ":cat.face.kiss:", replace: "😽" }
+  - { trigger: ":cat.face.laugh:", replace: "😸" }
+  - { trigger: ":cat.face.shock:", replace: "🙀" }
+  - { trigger: ":cat.face.smile:", replace: "😺" }
+  - { trigger: ":cat.face.smirk:", replace: "😼" }
   - { trigger: ":chain:", replace: "🔗" }
   - { trigger: ":chains:", replace: "⛓" }
   - { trigger: ":chair:", replace: "🪑" }
   - { trigger: ":champagne:", replace: "🍾" }
-  - { trigger: ":chartbar:", replace: "📊" }
-  - { trigger: ":chartup:", replace: "📈" }
-  - { trigger: ":chartdown:", replace: "📉" }
-  - { trigger: ":chartyen.up:", replace: "💹" }
-  - { trigger: ":checkmarkheavy:", replace: "✔" }
-  - { trigger: ":checkmarkbox:", replace: "✅" }
+  - { trigger: ":chart.bar:", replace: "📊" }
+  - { trigger: ":chart.up:", replace: "📈" }
+  - { trigger: ":chart.down:", replace: "📉" }
+  - { trigger: ":chart.yen.up:", replace: "💹" }
+  - { trigger: ":checkmark.heavy:", replace: "✔" }
+  - { trigger: ":checkmark.box:", replace: "✅" }
   - { trigger: ":cheese:", replace: "🧀" }
   - { trigger: ":cherries:", replace: "🍒" }
   - { trigger: ":chess:", replace: "♟" }
   - { trigger: ":chestnut:", replace: "🌰" }
   - { trigger: ":chicken:", replace: "🐔" }
-  - { trigger: ":chickenbaby:", replace: "🐥" }
-  - { trigger: ":chickenbaby.egg:", replace: "🐣" }
-  - { trigger: ":chickenbaby.head:", replace: "🐤" }
-  - { trigger: ":chickenleg:", replace: "🍗" }
-  - { trigger: ":chickenmale:", replace: "🐓" }
+  - { trigger: ":chicken.baby:", replace: "🐥" }
+  - { trigger: ":chicken.baby.egg:", replace: "🐣" }
+  - { trigger: ":chicken.baby.head:", replace: "🐤" }
+  - { trigger: ":chicken.leg:", replace: "🍗" }
+  - { trigger: ":chicken.male:", replace: "🐓" }
   - { trigger: ":child:", replace: "🧒" }
   - { trigger: ":chipmunk:", replace: "🐿" }
   - { trigger: ":chocolate:", replace: "🍫" }
   - { trigger: ":chopsticks:", replace: "🥢" }
   - { trigger: ":church:", replace: "⛪" }
-  - { trigger: ":churchlove:", replace: "💒" }
+  - { trigger: ":church.love:", replace: "💒" }
   - { trigger: ":cigarette:", replace: "🚬" }
-  - { trigger: ":cigarettenot:", replace: "🚭" }
-  - { trigger: ":circleblack:", replace: "⚫" }
-  - { trigger: ":circleblue:", replace: "🔵" }
-  - { trigger: ":circlebrown:", replace: "🟤" }
-  - { trigger: ":circlegreen:", replace: "🟢" }
-  - { trigger: ":circleorange:", replace: "🟠" }
-  - { trigger: ":circlepurple:", replace: "🟣" }
-  - { trigger: ":circlewhite:", replace: "⚪" }
-  - { trigger: ":circlered:", replace: "🔴" }
-  - { trigger: ":circleyellow:", replace: "🟡" }
-  - { trigger: ":circlestroked:", replace: "⭕" }
+  - { trigger: ":cigarette.not:", replace: "🚭" }
+  - { trigger: ":circle.black:", replace: "⚫" }
+  - { trigger: ":circle.blue:", replace: "🔵" }
+  - { trigger: ":circle.brown:", replace: "🟤" }
+  - { trigger: ":circle.green:", replace: "🟢" }
+  - { trigger: ":circle.orange:", replace: "🟠" }
+  - { trigger: ":circle.purple:", replace: "🟣" }
+  - { trigger: ":circle.white:", replace: "⚪" }
+  - { trigger: ":circle.red:", replace: "🔴" }
+  - { trigger: ":circle.yellow:", replace: "🟡" }
+  - { trigger: ":circle.stroked:", replace: "⭕" }
   - { trigger: ":circus:", replace: "🎪" }
   - { trigger: ":city:", replace: "🏙" }
-  - { trigger: ":citydusk:", replace: "🌆" }
-  - { trigger: ":citynight:", replace: "🌃" }
-  - { trigger: ":citysunset:", replace: "🌇" }
+  - { trigger: ":city.dusk:", replace: "🌆" }
+  - { trigger: ":city.night:", replace: "🌃" }
+  - { trigger: ":city.sunset:", replace: "🌇" }
   - { trigger: ":clamp:", replace: "🗜" }
   - { trigger: ":clapperboard:", replace: "🎬" }
   - { trigger: ":climbing:", replace: "🧗" }
   - { trigger: ":clip:", replace: "📎" }
   - { trigger: ":clipboard:", replace: "📋" }
   - { trigger: ":clips:", replace: "🖇" }
-  - { trigger: ":clockone:", replace: "🕐" }
-  - { trigger: ":clockone.thirty:", replace: "🕜" }
-  - { trigger: ":clocktwo:", replace: "🕑" }
-  - { trigger: ":clocktwo.thirty:", replace: "🕝" }
-  - { trigger: ":clockthree:", replace: "🕒" }
-  - { trigger: ":clockthree.thirty:", replace: "🕞" }
-  - { trigger: ":clockfour:", replace: "🕓" }
-  - { trigger: ":clockfour.thirty:", replace: "🕟" }
-  - { trigger: ":clockfive:", replace: "🕔" }
-  - { trigger: ":clockfive.thirty:", replace: "🕠" }
-  - { trigger: ":clocksix:", replace: "🕕" }
-  - { trigger: ":clocksix.thirty:", replace: "🕡" }
-  - { trigger: ":clockseven:", replace: "🕖" }
-  - { trigger: ":clockseven.thirty:", replace: "🕢" }
-  - { trigger: ":clockeight:", replace: "🕗" }
-  - { trigger: ":clockeight.thirty:", replace: "🕣" }
-  - { trigger: ":clocknine:", replace: "🕘" }
-  - { trigger: ":clocknine.thirty:", replace: "🕤" }
-  - { trigger: ":clockten:", replace: "🕙" }
-  - { trigger: ":clockten.thirty:", replace: "🕥" }
-  - { trigger: ":clockeleven:", replace: "🕚" }
-  - { trigger: ":clockeleven.thirty:", replace: "🕦" }
-  - { trigger: ":clocktwelve:", replace: "🕛" }
-  - { trigger: ":clocktwelve.thirty:", replace: "🕧" }
-  - { trigger: ":clockalarm:", replace: "⏰" }
-  - { trigger: ":clockold:", replace: "🕰" }
-  - { trigger: ":clocktimer:", replace: "⏲" }
+  - { trigger: ":clock.one:", replace: "🕐" }
+  - { trigger: ":clock.one.thirty:", replace: "🕜" }
+  - { trigger: ":clock.two:", replace: "🕑" }
+  - { trigger: ":clock.two.thirty:", replace: "🕝" }
+  - { trigger: ":clock.three:", replace: "🕒" }
+  - { trigger: ":clock.three.thirty:", replace: "🕞" }
+  - { trigger: ":clock.four:", replace: "🕓" }
+  - { trigger: ":clock.four.thirty:", replace: "🕟" }
+  - { trigger: ":clock.five:", replace: "🕔" }
+  - { trigger: ":clock.five.thirty:", replace: "🕠" }
+  - { trigger: ":clock.six:", replace: "🕕" }
+  - { trigger: ":clock.six.thirty:", replace: "🕡" }
+  - { trigger: ":clock.seven:", replace: "🕖" }
+  - { trigger: ":clock.seven.thirty:", replace: "🕢" }
+  - { trigger: ":clock.eight:", replace: "🕗" }
+  - { trigger: ":clock.eight.thirty:", replace: "🕣" }
+  - { trigger: ":clock.nine:", replace: "🕘" }
+  - { trigger: ":clock.nine.thirty:", replace: "🕤" }
+  - { trigger: ":clock.ten:", replace: "🕙" }
+  - { trigger: ":clock.ten.thirty:", replace: "🕥" }
+  - { trigger: ":clock.eleven:", replace: "🕚" }
+  - { trigger: ":clock.eleven.thirty:", replace: "🕦" }
+  - { trigger: ":clock.twelve:", replace: "🕛" }
+  - { trigger: ":clock.twelve.thirty:", replace: "🕧" }
+  - { trigger: ":clock.alarm:", replace: "⏰" }
+  - { trigger: ":clock.old:", replace: "🕰" }
+  - { trigger: ":clock.timer:", replace: "⏲" }
   - { trigger: ":cloud:", replace: "☁" }
-  - { trigger: ":clouddust:", replace: "💨" }
-  - { trigger: ":cloudrain:", replace: "🌧" }
-  - { trigger: ":cloudsnow:", replace: "🌨" }
-  - { trigger: ":cloudstorm:", replace: "⛈" }
-  - { trigger: ":cloudsun:", replace: "⛅" }
-  - { trigger: ":cloudsun.hidden:", replace: "🌥" }
-  - { trigger: ":cloudsun.rain:", replace: "🌦" }
-  - { trigger: ":cloudthunder:", replace: "🌩" }
+  - { trigger: ":cloud.dust:", replace: "💨" }
+  - { trigger: ":cloud.rain:", replace: "🌧" }
+  - { trigger: ":cloud.snow:", replace: "🌨" }
+  - { trigger: ":cloud.storm:", replace: "⛈" }
+  - { trigger: ":cloud.sun:", replace: "⛅" }
+  - { trigger: ":cloud.sun.hidden:", replace: "🌥" }
+  - { trigger: ":cloud.sun.rain:", replace: "🌦" }
+  - { trigger: ":cloud.thunder:", replace: "🌩" }
   - { trigger: ":coat:", replace: "🧥" }
-  - { trigger: ":coatlab:", replace: "🥼" }
+  - { trigger: ":coat.lab:", replace: "🥼" }
   - { trigger: ":cockroach:", replace: "🪳" }
-  - { trigger: ":cocktailmartini:", replace: "🍸" }
-  - { trigger: ":cocktailtropical:", replace: "🍹" }
+  - { trigger: ":cocktail.martini:", replace: "🍸" }
+  - { trigger: ":cocktail.tropical:", replace: "🍹" }
   - { trigger: ":coconut:", replace: "🥥" }
   - { trigger: ":coffee:", replace: "☕" }
   - { trigger: ":coffin:", replace: "⚰" }
@@ -323,7 +323,7 @@ matches:
   - { trigger: ":construction:", replace: "🚧" }
   - { trigger: ":controller:", replace: "🎮" }
   - { trigger: ":cookie:", replace: "🍪" }
-  - { trigger: ":cookiefortune:", replace: "🥠" }
+  - { trigger: ":cookie.fortune:", replace: "🥠" }
   - { trigger: ":cooking:", replace: "🍳" }
   - { trigger: ":cool:", replace: "🆒" }
   - { trigger: ":copyright:", replace: "©" }
@@ -332,7 +332,7 @@ matches:
   - { trigger: ":couch:", replace: "🛋" }
   - { trigger: ":couple:", replace: "💑" }
   - { trigger: ":cow:", replace: "🐄" }
-  - { trigger: ":cowface:", replace: "🐮" }
+  - { trigger: ":cow.face:", replace: "🐮" }
   - { trigger: ":crab:", replace: "🦀" }
   - { trigger: ":crane:", replace: "🏗" }
   - { trigger: ":crayon:", replace: "🖍" }
@@ -341,12 +341,12 @@ matches:
   - { trigger: ":crocodile:", replace: "🐊" }
   - { trigger: ":croissant:", replace: "🥐" }
   - { trigger: ":crossmark:", replace: "❌" }
-  - { trigger: ":crossmarkbox:", replace: "❎" }
+  - { trigger: ":crossmark.box:", replace: "❎" }
   - { trigger: ":crown:", replace: "👑" }
   - { trigger: ":crutch:", replace: "🩼" }
   - { trigger: ":crystal:", replace: "🔮" }
   - { trigger: ":cucumber:", replace: "🥒" }
-  - { trigger: ":cupstraw:", replace: "🥤" }
+  - { trigger: ":cup.straw:", replace: "🥤" }
   - { trigger: ":cupcake:", replace: "🧁" }
   - { trigger: ":curling:", replace: "🥌" }
   - { trigger: ":curry:", replace: "🍛" }
@@ -354,248 +354,248 @@ matches:
   - { trigger: ":customs:", replace: "🛃" }
   - { trigger: ":cutlery:", replace: "🍴" }
   - { trigger: ":cyclone:", replace: "🌀" }
-  - { trigger: ":dancingman:", replace: "🕺" }
-  - { trigger: ":dancingwoman:", replace: "💃" }
-  - { trigger: ":dancingwomen.bunny:", replace: "👯" }
+  - { trigger: ":dancing.man:", replace: "🕺" }
+  - { trigger: ":dancing.woman:", replace: "💃" }
+  - { trigger: ":dancing.women.bunny:", replace: "👯" }
   - { trigger: ":darts:", replace: "🎯" }
-  - { trigger: ":dashwave.double:", replace: "〰" }
+  - { trigger: ":dash.wave.double:", replace: "〰" }
   - { trigger: ":deer:", replace: "🦌" }
   - { trigger: ":desert:", replace: "🏜" }
   - { trigger: ":detective:", replace: "🕵" }
-  - { trigger: ":diamondblue:", replace: "🔷" }
-  - { trigger: ":diamondblue.small:", replace: "🔹" }
-  - { trigger: ":diamondorange:", replace: "🔶" }
-  - { trigger: ":diamondorange.small:", replace: "🔸" }
-  - { trigger: ":diamonddot:", replace: "💠" }
+  - { trigger: ":diamond.blue:", replace: "🔷" }
+  - { trigger: ":diamond.blue.small:", replace: "🔹" }
+  - { trigger: ":diamond.orange:", replace: "🔶" }
+  - { trigger: ":diamond.orange.small:", replace: "🔸" }
+  - { trigger: ":diamond.dot:", replace: "💠" }
   - { trigger: ":die:", replace: "🎲" }
-  - { trigger: ":dinopod:", replace: "🦕" }
-  - { trigger: ":dinorex:", replace: "🦖" }
-  - { trigger: ":disccd:", replace: "💿" }
-  - { trigger: ":discdvd:", replace: "📀" }
-  - { trigger: ":discmini:", replace: "💽" }
+  - { trigger: ":dino.pod:", replace: "🦕" }
+  - { trigger: ":dino.rex:", replace: "🦖" }
+  - { trigger: ":disc.cd:", replace: "💿" }
+  - { trigger: ":disc.dvd:", replace: "📀" }
+  - { trigger: ":disc.mini:", replace: "💽" }
   - { trigger: ":discoball:", replace: "🪩" }
   - { trigger: ":diving:", replace: "🤿" }
   - { trigger: ":dodo:", replace: "🦤" }
   - { trigger: ":dog:", replace: "🐕" }
-  - { trigger: ":dogface:", replace: "🐶" }
-  - { trigger: ":dogguide:", replace: "🦮" }
-  - { trigger: ":dogpoodle:", replace: "🐩" }
+  - { trigger: ":dog.face:", replace: "🐶" }
+  - { trigger: ":dog.guide:", replace: "🦮" }
+  - { trigger: ":dog.poodle:", replace: "🐩" }
   - { trigger: ":dollar:", replace: "💲" }
   - { trigger: ":dolphin:", replace: "🐬" }
   - { trigger: ":donut:", replace: "🍩" }
   - { trigger: ":door:", replace: "🚪" }
-  - { trigger: ":dovepeace:", replace: "🕊" }
+  - { trigger: ":dove.peace:", replace: "🕊" }
   - { trigger: ":dragon:", replace: "🐉" }
-  - { trigger: ":dragonface:", replace: "🐲" }
+  - { trigger: ":dragon.face:", replace: "🐲" }
   - { trigger: ":dress:", replace: "👗" }
-  - { trigger: ":dresskimono:", replace: "👘" }
-  - { trigger: ":dresssari:", replace: "🥻" }
+  - { trigger: ":dress.kimono:", replace: "👘" }
+  - { trigger: ":dress.sari:", replace: "🥻" }
   - { trigger: ":drop:", replace: "💧" }
   - { trigger: ":drops:", replace: "💦" }
   - { trigger: ":drum:", replace: "🥁" }
-  - { trigger: ":drumbig:", replace: "🪘" }
+  - { trigger: ":drum.big:", replace: "🪘" }
   - { trigger: ":duck:", replace: "🦆" }
   - { trigger: ":dumpling:", replace: "🥟" }
   - { trigger: ":eagle:", replace: "🦅" }
   - { trigger: ":ear:", replace: "👂" }
-  - { trigger: ":earaid:", replace: "🦻" }
+  - { trigger: ":ear.aid:", replace: "🦻" }
   - { trigger: ":egg:", replace: "🥚" }
-  - { trigger: ":eighteennot:", replace: "🔞" }
+  - { trigger: ":eighteen.not:", replace: "🔞" }
   - { trigger: ":elephant:", replace: "🐘" }
   - { trigger: ":elevator:", replace: "🛗" }
   - { trigger: ":elf:", replace: "🧝" }
   - { trigger: ":email:", replace: "📧" }
   - { trigger: ":excl:", replace: "❗" }
-  - { trigger: ":exclwhite:", replace: "❕" }
-  - { trigger: ":excldouble:", replace: "‼" }
-  - { trigger: ":exclquest:", replace: "⁉" }
+  - { trigger: ":excl.white:", replace: "❕" }
+  - { trigger: ":excl.double:", replace: "‼" }
+  - { trigger: ":excl.quest:", replace: "⁉" }
   - { trigger: ":explosion:", replace: "💥" }
   - { trigger: ":extinguisher:", replace: "🧯" }
   - { trigger: ":eye:", replace: "👁" }
   - { trigger: ":eyes:", replace: "👀" }
-  - { trigger: ":facegrin:", replace: "😀" }
-  - { trigger: ":faceangry:", replace: "😠" }
-  - { trigger: ":faceangry.red:", replace: "😡" }
-  - { trigger: ":faceanguish:", replace: "😧" }
-  - { trigger: ":faceastonish:", replace: "😲" }
-  - { trigger: ":facebandage:", replace: "🤕" }
-  - { trigger: ":facebeam:", replace: "😁" }
-  - { trigger: ":faceblank:", replace: "😶" }
-  - { trigger: ":faceclown:", replace: "🤡" }
-  - { trigger: ":facecold:", replace: "🥶" }
-  - { trigger: ":faceconcern:", replace: "😦" }
-  - { trigger: ":facecool:", replace: "😎" }
-  - { trigger: ":facecover:", replace: "🤭" }
-  - { trigger: ":facecowboy:", replace: "🤠" }
-  - { trigger: ":facecry:", replace: "😭" }
-  - { trigger: ":facedevil.smile:", replace: "😈" }
-  - { trigger: ":facedevil.frown:", replace: "👿" }
-  - { trigger: ":facediagonal:", replace: "🫤" }
-  - { trigger: ":facedisguise:", replace: "🥸" }
-  - { trigger: ":facedistress:", replace: "😫" }
-  - { trigger: ":facedizzy:", replace: "😵" }
-  - { trigger: ":facedotted:", replace: "🫥" }
-  - { trigger: ":facedown:", replace: "😞" }
-  - { trigger: ":facedown.sweat:", replace: "😓" }
-  - { trigger: ":facedrool:", replace: "🤤" }
-  - { trigger: ":faceexplode:", replace: "🤯" }
-  - { trigger: ":faceeyeroll:", replace: "🙄" }
-  - { trigger: ":facefriendly:", replace: "☺" }
-  - { trigger: ":facefear:", replace: "😨" }
-  - { trigger: ":facefear.sweat:", replace: "😰" }
-  - { trigger: ":facefever:", replace: "🤒" }
-  - { trigger: ":faceflush:", replace: "😳" }
-  - { trigger: ":facefrown:", replace: "☹" }
-  - { trigger: ":facefrown.slight:", replace: "🙁" }
-  - { trigger: ":facefrust:", replace: "😣" }
-  - { trigger: ":facegoofy:", replace: "🤪" }
-  - { trigger: ":facehalo:", replace: "😇" }
-  - { trigger: ":facehappy:", replace: "😊" }
-  - { trigger: ":faceheart:", replace: "😍" }
-  - { trigger: ":facehearts:", replace: "🥰" }
-  - { trigger: ":faceheat:", replace: "🥵" }
-  - { trigger: ":facehug:", replace: "🤗" }
-  - { trigger: ":faceinv:", replace: "🙃" }
-  - { trigger: ":facejoy:", replace: "😂" }
-  - { trigger: ":facekiss:", replace: "😗" }
-  - { trigger: ":facekiss.smile:", replace: "😙" }
-  - { trigger: ":facekiss.heart:", replace: "😘" }
-  - { trigger: ":facekiss.blush:", replace: "😚" }
-  - { trigger: ":facelick:", replace: "😋" }
-  - { trigger: ":facelie:", replace: "🤥" }
-  - { trigger: ":facemask:", replace: "😷" }
-  - { trigger: ":facemeh:", replace: "😒" }
-  - { trigger: ":facemelt:", replace: "🫠" }
-  - { trigger: ":facemoney:", replace: "🤑" }
-  - { trigger: ":facemonocle:", replace: "🧐" }
-  - { trigger: ":facenausea:", replace: "🤢" }
-  - { trigger: ":facenerd:", replace: "🤓" }
-  - { trigger: ":faceneutral:", replace: "😐" }
-  - { trigger: ":faceopen:", replace: "😃" }
-  - { trigger: ":faceparty:", replace: "🥳" }
-  - { trigger: ":facepeek:", replace: "🫣" }
-  - { trigger: ":faceplead:", replace: "🥺" }
-  - { trigger: ":facerelief:", replace: "😌" }
-  - { trigger: ":facerofl:", replace: "🤣" }
-  - { trigger: ":facesad:", replace: "😔" }
-  - { trigger: ":facesalute:", replace: "🫡" }
-  - { trigger: ":faceshock:", replace: "😱" }
-  - { trigger: ":faceshush:", replace: "🤫" }
-  - { trigger: ":faceskeptic:", replace: "🤨" }
-  - { trigger: ":facesleep:", replace: "😴" }
-  - { trigger: ":facesleepy:", replace: "😪" }
-  - { trigger: ":facesmile:", replace: "😄" }
-  - { trigger: ":facesmile.slight:", replace: "🙂" }
-  - { trigger: ":facesmile.sweat:", replace: "😅" }
-  - { trigger: ":facesmile.tear:", replace: "🥲" }
-  - { trigger: ":facesmirk:", replace: "😏" }
-  - { trigger: ":facesneeze:", replace: "🤧" }
-  - { trigger: ":facespeak.not:", replace: "🫢" }
-  - { trigger: ":facesquint:", replace: "😆" }
-  - { trigger: ":facestars:", replace: "🤩" }
-  - { trigger: ":facestraight:", replace: "😑" }
-  - { trigger: ":facesuffer:", replace: "😖" }
-  - { trigger: ":facesurprise:", replace: "😯" }
-  - { trigger: ":facesymbols:", replace: "🤬" }
-  - { trigger: ":facetear:", replace: "😢" }
-  - { trigger: ":facetear.relief:", replace: "😥" }
-  - { trigger: ":facetear.withheld:", replace: "🥹" }
-  - { trigger: ":faceteeth:", replace: "😬" }
-  - { trigger: ":facethink:", replace: "🤔" }
-  - { trigger: ":facetired:", replace: "🫩" }
-  - { trigger: ":facetongue:", replace: "😛" }
-  - { trigger: ":facetongue.squint:", replace: "😝" }
-  - { trigger: ":facetongue.wink:", replace: "😜" }
-  - { trigger: ":facetriumph:", replace: "😤" }
-  - { trigger: ":faceunhappy:", replace: "😕" }
-  - { trigger: ":facevomit:", replace: "🤮" }
-  - { trigger: ":faceweary:", replace: "😩" }
-  - { trigger: ":facewink:", replace: "😉" }
-  - { trigger: ":facewoozy:", replace: "🥴" }
-  - { trigger: ":faceworry:", replace: "😟" }
-  - { trigger: ":facewow:", replace: "😮" }
-  - { trigger: ":faceyawn:", replace: "🥱" }
-  - { trigger: ":facezip:", replace: "🤐" }
+  - { trigger: ":face.grin:", replace: "😀" }
+  - { trigger: ":face.angry:", replace: "😠" }
+  - { trigger: ":face.angry.red:", replace: "😡" }
+  - { trigger: ":face.anguish:", replace: "😧" }
+  - { trigger: ":face.astonish:", replace: "😲" }
+  - { trigger: ":face.bandage:", replace: "🤕" }
+  - { trigger: ":face.beam:", replace: "😁" }
+  - { trigger: ":face.blank:", replace: "😶" }
+  - { trigger: ":face.clown:", replace: "🤡" }
+  - { trigger: ":face.cold:", replace: "🥶" }
+  - { trigger: ":face.concern:", replace: "😦" }
+  - { trigger: ":face.cool:", replace: "😎" }
+  - { trigger: ":face.cover:", replace: "🤭" }
+  - { trigger: ":face.cowboy:", replace: "🤠" }
+  - { trigger: ":face.cry:", replace: "😭" }
+  - { trigger: ":face.devil.smile:", replace: "😈" }
+  - { trigger: ":face.devil.frown:", replace: "👿" }
+  - { trigger: ":face.diagonal:", replace: "🫤" }
+  - { trigger: ":face.disguise:", replace: "🥸" }
+  - { trigger: ":face.distress:", replace: "😫" }
+  - { trigger: ":face.dizzy:", replace: "😵" }
+  - { trigger: ":face.dotted:", replace: "🫥" }
+  - { trigger: ":face.down:", replace: "😞" }
+  - { trigger: ":face.down.sweat:", replace: "😓" }
+  - { trigger: ":face.drool:", replace: "🤤" }
+  - { trigger: ":face.explode:", replace: "🤯" }
+  - { trigger: ":face.eyeroll:", replace: "🙄" }
+  - { trigger: ":face.friendly:", replace: "☺" }
+  - { trigger: ":face.fear:", replace: "😨" }
+  - { trigger: ":face.fear.sweat:", replace: "😰" }
+  - { trigger: ":face.fever:", replace: "🤒" }
+  - { trigger: ":face.flush:", replace: "😳" }
+  - { trigger: ":face.frown:", replace: "☹" }
+  - { trigger: ":face.frown.slight:", replace: "🙁" }
+  - { trigger: ":face.frust:", replace: "😣" }
+  - { trigger: ":face.goofy:", replace: "🤪" }
+  - { trigger: ":face.halo:", replace: "😇" }
+  - { trigger: ":face.happy:", replace: "😊" }
+  - { trigger: ":face.heart:", replace: "😍" }
+  - { trigger: ":face.hearts:", replace: "🥰" }
+  - { trigger: ":face.heat:", replace: "🥵" }
+  - { trigger: ":face.hug:", replace: "🤗" }
+  - { trigger: ":face.inv:", replace: "🙃" }
+  - { trigger: ":face.joy:", replace: "😂" }
+  - { trigger: ":face.kiss:", replace: "😗" }
+  - { trigger: ":face.kiss.smile:", replace: "😙" }
+  - { trigger: ":face.kiss.heart:", replace: "😘" }
+  - { trigger: ":face.kiss.blush:", replace: "😚" }
+  - { trigger: ":face.lick:", replace: "😋" }
+  - { trigger: ":face.lie:", replace: "🤥" }
+  - { trigger: ":face.mask:", replace: "😷" }
+  - { trigger: ":face.meh:", replace: "😒" }
+  - { trigger: ":face.melt:", replace: "🫠" }
+  - { trigger: ":face.money:", replace: "🤑" }
+  - { trigger: ":face.monocle:", replace: "🧐" }
+  - { trigger: ":face.nausea:", replace: "🤢" }
+  - { trigger: ":face.nerd:", replace: "🤓" }
+  - { trigger: ":face.neutral:", replace: "😐" }
+  - { trigger: ":face.open:", replace: "😃" }
+  - { trigger: ":face.party:", replace: "🥳" }
+  - { trigger: ":face.peek:", replace: "🫣" }
+  - { trigger: ":face.plead:", replace: "🥺" }
+  - { trigger: ":face.relief:", replace: "😌" }
+  - { trigger: ":face.rofl:", replace: "🤣" }
+  - { trigger: ":face.sad:", replace: "😔" }
+  - { trigger: ":face.salute:", replace: "🫡" }
+  - { trigger: ":face.shock:", replace: "😱" }
+  - { trigger: ":face.shush:", replace: "🤫" }
+  - { trigger: ":face.skeptic:", replace: "🤨" }
+  - { trigger: ":face.sleep:", replace: "😴" }
+  - { trigger: ":face.sleepy:", replace: "😪" }
+  - { trigger: ":face.smile:", replace: "😄" }
+  - { trigger: ":face.smile.slight:", replace: "🙂" }
+  - { trigger: ":face.smile.sweat:", replace: "😅" }
+  - { trigger: ":face.smile.tear:", replace: "🥲" }
+  - { trigger: ":face.smirk:", replace: "😏" }
+  - { trigger: ":face.sneeze:", replace: "🤧" }
+  - { trigger: ":face.speak.not:", replace: "🫢" }
+  - { trigger: ":face.squint:", replace: "😆" }
+  - { trigger: ":face.stars:", replace: "🤩" }
+  - { trigger: ":face.straight:", replace: "😑" }
+  - { trigger: ":face.suffer:", replace: "😖" }
+  - { trigger: ":face.surprise:", replace: "😯" }
+  - { trigger: ":face.symbols:", replace: "🤬" }
+  - { trigger: ":face.tear:", replace: "😢" }
+  - { trigger: ":face.tear.relief:", replace: "😥" }
+  - { trigger: ":face.tear.withheld:", replace: "🥹" }
+  - { trigger: ":face.teeth:", replace: "😬" }
+  - { trigger: ":face.think:", replace: "🤔" }
+  - { trigger: ":face.tired:", replace: "🫩" }
+  - { trigger: ":face.tongue:", replace: "😛" }
+  - { trigger: ":face.tongue.squint:", replace: "😝" }
+  - { trigger: ":face.tongue.wink:", replace: "😜" }
+  - { trigger: ":face.triumph:", replace: "😤" }
+  - { trigger: ":face.unhappy:", replace: "😕" }
+  - { trigger: ":face.vomit:", replace: "🤮" }
+  - { trigger: ":face.weary:", replace: "😩" }
+  - { trigger: ":face.wink:", replace: "😉" }
+  - { trigger: ":face.woozy:", replace: "🥴" }
+  - { trigger: ":face.worry:", replace: "😟" }
+  - { trigger: ":face.wow:", replace: "😮" }
+  - { trigger: ":face.yawn:", replace: "🥱" }
+  - { trigger: ":face.zip:", replace: "🤐" }
   - { trigger: ":factory:", replace: "🏭" }
   - { trigger: ":fairy:", replace: "🧚" }
-  - { trigger: ":faithchrist:", replace: "✝" }
-  - { trigger: ":faithdharma:", replace: "☸" }
-  - { trigger: ":faithislam:", replace: "☪" }
-  - { trigger: ":faithjudaism:", replace: "✡" }
-  - { trigger: ":faithmenorah:", replace: "🕎" }
-  - { trigger: ":faithom:", replace: "🕉" }
-  - { trigger: ":faithorthodox:", replace: "☦" }
-  - { trigger: ":faithpeace:", replace: "☮" }
-  - { trigger: ":faithstar.dot:", replace: "🔯" }
-  - { trigger: ":faithworship:", replace: "🛐" }
-  - { trigger: ":faithyinyang:", replace: "☯" }
+  - { trigger: ":faith.christ:", replace: "✝" }
+  - { trigger: ":faith.dharma:", replace: "☸" }
+  - { trigger: ":faith.islam:", replace: "☪" }
+  - { trigger: ":faith.judaism:", replace: "✡" }
+  - { trigger: ":faith.menorah:", replace: "🕎" }
+  - { trigger: ":faith.om:", replace: "🕉" }
+  - { trigger: ":faith.orthodox:", replace: "☦" }
+  - { trigger: ":faith.peace:", replace: "☮" }
+  - { trigger: ":faith.star.dot:", replace: "🔯" }
+  - { trigger: ":faith.worship:", replace: "🛐" }
+  - { trigger: ":faith.yinyang:", replace: "☯" }
   - { trigger: ":falafel:", replace: "🧆" }
   - { trigger: ":family:", replace: "👪" }
   - { trigger: ":fax:", replace: "📠" }
   - { trigger: ":feather:", replace: "🪶" }
-  - { trigger: ":feedingbreast:", replace: "🤱" }
+  - { trigger: ":feeding.breast:", replace: "🤱" }
   - { trigger: ":fencing:", replace: "🤺" }
   - { trigger: ":ferriswheel:", replace: "🎡" }
   - { trigger: ":filebox:", replace: "🗃" }
   - { trigger: ":filedividers:", replace: "🗂" }
   - { trigger: ":film:", replace: "🎞" }
-  - { trigger: ":fingerr:", replace: "👉" }
-  - { trigger: ":fingerl:", replace: "👈" }
-  - { trigger: ":fingert:", replace: "👆" }
-  - { trigger: ":fingert.alt:", replace: "☝" }
-  - { trigger: ":fingerb:", replace: "👇" }
-  - { trigger: ":fingerfront:", replace: "🫵" }
-  - { trigger: ":fingerm:", replace: "🖕" }
+  - { trigger: ":finger.r:", replace: "👉" }
+  - { trigger: ":finger.l:", replace: "👈" }
+  - { trigger: ":finger.t:", replace: "👆" }
+  - { trigger: ":finger.t.alt:", replace: "☝" }
+  - { trigger: ":finger.b:", replace: "👇" }
+  - { trigger: ":finger.front:", replace: "🫵" }
+  - { trigger: ":finger.m:", replace: "🖕" }
   - { trigger: ":fingerprint:", replace: "🫆" }
-  - { trigger: ":fingerscross:", replace: "🤞" }
-  - { trigger: ":fingerspinch:", replace: "🤌" }
-  - { trigger: ":fingerssnap:", replace: "🫰" }
+  - { trigger: ":fingers.cross:", replace: "🤞" }
+  - { trigger: ":fingers.pinch:", replace: "🤌" }
+  - { trigger: ":fingers.snap:", replace: "🫰" }
   - { trigger: ":fire:", replace: "🔥" }
   - { trigger: ":firecracker:", replace: "🧨" }
   - { trigger: ":fireengine:", replace: "🚒" }
   - { trigger: ":fireworks:", replace: "🎆" }
   - { trigger: ":fish:", replace: "🐟" }
-  - { trigger: ":fishtropical:", replace: "🐠" }
+  - { trigger: ":fish.tropical:", replace: "🐠" }
   - { trigger: ":fishing:", replace: "🎣" }
-  - { trigger: ":fistfront:", replace: "👊" }
-  - { trigger: ":fistr:", replace: "🤜" }
-  - { trigger: ":fistl:", replace: "🤛" }
-  - { trigger: ":fistraised:", replace: "✊" }
-  - { trigger: ":flagblack:", replace: "🏴" }
-  - { trigger: ":flagwhite:", replace: "🏳" }
-  - { trigger: ":flaggoal:", replace: "🏁" }
-  - { trigger: ":flaggolf:", replace: "⛳" }
-  - { trigger: ":flagred:", replace: "🚩" }
-  - { trigger: ":flagsjp.crossed:", replace: "🎌" }
+  - { trigger: ":fist.front:", replace: "👊" }
+  - { trigger: ":fist.r:", replace: "🤜" }
+  - { trigger: ":fist.l:", replace: "🤛" }
+  - { trigger: ":fist.raised:", replace: "✊" }
+  - { trigger: ":flag.black:", replace: "🏴" }
+  - { trigger: ":flag.white:", replace: "🏳" }
+  - { trigger: ":flag.goal:", replace: "🏁" }
+  - { trigger: ":flag.golf:", replace: "⛳" }
+  - { trigger: ":flag.red:", replace: "🚩" }
+  - { trigger: ":flags.jp.crossed:", replace: "🎌" }
   - { trigger: ":flamingo:", replace: "🦩" }
   - { trigger: ":flashlight:", replace: "🔦" }
   - { trigger: ":flatbread:", replace: "🫓" }
   - { trigger: ":fleur:", replace: "⚜" }
   - { trigger: ":floppy:", replace: "💾" }
-  - { trigger: ":flowerhibiscus:", replace: "🌺" }
-  - { trigger: ":flowerlotus:", replace: "🪷" }
-  - { trigger: ":flowerpink:", replace: "🌸" }
-  - { trigger: ":flowerrose:", replace: "🌹" }
-  - { trigger: ":flowersun:", replace: "🌻" }
-  - { trigger: ":flowertulip:", replace: "🌷" }
-  - { trigger: ":flowerwhite:", replace: "💮" }
-  - { trigger: ":flowerwilted:", replace: "🥀" }
-  - { trigger: ":floweryellow:", replace: "🌼" }
+  - { trigger: ":flower.hibiscus:", replace: "🌺" }
+  - { trigger: ":flower.lotus:", replace: "🪷" }
+  - { trigger: ":flower.pink:", replace: "🌸" }
+  - { trigger: ":flower.rose:", replace: "🌹" }
+  - { trigger: ":flower.sun:", replace: "🌻" }
+  - { trigger: ":flower.tulip:", replace: "🌷" }
+  - { trigger: ":flower.white:", replace: "💮" }
+  - { trigger: ":flower.wilted:", replace: "🥀" }
+  - { trigger: ":flower.yellow:", replace: "🌼" }
   - { trigger: ":fly:", replace: "🪰" }
   - { trigger: ":fog:", replace: "🌫" }
   - { trigger: ":folder:", replace: "📁" }
-  - { trigger: ":folderopen:", replace: "📂" }
+  - { trigger: ":folder.open:", replace: "📂" }
   - { trigger: ":fondue:", replace: "🫕" }
   - { trigger: ":foot:", replace: "🦶" }
   - { trigger: ":football:", replace: "⚽" }
-  - { trigger: ":footballam:", replace: "🏈" }
+  - { trigger: ":football.am:", replace: "🏈" }
   - { trigger: ":forex:", replace: "💱" }
   - { trigger: ":fountain:", replace: "⛲" }
   - { trigger: ":fox:", replace: "🦊" }
   - { trigger: ":free:", replace: "🆓" }
   - { trigger: ":fries:", replace: "🍟" }
   - { trigger: ":frisbee:", replace: "🥏" }
-  - { trigger: ":frogface:", replace: "🐸" }
+  - { trigger: ":frog.face:", replace: "🐸" }
   - { trigger: ":fuelpump:", replace: "⛽" }
   - { trigger: ":garlic:", replace: "🧄" }
   - { trigger: ":gear:", replace: "⚙" }
@@ -604,16 +604,16 @@ matches:
   - { trigger: ":ghost:", replace: "👻" }
   - { trigger: ":giraffe:", replace: "🦒" }
   - { trigger: ":girl:", replace: "👧" }
-  - { trigger: ":glassclink:", replace: "🥂" }
-  - { trigger: ":glassmilk:", replace: "🥛" }
-  - { trigger: ":glasspour:", replace: "🫗" }
-  - { trigger: ":glasstumbler:", replace: "🥃" }
+  - { trigger: ":glass.clink:", replace: "🥂" }
+  - { trigger: ":glass.milk:", replace: "🥛" }
+  - { trigger: ":glass.pour:", replace: "🫗" }
+  - { trigger: ":glass.tumbler:", replace: "🥃" }
   - { trigger: ":glasses:", replace: "👓" }
-  - { trigger: ":glassessun:", replace: "🕶" }
-  - { trigger: ":globeam:", replace: "🌎" }
-  - { trigger: ":globeas.au:", replace: "🌏" }
-  - { trigger: ":globeeu.af:", replace: "🌍" }
-  - { trigger: ":globemeridian:", replace: "🌐" }
+  - { trigger: ":glasses.sun:", replace: "🕶" }
+  - { trigger: ":globe.am:", replace: "🌎" }
+  - { trigger: ":globe.as.au:", replace: "🌏" }
+  - { trigger: ":globe.eu.af:", replace: "🌍" }
+  - { trigger: ":globe.meridian:", replace: "🌐" }
   - { trigger: ":gloves:", replace: "🧤" }
   - { trigger: ":goal:", replace: "🥅" }
   - { trigger: ":goat:", replace: "🐐" }
@@ -621,101 +621,101 @@ matches:
   - { trigger: ":golfing:", replace: "🏌" }
   - { trigger: ":gorilla:", replace: "🦍" }
   - { trigger: ":grapes:", replace: "🍇" }
-  - { trigger: ":guardman:", replace: "💂" }
+  - { trigger: ":guard.man:", replace: "💂" }
   - { trigger: ":guitar:", replace: "🎸" }
   - { trigger: ":gymnastics:", replace: "🤸" }
   - { trigger: ":haircut:", replace: "💇" }
   - { trigger: ":hammer:", replace: "🔨" }
-  - { trigger: ":hammerpick:", replace: "⚒" }
-  - { trigger: ":hammerwrench:", replace: "🛠" }
+  - { trigger: ":hammer.pick:", replace: "⚒" }
+  - { trigger: ":hammer.wrench:", replace: "🛠" }
   - { trigger: ":hamsa:", replace: "🪬" }
-  - { trigger: ":hamsterface:", replace: "🐹" }
-  - { trigger: ":handraised:", replace: "✋" }
-  - { trigger: ":handraised.alt:", replace: "🤚" }
-  - { trigger: ":handr:", replace: "🫱" }
-  - { trigger: ":handl:", replace: "🫲" }
-  - { trigger: ":handt:", replace: "🫴" }
-  - { trigger: ":handb:", replace: "🫳" }
-  - { trigger: ":handok:", replace: "👌" }
-  - { trigger: ":handcall:", replace: "🤙" }
-  - { trigger: ":handlove:", replace: "🤟" }
-  - { trigger: ":handpart:", replace: "🖖" }
-  - { trigger: ":handpeace:", replace: "✌" }
-  - { trigger: ":handpinch:", replace: "🤏" }
-  - { trigger: ":handrock:", replace: "🤘" }
-  - { trigger: ":handsplay:", replace: "🖐" }
-  - { trigger: ":handwave:", replace: "👋" }
-  - { trigger: ":handwrite:", replace: "✍" }
+  - { trigger: ":hamster.face:", replace: "🐹" }
+  - { trigger: ":hand.raised:", replace: "✋" }
+  - { trigger: ":hand.raised.alt:", replace: "🤚" }
+  - { trigger: ":hand.r:", replace: "🫱" }
+  - { trigger: ":hand.l:", replace: "🫲" }
+  - { trigger: ":hand.t:", replace: "🫴" }
+  - { trigger: ":hand.b:", replace: "🫳" }
+  - { trigger: ":hand.ok:", replace: "👌" }
+  - { trigger: ":hand.call:", replace: "🤙" }
+  - { trigger: ":hand.love:", replace: "🤟" }
+  - { trigger: ":hand.part:", replace: "🖖" }
+  - { trigger: ":hand.peace:", replace: "✌" }
+  - { trigger: ":hand.pinch:", replace: "🤏" }
+  - { trigger: ":hand.rock:", replace: "🤘" }
+  - { trigger: ":hand.splay:", replace: "🖐" }
+  - { trigger: ":hand.wave:", replace: "👋" }
+  - { trigger: ":hand.write:", replace: "✍" }
   - { trigger: ":handbag:", replace: "👜" }
   - { trigger: ":handball:", replace: "🤾" }
-  - { trigger: ":handholdingman.man:", replace: "👬" }
-  - { trigger: ":handholdingwoman.man:", replace: "👫" }
-  - { trigger: ":handholdingwoman.woman:", replace: "👭" }
-  - { trigger: ":handsfolded:", replace: "🙏" }
-  - { trigger: ":handspalms:", replace: "🤲" }
-  - { trigger: ":handsclap:", replace: "👏" }
-  - { trigger: ":handsheart:", replace: "🫶" }
-  - { trigger: ":handsopen:", replace: "👐" }
-  - { trigger: ":handsraised:", replace: "🙌" }
-  - { trigger: ":handsshake:", replace: "🤝" }
+  - { trigger: ":handholding.man.man:", replace: "👬" }
+  - { trigger: ":handholding.woman.man:", replace: "👫" }
+  - { trigger: ":handholding.woman.woman:", replace: "👭" }
+  - { trigger: ":hands.folded:", replace: "🙏" }
+  - { trigger: ":hands.palms:", replace: "🤲" }
+  - { trigger: ":hands.clap:", replace: "👏" }
+  - { trigger: ":hands.heart:", replace: "🫶" }
+  - { trigger: ":hands.open:", replace: "👐" }
+  - { trigger: ":hands.raised:", replace: "🙌" }
+  - { trigger: ":hands.shake:", replace: "🤝" }
   - { trigger: ":harp:", replace: "🪉" }
   - { trigger: ":hash:", replace: "#" }
-  - { trigger: ":hatribbon:", replace: "👒" }
-  - { trigger: ":hattop:", replace: "🎩" }
+  - { trigger: ":hat.ribbon:", replace: "👒" }
+  - { trigger: ":hat.top:", replace: "🎩" }
   - { trigger: ":headphone:", replace: "🎧" }
   - { trigger: ":heart:", replace: "❤" }
-  - { trigger: ":heartarrow:", replace: "💘" }
-  - { trigger: ":heartbeat:", replace: "💓" }
-  - { trigger: ":heartblack:", replace: "🖤" }
-  - { trigger: ":heartblue:", replace: "💙" }
-  - { trigger: ":heartbox:", replace: "💟" }
-  - { trigger: ":heartbroken:", replace: "💔" }
-  - { trigger: ":heartbrown:", replace: "🤎" }
-  - { trigger: ":heartdouble:", replace: "💕" }
-  - { trigger: ":heartexcl:", replace: "❣" }
-  - { trigger: ":heartgreen:", replace: "💚" }
-  - { trigger: ":heartgrow:", replace: "💗" }
-  - { trigger: ":heartorange:", replace: "🧡" }
-  - { trigger: ":heartpurple:", replace: "💜" }
-  - { trigger: ":heartreal:", replace: "🫀" }
-  - { trigger: ":heartrevolve:", replace: "💞" }
-  - { trigger: ":heartribbon:", replace: "💝" }
-  - { trigger: ":heartspark:", replace: "💖" }
-  - { trigger: ":heartwhite:", replace: "🤍" }
-  - { trigger: ":heartyellow:", replace: "💛" }
+  - { trigger: ":heart.arrow:", replace: "💘" }
+  - { trigger: ":heart.beat:", replace: "💓" }
+  - { trigger: ":heart.black:", replace: "🖤" }
+  - { trigger: ":heart.blue:", replace: "💙" }
+  - { trigger: ":heart.box:", replace: "💟" }
+  - { trigger: ":heart.broken:", replace: "💔" }
+  - { trigger: ":heart.brown:", replace: "🤎" }
+  - { trigger: ":heart.double:", replace: "💕" }
+  - { trigger: ":heart.excl:", replace: "❣" }
+  - { trigger: ":heart.green:", replace: "💚" }
+  - { trigger: ":heart.grow:", replace: "💗" }
+  - { trigger: ":heart.orange:", replace: "🧡" }
+  - { trigger: ":heart.purple:", replace: "💜" }
+  - { trigger: ":heart.real:", replace: "🫀" }
+  - { trigger: ":heart.revolve:", replace: "💞" }
+  - { trigger: ":heart.ribbon:", replace: "💝" }
+  - { trigger: ":heart.spark:", replace: "💖" }
+  - { trigger: ":heart.white:", replace: "🤍" }
+  - { trigger: ":heart.yellow:", replace: "💛" }
   - { trigger: ":hedgehog:", replace: "🦔" }
   - { trigger: ":helicopter:", replace: "🚁" }
   - { trigger: ":helix:", replace: "🧬" }
-  - { trigger: ":helmetcross:", replace: "⛑" }
-  - { trigger: ":helmetmilitary:", replace: "🪖" }
+  - { trigger: ":helmet.cross:", replace: "⛑" }
+  - { trigger: ":helmet.military:", replace: "🪖" }
   - { trigger: ":hippo:", replace: "🦛" }
   - { trigger: ":hockey:", replace: "🏑" }
   - { trigger: ":hole:", replace: "🕳" }
   - { trigger: ":honey:", replace: "🍯" }
   - { trigger: ":hongbao:", replace: "🧧" }
   - { trigger: ":hook:", replace: "🪝" }
-  - { trigger: ":hornpostal:", replace: "📯" }
+  - { trigger: ":horn.postal:", replace: "📯" }
   - { trigger: ":horse:", replace: "🐎" }
-  - { trigger: ":horsecarousel:", replace: "🎠" }
-  - { trigger: ":horseface:", replace: "🐴" }
-  - { trigger: ":horserace:", replace: "🏇" }
+  - { trigger: ":horse.carousel:", replace: "🎠" }
+  - { trigger: ":horse.face:", replace: "🐴" }
+  - { trigger: ":horse.race:", replace: "🏇" }
   - { trigger: ":hospital:", replace: "🏥" }
   - { trigger: ":hotdog:", replace: "🌭" }
   - { trigger: ":hotel:", replace: "🏨" }
-  - { trigger: ":hotellove:", replace: "🏩" }
+  - { trigger: ":hotel.love:", replace: "🏩" }
   - { trigger: ":hotspring:", replace: "♨" }
   - { trigger: ":hourglass:", replace: "⌛" }
-  - { trigger: ":hourglassflow:", replace: "⏳" }
+  - { trigger: ":hourglass.flow:", replace: "⏳" }
   - { trigger: ":house:", replace: "🏠" }
-  - { trigger: ":housederelict:", replace: "🏚" }
-  - { trigger: ":housegarden:", replace: "🏡" }
-  - { trigger: ":housemultiple:", replace: "🏘" }
+  - { trigger: ":house.derelict:", replace: "🏚" }
+  - { trigger: ":house.garden:", replace: "🏡" }
+  - { trigger: ":house.multiple:", replace: "🏘" }
   - { trigger: ":hundred:", replace: "💯" }
   - { trigger: ":hut:", replace: "🛖" }
   - { trigger: ":ice:", replace: "🧊" }
   - { trigger: ":icecream:", replace: "🍨" }
-  - { trigger: ":icecreamshaved:", replace: "🍧" }
-  - { trigger: ":icecreamsoft:", replace: "🍦" }
+  - { trigger: ":icecream.shaved:", replace: "🍧" }
+  - { trigger: ":icecream.soft:", replace: "🍦" }
   - { trigger: ":icehockey:", replace: "🏒" }
   - { trigger: ":id:", replace: "🆔" }
   - { trigger: ":info:", replace: "ℹ" }
@@ -737,14 +737,14 @@ matches:
   - { trigger: ":kara:", replace: "🈳" }
   - { trigger: ":kon:", replace: "🈲" }
   - { trigger: ":man:", replace: "👨" }
-  - { trigger: ":manbox:", replace: "🚹" }
-  - { trigger: ":mancrown:", replace: "🤴" }
-  - { trigger: ":manguapimao:", replace: "👲" }
-  - { trigger: ":manlevitate:", replace: "🕴" }
-  - { trigger: ":manold:", replace: "👴" }
-  - { trigger: ":manpregnant:", replace: "🫃" }
-  - { trigger: ":manturban:", replace: "👳" }
-  - { trigger: ":mantuxedo:", replace: "🤵" }
+  - { trigger: ":man.box:", replace: "🚹" }
+  - { trigger: ":man.crown:", replace: "🤴" }
+  - { trigger: ":man.guapimao:", replace: "👲" }
+  - { trigger: ":man.levitate:", replace: "🕴" }
+  - { trigger: ":man.old:", replace: "👴" }
+  - { trigger: ":man.pregnant:", replace: "🫃" }
+  - { trigger: ":man.turban:", replace: "👳" }
+  - { trigger: ":man.tuxedo:", replace: "🤵" }
   - { trigger: ":muryo:", replace: "🈚" }
   - { trigger: ":shin:", replace: "🈸" }
   - { trigger: ":shuku:", replace: "㊗" }
@@ -756,157 +756,157 @@ matches:
   - { trigger: ":sa:", replace: "🈂" }
   - { trigger: ":kebab:", replace: "🥙" }
   - { trigger: ":key:", replace: "🔑" }
-  - { trigger: ":keyold:", replace: "🗝" }
+  - { trigger: ":key.old:", replace: "🗝" }
   - { trigger: ":keyboard:", replace: "⌨" }
   - { trigger: ":kiss:", replace: "💏" }
   - { trigger: ":kissmark:", replace: "💋" }
   - { trigger: ":kite:", replace: "🪁" }
   - { trigger: ":kiwi:", replace: "🥝" }
   - { trigger: ":knife:", replace: "🔪" }
-  - { trigger: ":knifedagger:", replace: "🗡" }
+  - { trigger: ":knife.dagger:", replace: "🗡" }
   - { trigger: ":knot:", replace: "🪢" }
   - { trigger: ":koala:", replace: "🐨" }
   - { trigger: ":koinobori:", replace: "🎏" }
   - { trigger: ":label:", replace: "🏷" }
   - { trigger: ":lacrosse:", replace: "🥍" }
   - { trigger: ":ladder:", replace: "🪜" }
-  - { trigger: ":lampdiya:", replace: "🪔" }
+  - { trigger: ":lamp.diya:", replace: "🪔" }
   - { trigger: ":laptop:", replace: "💻" }
   - { trigger: ":a:", replace: "🅰" }
   - { trigger: ":ab:", replace: "🆎" }
   - { trigger: ":b:", replace: "🅱" }
   - { trigger: ":cl:", replace: "🆑" }
   - { trigger: ":o:", replace: "🅾" }
-  - { trigger: ":leafclover.three:", replace: "☘" }
-  - { trigger: ":leafclover.four:", replace: "🍀" }
-  - { trigger: ":leaffall:", replace: "🍂" }
-  - { trigger: ":leafherb:", replace: "🌿" }
-  - { trigger: ":leafmaple:", replace: "🍁" }
-  - { trigger: ":leafwind:", replace: "🍃" }
+  - { trigger: ":leaf.clover.three:", replace: "☘" }
+  - { trigger: ":leaf.clover.four:", replace: "🍀" }
+  - { trigger: ":leaf.fall:", replace: "🍂" }
+  - { trigger: ":leaf.herb:", replace: "🌿" }
+  - { trigger: ":leaf.maple:", replace: "🍁" }
+  - { trigger: ":leaf.wind:", replace: "🍃" }
   - { trigger: ":leftluggage:", replace: "🛅" }
   - { trigger: ":leg:", replace: "🦵" }
-  - { trigger: ":legmech:", replace: "🦿" }
+  - { trigger: ":leg.mech:", replace: "🦿" }
   - { trigger: ":lemon:", replace: "🍋" }
   - { trigger: ":leopard:", replace: "🐆" }
-  - { trigger: ":letterlove:", replace: "💌" }
+  - { trigger: ":letter.love:", replace: "💌" }
   - { trigger: ":liberty:", replace: "🗽" }
   - { trigger: ":lightbulb:", replace: "💡" }
   - { trigger: ":lightning:", replace: "⚡" }
   - { trigger: ":lion:", replace: "🦁" }
   - { trigger: ":lipstick:", replace: "💄" }
   - { trigger: ":litter:", replace: "🚮" }
-  - { trigger: ":litternot:", replace: "🚯" }
+  - { trigger: ":litter.not:", replace: "🚯" }
   - { trigger: ":lizard:", replace: "🦎" }
   - { trigger: ":llama:", replace: "🦙" }
   - { trigger: ":lobster:", replace: "🦞" }
   - { trigger: ":lock:", replace: "🔒" }
-  - { trigger: ":lockkey:", replace: "🔐" }
-  - { trigger: ":lockopen:", replace: "🔓" }
-  - { trigger: ":lockpen:", replace: "🔏" }
+  - { trigger: ":lock.key:", replace: "🔐" }
+  - { trigger: ":lock.open:", replace: "🔓" }
+  - { trigger: ":lock.pen:", replace: "🔏" }
   - { trigger: ":lollipop:", replace: "🍭" }
   - { trigger: ":lotion:", replace: "🧴" }
   - { trigger: ":luggage:", replace: "🧳" }
   - { trigger: ":lungs:", replace: "🫁" }
   - { trigger: ":mage:", replace: "🧙" }
   - { trigger: ":magnet:", replace: "🧲" }
-  - { trigger: ":magnifyr:", replace: "🔎" }
-  - { trigger: ":magnifyl:", replace: "🔍" }
-  - { trigger: ":mahjongdragon.red:", replace: "🀄" }
+  - { trigger: ":magnify.r:", replace: "🔎" }
+  - { trigger: ":magnify.l:", replace: "🔍" }
+  - { trigger: ":mahjong.dragon.red:", replace: "🀄" }
   - { trigger: ":mail:", replace: "✉" }
-  - { trigger: ":mailarrow:", replace: "📩" }
-  - { trigger: ":mailboxclosed.empty:", replace: "📪" }
-  - { trigger: ":mailboxclosed.full:", replace: "📫" }
-  - { trigger: ":mailboxopen.empty:", replace: "📭" }
-  - { trigger: ":mailboxopen.full:", replace: "📬" }
+  - { trigger: ":mail.arrow:", replace: "📩" }
+  - { trigger: ":mailbox.closed.empty:", replace: "📪" }
+  - { trigger: ":mailbox.closed.full:", replace: "📫" }
+  - { trigger: ":mailbox.open.empty:", replace: "📭" }
+  - { trigger: ":mailbox.open.full:", replace: "📬" }
   - { trigger: ":mammoth:", replace: "🦣" }
   - { trigger: ":mango:", replace: "🥭" }
-  - { trigger: ":mapworld:", replace: "🗺" }
-  - { trigger: ":mapjp:", replace: "🗾" }
+  - { trigger: ":map.world:", replace: "🗺" }
+  - { trigger: ":map.jp:", replace: "🗾" }
   - { trigger: ":martialarts:", replace: "🥋" }
   - { trigger: ":masks:", replace: "🎭" }
   - { trigger: ":mate:", replace: "🧉" }
   - { trigger: ":matryoshka:", replace: "🪆" }
   - { trigger: ":meat:", replace: "🥩" }
-  - { trigger: ":meatbone:", replace: "🍖" }
-  - { trigger: ":medalfirst:", replace: "🥇" }
-  - { trigger: ":medalsecond:", replace: "🥈" }
-  - { trigger: ":medalthird:", replace: "🥉" }
-  - { trigger: ":medalsports:", replace: "🏅" }
-  - { trigger: ":medalmilitary:", replace: "🎖" }
+  - { trigger: ":meat.bone:", replace: "🍖" }
+  - { trigger: ":medal.first:", replace: "🥇" }
+  - { trigger: ":medal.second:", replace: "🥈" }
+  - { trigger: ":medal.third:", replace: "🥉" }
+  - { trigger: ":medal.sports:", replace: "🏅" }
+  - { trigger: ":medal.military:", replace: "🎖" }
   - { trigger: ":megaphone:", replace: "📢" }
-  - { trigger: ":megaphonesimple:", replace: "📣" }
+  - { trigger: ":megaphone.simple:", replace: "📣" }
   - { trigger: ":melon:", replace: "🍈" }
   - { trigger: ":merperson:", replace: "🧜" }
   - { trigger: ":metro:", replace: "Ⓜ" }
   - { trigger: ":microbe:", replace: "🦠" }
   - { trigger: ":microphone:", replace: "🎤" }
-  - { trigger: ":microphonestudio:", replace: "🎙" }
+  - { trigger: ":microphone.studio:", replace: "🎙" }
   - { trigger: ":microscope:", replace: "🔬" }
   - { trigger: ":milkyway:", replace: "🌌" }
   - { trigger: ":mirror:", replace: "🪞" }
   - { trigger: ":mixer:", replace: "🎛" }
-  - { trigger: ":moneybag:", replace: "💰" }
-  - { trigger: ":moneydollar:", replace: "💵" }
-  - { trigger: ":moneyeuro:", replace: "💶" }
-  - { trigger: ":moneypound:", replace: "💷" }
-  - { trigger: ":moneyyen:", replace: "💴" }
-  - { trigger: ":moneywings:", replace: "💸" }
+  - { trigger: ":money.bag:", replace: "💰" }
+  - { trigger: ":money.dollar:", replace: "💵" }
+  - { trigger: ":money.euro:", replace: "💶" }
+  - { trigger: ":money.pound:", replace: "💷" }
+  - { trigger: ":money.yen:", replace: "💴" }
+  - { trigger: ":money.wings:", replace: "💸" }
   - { trigger: ":monkey:", replace: "🐒" }
-  - { trigger: ":monkeyface:", replace: "🐵" }
-  - { trigger: ":monkeyhear.not:", replace: "🙉" }
-  - { trigger: ":monkeysee.not:", replace: "🙈" }
-  - { trigger: ":monkeyspeak.not:", replace: "🙊" }
-  - { trigger: ":mooncrescent:", replace: "🌙" }
-  - { trigger: ":moonfull:", replace: "🌕" }
-  - { trigger: ":moonfull.face:", replace: "🌝" }
-  - { trigger: ":moonnew:", replace: "🌑" }
-  - { trigger: ":moonnew.face:", replace: "🌚" }
-  - { trigger: ":moonwane.one:", replace: "🌖" }
-  - { trigger: ":moonwane.two:", replace: "🌗" }
-  - { trigger: ":moonwane.three.face:", replace: "🌜" }
-  - { trigger: ":moonwane.three:", replace: "🌘" }
-  - { trigger: ":moonwax.one:", replace: "🌒" }
-  - { trigger: ":moonwax.two:", replace: "🌓" }
-  - { trigger: ":moonwax.two.face:", replace: "🌛" }
-  - { trigger: ":moonwax.three:", replace: "🌔" }
+  - { trigger: ":monkey.face:", replace: "🐵" }
+  - { trigger: ":monkey.hear.not:", replace: "🙉" }
+  - { trigger: ":monkey.see.not:", replace: "🙈" }
+  - { trigger: ":monkey.speak.not:", replace: "🙊" }
+  - { trigger: ":moon.crescent:", replace: "🌙" }
+  - { trigger: ":moon.full:", replace: "🌕" }
+  - { trigger: ":moon.full.face:", replace: "🌝" }
+  - { trigger: ":moon.new:", replace: "🌑" }
+  - { trigger: ":moon.new.face:", replace: "🌚" }
+  - { trigger: ":moon.wane.one:", replace: "🌖" }
+  - { trigger: ":moon.wane.two:", replace: "🌗" }
+  - { trigger: ":moon.wane.three.face:", replace: "🌜" }
+  - { trigger: ":moon.wane.three:", replace: "🌘" }
+  - { trigger: ":moon.wax.one:", replace: "🌒" }
+  - { trigger: ":moon.wax.two:", replace: "🌓" }
+  - { trigger: ":moon.wax.two.face:", replace: "🌛" }
+  - { trigger: ":moon.wax.three:", replace: "🌔" }
   - { trigger: ":mortarboard:", replace: "🎓" }
   - { trigger: ":mosque:", replace: "🕌" }
   - { trigger: ":mosquito:", replace: "🦟" }
   - { trigger: ":motorcycle:", replace: "🏍" }
   - { trigger: ":motorway:", replace: "🛣" }
   - { trigger: ":mountain:", replace: "⛰" }
-  - { trigger: ":mountainfuji:", replace: "🗻" }
-  - { trigger: ":mountainsnow:", replace: "🏔" }
-  - { trigger: ":mountainsunrise:", replace: "🌄" }
+  - { trigger: ":mountain.fuji:", replace: "🗻" }
+  - { trigger: ":mountain.snow:", replace: "🏔" }
+  - { trigger: ":mountain.sunrise:", replace: "🌄" }
   - { trigger: ":mouse:", replace: "🐁" }
-  - { trigger: ":mouseface:", replace: "🐭" }
+  - { trigger: ":mouse.face:", replace: "🐭" }
   - { trigger: ":mousetrap:", replace: "🪤" }
   - { trigger: ":mouth:", replace: "👄" }
-  - { trigger: ":mouthbite:", replace: "🫦" }
+  - { trigger: ":mouth.bite:", replace: "🫦" }
   - { trigger: ":moyai:", replace: "🗿" }
   - { trigger: ":museum:", replace: "🏛" }
   - { trigger: ":mushroom:", replace: "🍄" }
   - { trigger: ":musicalscore:", replace: "🎼" }
-  - { trigger: ":nailspolish:", replace: "💅" }
+  - { trigger: ":nails.polish:", replace: "💅" }
   - { trigger: ":namebadge:", replace: "📛" }
   - { trigger: ":nazar:", replace: "🧿" }
   - { trigger: ":necktie:", replace: "👔" }
   - { trigger: ":needle:", replace: "🪡" }
-  - { trigger: ":nestempty:", replace: "🪹" }
-  - { trigger: ":nesteggs:", replace: "🪺" }
+  - { trigger: ":nest.empty:", replace: "🪹" }
+  - { trigger: ":nest.eggs:", replace: "🪺" }
   - { trigger: ":new:", replace: "🆕" }
   - { trigger: ":newspaper:", replace: "📰" }
-  - { trigger: ":newspaperrolled:", replace: "🗞" }
+  - { trigger: ":newspaper.rolled:", replace: "🗞" }
   - { trigger: ":ng:", replace: "🆖" }
   - { trigger: ":ningyo:", replace: "🎎" }
   - { trigger: ":ninja:", replace: "🥷" }
   - { trigger: ":noentry:", replace: "⛔" }
   - { trigger: ":nose:", replace: "👃" }
   - { trigger: ":notebook:", replace: "📓" }
-  - { trigger: ":notebookdeco:", replace: "📔" }
+  - { trigger: ":notebook.deco:", replace: "📔" }
   - { trigger: ":notepad:", replace: "🗒" }
   - { trigger: ":notes:", replace: "🎵" }
-  - { trigger: ":notestriple:", replace: "🎶" }
+  - { trigger: ":notes.triple:", replace: "🎶" }
   - { trigger: ":numbers:", replace: "🔢" }
   - { trigger: ":octopus:", replace: "🐙" }
   - { trigger: ":office:", replace: "🏢" }
@@ -923,10 +923,10 @@ matches:
   - { trigger: ":package:", replace: "📦" }
   - { trigger: ":paella:", replace: "🥘" }
   - { trigger: ":page:", replace: "📄" }
-  - { trigger: ":pagecurl:", replace: "📃" }
-  - { trigger: ":pagepencil:", replace: "📝" }
+  - { trigger: ":page.curl:", replace: "📃" }
+  - { trigger: ":page.pencil:", replace: "📝" }
   - { trigger: ":pager:", replace: "📟" }
-  - { trigger: ":pagestabs:", replace: "📑" }
+  - { trigger: ":pages.tabs:", replace: "📑" }
   - { trigger: ":painting:", replace: "🖼" }
   - { trigger: ":palette:", replace: "🎨" }
   - { trigger: ":pancakes:", replace: "🥞" }
@@ -942,53 +942,53 @@ matches:
   - { trigger: ":peanuts:", replace: "🥜" }
   - { trigger: ":pear:", replace: "🍐" }
   - { trigger: ":pedestrian:", replace: "🚶" }
-  - { trigger: ":pedestriannot:", replace: "🚷" }
-  - { trigger: ":penball:", replace: "🖊" }
-  - { trigger: ":penfountain:", replace: "🖋" }
+  - { trigger: ":pedestrian.not:", replace: "🚷" }
+  - { trigger: ":pen.ball:", replace: "🖊" }
+  - { trigger: ":pen.fountain:", replace: "🖋" }
   - { trigger: ":pencil:", replace: "✏" }
   - { trigger: ":penguin:", replace: "🐧" }
   - { trigger: ":pepper:", replace: "🫑" }
-  - { trigger: ":pepperhot:", replace: "🌶" }
+  - { trigger: ":pepper.hot:", replace: "🌶" }
   - { trigger: ":person:", replace: "🧑" }
-  - { trigger: ":personangry:", replace: "🙎" }
-  - { trigger: ":personbeard:", replace: "🧔" }
-  - { trigger: ":personblonde:", replace: "👱" }
-  - { trigger: ":personbow:", replace: "🙇" }
-  - { trigger: ":personcrown:", replace: "🫅" }
-  - { trigger: ":persondeaf:", replace: "🧏" }
-  - { trigger: ":personfacepalm:", replace: "🤦" }
-  - { trigger: ":personfrown:", replace: "🙍" }
-  - { trigger: ":personhijab:", replace: "🧕" }
-  - { trigger: ":personkneel:", replace: "🧎" }
-  - { trigger: ":personlotus:", replace: "🧘" }
-  - { trigger: ":personmassage:", replace: "💆" }
-  - { trigger: ":personno:", replace: "🙅" }
-  - { trigger: ":personok:", replace: "🙆" }
-  - { trigger: ":personold:", replace: "🧓" }
-  - { trigger: ":personpregnant:", replace: "🫄" }
-  - { trigger: ":personraise:", replace: "🙋" }
-  - { trigger: ":personsassy:", replace: "💁" }
-  - { trigger: ":personshrug:", replace: "🤷" }
-  - { trigger: ":personstand:", replace: "🧍" }
-  - { trigger: ":personsteam:", replace: "🧖" }
+  - { trigger: ":person.angry:", replace: "🙎" }
+  - { trigger: ":person.beard:", replace: "🧔" }
+  - { trigger: ":person.blonde:", replace: "👱" }
+  - { trigger: ":person.bow:", replace: "🙇" }
+  - { trigger: ":person.crown:", replace: "🫅" }
+  - { trigger: ":person.deaf:", replace: "🧏" }
+  - { trigger: ":person.facepalm:", replace: "🤦" }
+  - { trigger: ":person.frown:", replace: "🙍" }
+  - { trigger: ":person.hijab:", replace: "🧕" }
+  - { trigger: ":person.kneel:", replace: "🧎" }
+  - { trigger: ":person.lotus:", replace: "🧘" }
+  - { trigger: ":person.massage:", replace: "💆" }
+  - { trigger: ":person.no:", replace: "🙅" }
+  - { trigger: ":person.ok:", replace: "🙆" }
+  - { trigger: ":person.old:", replace: "🧓" }
+  - { trigger: ":person.pregnant:", replace: "🫄" }
+  - { trigger: ":person.raise:", replace: "🙋" }
+  - { trigger: ":person.sassy:", replace: "💁" }
+  - { trigger: ":person.shrug:", replace: "🤷" }
+  - { trigger: ":person.stand:", replace: "🧍" }
+  - { trigger: ":person.steam:", replace: "🧖" }
   - { trigger: ":petri:", replace: "🧫" }
   - { trigger: ":phone:", replace: "📱" }
-  - { trigger: ":phonearrow:", replace: "📲" }
-  - { trigger: ":phoneclassic:", replace: "☎" }
-  - { trigger: ":phonenot:", replace: "📵" }
-  - { trigger: ":phoneoff:", replace: "📴" }
-  - { trigger: ":phonereceiver:", replace: "📞" }
-  - { trigger: ":phonesignal:", replace: "📶" }
-  - { trigger: ":phonevibrate:", replace: "📳" }
+  - { trigger: ":phone.arrow:", replace: "📲" }
+  - { trigger: ":phone.classic:", replace: "☎" }
+  - { trigger: ":phone.not:", replace: "📵" }
+  - { trigger: ":phone.off:", replace: "📴" }
+  - { trigger: ":phone.receiver:", replace: "📞" }
+  - { trigger: ":phone.signal:", replace: "📶" }
+  - { trigger: ":phone.vibrate:", replace: "📳" }
   - { trigger: ":piano:", replace: "🎹" }
   - { trigger: ":pick:", replace: "⛏" }
   - { trigger: ":pie:", replace: "🥧" }
   - { trigger: ":pig:", replace: "🐖" }
-  - { trigger: ":pigface:", replace: "🐷" }
-  - { trigger: ":pignose:", replace: "🐽" }
+  - { trigger: ":pig.face:", replace: "🐷" }
+  - { trigger: ":pig.nose:", replace: "🐽" }
   - { trigger: ":pill:", replace: "💊" }
   - { trigger: ":pin:", replace: "📌" }
-  - { trigger: ":pinround:", replace: "📍" }
+  - { trigger: ":pin.round:", replace: "📍" }
   - { trigger: ":pinata:", replace: "🪅" }
   - { trigger: ":pineapple:", replace: "🍍" }
   - { trigger: ":pingpong:", replace: "🏓" }
@@ -998,48 +998,48 @@ matches:
   - { trigger: ":planet:", replace: "🪐" }
   - { trigger: ":plant:", replace: "🪴" }
   - { trigger: ":plaster:", replace: "🩹" }
-  - { trigger: ":platecutlery:", replace: "🍽" }
-  - { trigger: ":playbackdown:", replace: "⏬" }
-  - { trigger: ":playbackeject:", replace: "⏏" }
-  - { trigger: ":playbackforward:", replace: "⏩" }
-  - { trigger: ":playbackpause:", replace: "⏸" }
-  - { trigger: ":playbackrecord:", replace: "⏺" }
-  - { trigger: ":playbackrepeat:", replace: "🔁" }
-  - { trigger: ":playbackrepeat.once:", replace: "🔂" }
-  - { trigger: ":playbackrepeat.v:", replace: "🔃" }
-  - { trigger: ":playbackrestart:", replace: "⏮" }
-  - { trigger: ":playbackrewind:", replace: "⏪" }
-  - { trigger: ":playbackshuffle:", replace: "🔀" }
-  - { trigger: ":playbackskip:", replace: "⏭" }
-  - { trigger: ":playbackstop:", replace: "⏹" }
-  - { trigger: ":playbacktoggle:", replace: "⏯" }
-  - { trigger: ":playbackup:", replace: "⏫" }
-  - { trigger: ":playingcardflower:", replace: "🎴" }
-  - { trigger: ":playingcardjoker:", replace: "🃏" }
+  - { trigger: ":plate.cutlery:", replace: "🍽" }
+  - { trigger: ":playback.down:", replace: "⏬" }
+  - { trigger: ":playback.eject:", replace: "⏏" }
+  - { trigger: ":playback.forward:", replace: "⏩" }
+  - { trigger: ":playback.pause:", replace: "⏸" }
+  - { trigger: ":playback.record:", replace: "⏺" }
+  - { trigger: ":playback.repeat:", replace: "🔁" }
+  - { trigger: ":playback.repeat.once:", replace: "🔂" }
+  - { trigger: ":playback.repeat.v:", replace: "🔃" }
+  - { trigger: ":playback.restart:", replace: "⏮" }
+  - { trigger: ":playback.rewind:", replace: "⏪" }
+  - { trigger: ":playback.shuffle:", replace: "🔀" }
+  - { trigger: ":playback.skip:", replace: "⏭" }
+  - { trigger: ":playback.stop:", replace: "⏹" }
+  - { trigger: ":playback.toggle:", replace: "⏯" }
+  - { trigger: ":playback.up:", replace: "⏫" }
+  - { trigger: ":playingcard.flower:", replace: "🎴" }
+  - { trigger: ":playingcard.joker:", replace: "🃏" }
   - { trigger: ":plunger:", replace: "🪠" }
   - { trigger: ":policeofficer:", replace: "👮" }
   - { trigger: ":poo:", replace: "💩" }
   - { trigger: ":popcorn:", replace: "🍿" }
-  - { trigger: ":posteu:", replace: "🏤" }
-  - { trigger: ":postjp:", replace: "🏣" }
+  - { trigger: ":post.eu:", replace: "🏤" }
+  - { trigger: ":post.jp:", replace: "🏣" }
   - { trigger: ":postbox:", replace: "📮" }
   - { trigger: ":potato:", replace: "🥔" }
-  - { trigger: ":potatosweet:", replace: "🍠" }
+  - { trigger: ":potato.sweet:", replace: "🍠" }
   - { trigger: ":pouch:", replace: "👝" }
   - { trigger: ":powerplug:", replace: "🔌" }
   - { trigger: ":present:", replace: "🎁" }
   - { trigger: ":pretzel:", replace: "🥨" }
   - { trigger: ":printer:", replace: "🖨" }
-  - { trigger: ":printsfoot:", replace: "👣" }
-  - { trigger: ":printspaw:", replace: "🐾" }
+  - { trigger: ":prints.foot:", replace: "👣" }
+  - { trigger: ":prints.paw:", replace: "🐾" }
   - { trigger: ":prohibited:", replace: "🚫" }
   - { trigger: ":projector:", replace: "📽" }
-  - { trigger: ":pumpkinlantern:", replace: "🎃" }
+  - { trigger: ":pumpkin.lantern:", replace: "🎃" }
   - { trigger: ":purse:", replace: "👛" }
   - { trigger: ":quest:", replace: "❓" }
-  - { trigger: ":questwhite:", replace: "❔" }
+  - { trigger: ":quest.white:", replace: "❔" }
   - { trigger: ":rabbit:", replace: "🐇" }
-  - { trigger: ":rabbitface:", replace: "🐰" }
+  - { trigger: ":rabbit.face:", replace: "🐰" }
   - { trigger: ":raccoon:", replace: "🦝" }
   - { trigger: ":radio:", replace: "📻" }
   - { trigger: ":radioactive:", replace: "☢" }
@@ -1054,11 +1054,11 @@ matches:
   - { trigger: ":restroom:", replace: "🚻" }
   - { trigger: ":rhino:", replace: "🦏" }
   - { trigger: ":ribbon:", replace: "🎀" }
-  - { trigger: ":ribbonremind:", replace: "🎗" }
+  - { trigger: ":ribbon.remind:", replace: "🎗" }
   - { trigger: ":rice:", replace: "🍚" }
-  - { trigger: ":ricecracker:", replace: "🍘" }
-  - { trigger: ":riceear:", replace: "🌾" }
-  - { trigger: ":riceonigiri:", replace: "🍙" }
+  - { trigger: ":rice.cracker:", replace: "🍘" }
+  - { trigger: ":rice.ear:", replace: "🌾" }
+  - { trigger: ":rice.onigiri:", replace: "🍙" }
   - { trigger: ":ring:", replace: "💍" }
   - { trigger: ":ringbuoy:", replace: "🛟" }
   - { trigger: ":robot:", replace: "🤖" }
@@ -1068,7 +1068,7 @@ matches:
   - { trigger: ":rosette:", replace: "🏵" }
   - { trigger: ":rugby:", replace: "🏉" }
   - { trigger: ":ruler:", replace: "📏" }
-  - { trigger: ":rulertriangle:", replace: "📐" }
+  - { trigger: ":ruler.triangle:", replace: "📐" }
   - { trigger: ":running:", replace: "🏃" }
   - { trigger: ":safetypin:", replace: "🧷" }
   - { trigger: ":safetyvest:", replace: "🦺" }
@@ -1076,8 +1076,8 @@ matches:
   - { trigger: ":salad:", replace: "🥗" }
   - { trigger: ":salt:", replace: "🧂" }
   - { trigger: ":sandwich:", replace: "🥪" }
-  - { trigger: ":santaman:", replace: "🎅" }
-  - { trigger: ":santawoman:", replace: "🤶" }
+  - { trigger: ":santa.man:", replace: "🎅" }
+  - { trigger: ":santa.woman:", replace: "🤶" }
   - { trigger: ":satdish:", replace: "📡" }
   - { trigger: ":satellite:", replace: "🛰" }
   - { trigger: ":saw:", replace: "🪚" }
@@ -1087,7 +1087,7 @@ matches:
   - { trigger: ":school:", replace: "🏫" }
   - { trigger: ":scissors:", replace: "✂" }
   - { trigger: ":scooter:", replace: "🛴" }
-  - { trigger: ":scootermotor:", replace: "🛵" }
+  - { trigger: ":scooter.motor:", replace: "🛵" }
   - { trigger: ":scorpion:", replace: "🦂" }
   - { trigger: ":screwdriver:", replace: "🪛" }
   - { trigger: ":scroll:", replace: "📜" }
@@ -1096,46 +1096,46 @@ matches:
   - { trigger: ":seedling:", replace: "🌱" }
   - { trigger: ":shark:", replace: "🦈" }
   - { trigger: ":sheep:", replace: "🐑" }
-  - { trigger: ":shellspiral:", replace: "🐚" }
+  - { trigger: ":shell.spiral:", replace: "🐚" }
   - { trigger: ":shield:", replace: "🛡" }
   - { trigger: ":ship:", replace: "🚢" }
-  - { trigger: ":shipcruise:", replace: "🛳" }
-  - { trigger: ":shipferry:", replace: "⛴" }
-  - { trigger: ":shirtsports:", replace: "🎽" }
-  - { trigger: ":shirtt:", replace: "👕" }
+  - { trigger: ":ship.cruise:", replace: "🛳" }
+  - { trigger: ":ship.ferry:", replace: "⛴" }
+  - { trigger: ":shirt.sports:", replace: "🎽" }
+  - { trigger: ":shirt.t:", replace: "👕" }
   - { trigger: ":shoe:", replace: "👞" }
-  - { trigger: ":shoeballet:", replace: "🩰" }
-  - { trigger: ":shoeflat:", replace: "🥿" }
-  - { trigger: ":shoeheel:", replace: "👠" }
-  - { trigger: ":shoehike:", replace: "🥾" }
-  - { trigger: ":shoeice:", replace: "⛸" }
-  - { trigger: ":shoeroller:", replace: "🛼" }
-  - { trigger: ":shoesandal.heel:", replace: "👡" }
-  - { trigger: ":shoeski:", replace: "🎿" }
-  - { trigger: ":shoesneaker:", replace: "👟" }
-  - { trigger: ":shoetall:", replace: "👢" }
-  - { trigger: ":shoethong:", replace: "🩴" }
+  - { trigger: ":shoe.ballet:", replace: "🩰" }
+  - { trigger: ":shoe.flat:", replace: "🥿" }
+  - { trigger: ":shoe.heel:", replace: "👠" }
+  - { trigger: ":shoe.hike:", replace: "🥾" }
+  - { trigger: ":shoe.ice:", replace: "⛸" }
+  - { trigger: ":shoe.roller:", replace: "🛼" }
+  - { trigger: ":shoe.sandal.heel:", replace: "👡" }
+  - { trigger: ":shoe.ski:", replace: "🎿" }
+  - { trigger: ":shoe.sneaker:", replace: "👟" }
+  - { trigger: ":shoe.tall:", replace: "👢" }
+  - { trigger: ":shoe.thong:", replace: "🩴" }
   - { trigger: ":shopping:", replace: "🛍" }
   - { trigger: ":shorts:", replace: "🩳" }
   - { trigger: ":shoshinsha:", replace: "🔰" }
   - { trigger: ":shovel:", replace: "🪏" }
   - { trigger: ":shower:", replace: "🚿" }
   - { trigger: ":shrimp:", replace: "🦐" }
-  - { trigger: ":shrimpfried:", replace: "🍤" }
+  - { trigger: ":shrimp.fried:", replace: "🍤" }
   - { trigger: ":shrine:", replace: "⛩" }
-  - { trigger: ":signcrossing:", replace: "🚸" }
-  - { trigger: ":signstop:", replace: "🛑" }
+  - { trigger: ":sign.crossing:", replace: "🚸" }
+  - { trigger: ":sign.stop:", replace: "🛑" }
   - { trigger: ":silhouette:", replace: "👤" }
-  - { trigger: ":silhouettedouble:", replace: "👥" }
-  - { trigger: ":silhouettehug:", replace: "🫂" }
-  - { trigger: ":silhouettespeak:", replace: "🗣" }
+  - { trigger: ":silhouette.double:", replace: "👥" }
+  - { trigger: ":silhouette.hug:", replace: "🫂" }
+  - { trigger: ":silhouette.speak:", replace: "🗣" }
   - { trigger: ":siren:", replace: "🚨" }
   - { trigger: ":skateboard:", replace: "🛹" }
-  - { trigger: ":skewerdango:", replace: "🍡" }
-  - { trigger: ":skeweroden:", replace: "🍢" }
+  - { trigger: ":skewer.dango:", replace: "🍡" }
+  - { trigger: ":skewer.oden:", replace: "🍢" }
   - { trigger: ":skiing:", replace: "⛷" }
   - { trigger: ":skull:", replace: "💀" }
-  - { trigger: ":skullbones:", replace: "☠" }
+  - { trigger: ":skull.bones:", replace: "☠" }
   - { trigger: ":skunk:", replace: "🦨" }
   - { trigger: ":sled:", replace: "🛷" }
   - { trigger: ":slide:", replace: "🛝" }
@@ -1147,59 +1147,59 @@ matches:
   - { trigger: ":snowboarding:", replace: "🏂" }
   - { trigger: ":snowflake:", replace: "❄" }
   - { trigger: ":snowman:", replace: "⛄" }
-  - { trigger: ":snowmansnow:", replace: "☃" }
+  - { trigger: ":snowman.snow:", replace: "☃" }
   - { trigger: ":soap:", replace: "🧼" }
   - { trigger: ":socks:", replace: "🧦" }
   - { trigger: ":softball:", replace: "🥎" }
   - { trigger: ":sos:", replace: "🆘" }
   - { trigger: ":soup:", replace: "🍲" }
   - { trigger: ":spaghetti:", replace: "🍝" }
-  - { trigger: ":sparklebox:", replace: "❇" }
+  - { trigger: ":sparkle.box:", replace: "❇" }
   - { trigger: ":sparkler:", replace: "🎇" }
   - { trigger: ":sparkles:", replace: "✨" }
   - { trigger: ":speaker:", replace: "🔈" }
-  - { trigger: ":speakernot:", replace: "🔇" }
-  - { trigger: ":speakerwave:", replace: "🔉" }
-  - { trigger: ":speakerwaves:", replace: "🔊" }
+  - { trigger: ":speaker.not:", replace: "🔇" }
+  - { trigger: ":speaker.wave:", replace: "🔉" }
+  - { trigger: ":speaker.waves:", replace: "🔊" }
   - { trigger: ":spider:", replace: "🕷" }
   - { trigger: ":spiderweb:", replace: "🕸" }
   - { trigger: ":spinach:", replace: "🥬" }
   - { trigger: ":splatter:", replace: "🫟" }
   - { trigger: ":sponge:", replace: "🧽" }
   - { trigger: ":spoon:", replace: "🥄" }
-  - { trigger: ":squareblack:", replace: "⬛" }
-  - { trigger: ":squareblack.tiny:", replace: "▪" }
-  - { trigger: ":squareblack.small:", replace: "◾" }
-  - { trigger: ":squareblack.medium:", replace: "◼" }
-  - { trigger: ":squarewhite:", replace: "⬜" }
-  - { trigger: ":squarewhite.tiny:", replace: "▫" }
-  - { trigger: ":squarewhite.small:", replace: "◽" }
-  - { trigger: ":squarewhite.medium:", replace: "◻" }
-  - { trigger: ":squareblue:", replace: "🟦" }
-  - { trigger: ":squarebrown:", replace: "🟫" }
-  - { trigger: ":squaregreen:", replace: "🟩" }
-  - { trigger: ":squareorange:", replace: "🟧" }
-  - { trigger: ":squarepurple:", replace: "🟪" }
-  - { trigger: ":squarered:", replace: "🟥" }
-  - { trigger: ":squareyellow:", replace: "🟨" }
+  - { trigger: ":square.black:", replace: "⬛" }
+  - { trigger: ":square.black.tiny:", replace: "▪" }
+  - { trigger: ":square.black.small:", replace: "◾" }
+  - { trigger: ":square.black.medium:", replace: "◼" }
+  - { trigger: ":square.white:", replace: "⬜" }
+  - { trigger: ":square.white.tiny:", replace: "▫" }
+  - { trigger: ":square.white.small:", replace: "◽" }
+  - { trigger: ":square.white.medium:", replace: "◻" }
+  - { trigger: ":square.blue:", replace: "🟦" }
+  - { trigger: ":square.brown:", replace: "🟫" }
+  - { trigger: ":square.green:", replace: "🟩" }
+  - { trigger: ":square.orange:", replace: "🟧" }
+  - { trigger: ":square.purple:", replace: "🟪" }
+  - { trigger: ":square.red:", replace: "🟥" }
+  - { trigger: ":square.yellow:", replace: "🟨" }
   - { trigger: ":squid:", replace: "🦑" }
   - { trigger: ":stadium:", replace: "🏟" }
   - { trigger: ":star:", replace: "⭐" }
-  - { trigger: ":stararc:", replace: "💫" }
-  - { trigger: ":starbox:", replace: "✴" }
-  - { trigger: ":starglow:", replace: "🌟" }
-  - { trigger: ":starshoot:", replace: "🌠" }
+  - { trigger: ":star.arc:", replace: "💫" }
+  - { trigger: ":star.box:", replace: "✴" }
+  - { trigger: ":star.glow:", replace: "🌟" }
+  - { trigger: ":star.shoot:", replace: "🌠" }
   - { trigger: ":stethoscope:", replace: "🩺" }
-  - { trigger: ":storebig:", replace: "🏬" }
-  - { trigger: ":storesmall:", replace: "🏪" }
+  - { trigger: ":store.big:", replace: "🏬" }
+  - { trigger: ":store.small:", replace: "🏪" }
   - { trigger: ":strawberry:", replace: "🍓" }
-  - { trigger: ":suitclub:", replace: "♣" }
-  - { trigger: ":suitdiamond:", replace: "♦" }
-  - { trigger: ":suitheart:", replace: "♥" }
-  - { trigger: ":suitspade:", replace: "♠" }
+  - { trigger: ":suit.club:", replace: "♣" }
+  - { trigger: ":suit.diamond:", replace: "♦" }
+  - { trigger: ":suit.heart:", replace: "♥" }
+  - { trigger: ":suit.spade:", replace: "♠" }
   - { trigger: ":sun:", replace: "☀" }
-  - { trigger: ":suncloud:", replace: "🌤" }
-  - { trigger: ":sunface:", replace: "🌞" }
+  - { trigger: ":sun.cloud:", replace: "🌤" }
+  - { trigger: ":sun.face:", replace: "🌞" }
   - { trigger: ":sunrise:", replace: "🌅" }
   - { trigger: ":superhero:", replace: "🦸" }
   - { trigger: ":supervillain:", replace: "🦹" }
@@ -1218,9 +1218,9 @@ matches:
   - { trigger: ":tanabata:", replace: "🎋" }
   - { trigger: ":tangerine:", replace: "🍊" }
   - { trigger: ":tap:", replace: "🚰" }
-  - { trigger: ":tapnot:", replace: "🚱" }
+  - { trigger: ":tap.not:", replace: "🚱" }
   - { trigger: ":taxi:", replace: "🚕" }
-  - { trigger: ":taxifront:", replace: "🚖" }
+  - { trigger: ":taxi.front:", replace: "🚖" }
   - { trigger: ":teacup:", replace: "🍵" }
   - { trigger: ":teapot:", replace: "🫖" }
   - { trigger: ":teddy:", replace: "🧸" }
@@ -1233,12 +1233,12 @@ matches:
   - { trigger: ":testtube:", replace: "🧪" }
   - { trigger: ":thermometer:", replace: "🌡" }
   - { trigger: ":thread:", replace: "🧵" }
-  - { trigger: ":thumbup:", replace: "👍" }
-  - { trigger: ":thumbdown:", replace: "👎" }
-  - { trigger: ":ticketevent:", replace: "🎟" }
-  - { trigger: ":tickettravel:", replace: "🎫" }
+  - { trigger: ":thumb.up:", replace: "👍" }
+  - { trigger: ":thumb.down:", replace: "👎" }
+  - { trigger: ":ticket.event:", replace: "🎟" }
+  - { trigger: ":ticket.travel:", replace: "🎫" }
   - { trigger: ":tiger:", replace: "🐅" }
-  - { trigger: ":tigerface:", replace: "🐯" }
+  - { trigger: ":tiger.face:", replace: "🐯" }
   - { trigger: ":tm:", replace: "™" }
   - { trigger: ":toilet:", replace: "🚽" }
   - { trigger: ":toiletpaper:", replace: "🧻" }
@@ -1249,54 +1249,54 @@ matches:
   - { trigger: ":tooth:", replace: "🦷" }
   - { trigger: ":toothbrush:", replace: "🪥" }
   - { trigger: ":tornado:", replace: "🌪" }
-  - { trigger: ":towertokyo:", replace: "🗼" }
+  - { trigger: ":tower.tokyo:", replace: "🗼" }
   - { trigger: ":trackball:", replace: "🖲" }
   - { trigger: ":tractor:", replace: "🚜" }
-  - { trigger: ":trafficlightv:", replace: "🚦" }
-  - { trigger: ":trafficlighth:", replace: "🚥" }
+  - { trigger: ":trafficlight.v:", replace: "🚦" }
+  - { trigger: ":trafficlight.h:", replace: "🚥" }
   - { trigger: ":train:", replace: "🚆" }
-  - { trigger: ":traincar:", replace: "🚃" }
-  - { trigger: ":trainlight:", replace: "🚈" }
-  - { trigger: ":trainmetro:", replace: "🚇" }
-  - { trigger: ":trainmono:", replace: "🚝" }
-  - { trigger: ":trainmountain:", replace: "🚞" }
-  - { trigger: ":trainspeed:", replace: "🚄" }
-  - { trigger: ":trainspeed.bullet:", replace: "🚅" }
-  - { trigger: ":trainsteam:", replace: "🚂" }
-  - { trigger: ":trainstop:", replace: "🚉" }
-  - { trigger: ":trainsuspend:", replace: "🚟" }
-  - { trigger: ":traintram:", replace: "🚊" }
-  - { trigger: ":traintram.car:", replace: "🚋" }
+  - { trigger: ":train.car:", replace: "🚃" }
+  - { trigger: ":train.light:", replace: "🚈" }
+  - { trigger: ":train.metro:", replace: "🚇" }
+  - { trigger: ":train.mono:", replace: "🚝" }
+  - { trigger: ":train.mountain:", replace: "🚞" }
+  - { trigger: ":train.speed:", replace: "🚄" }
+  - { trigger: ":train.speed.bullet:", replace: "🚅" }
+  - { trigger: ":train.steam:", replace: "🚂" }
+  - { trigger: ":train.stop:", replace: "🚉" }
+  - { trigger: ":train.suspend:", replace: "🚟" }
+  - { trigger: ":train.tram:", replace: "🚊" }
+  - { trigger: ":train.tram.car:", replace: "🚋" }
   - { trigger: ":transgender:", replace: "⚧" }
-  - { trigger: ":trayinbox:", replace: "📥" }
-  - { trigger: ":traymail:", replace: "📨" }
-  - { trigger: ":trayoutbox:", replace: "📤" }
-  - { trigger: ":treedeciduous:", replace: "🌳" }
-  - { trigger: ":treeevergreen:", replace: "🌲" }
-  - { trigger: ":treeleafless:", replace: "🪾" }
-  - { trigger: ":treepalm:", replace: "🌴" }
-  - { trigger: ":treexmas:", replace: "🎄" }
-  - { trigger: ":triangler:", replace: "▶" }
-  - { trigger: ":trianglel:", replace: "◀" }
-  - { trigger: ":trianglet:", replace: "🔼" }
-  - { trigger: ":triangleb:", replace: "🔽" }
-  - { trigger: ":trianglet.red:", replace: "🔺" }
-  - { trigger: ":triangleb.red:", replace: "🔻" }
+  - { trigger: ":tray.inbox:", replace: "📥" }
+  - { trigger: ":tray.mail:", replace: "📨" }
+  - { trigger: ":tray.outbox:", replace: "📤" }
+  - { trigger: ":tree.deciduous:", replace: "🌳" }
+  - { trigger: ":tree.evergreen:", replace: "🌲" }
+  - { trigger: ":tree.leafless:", replace: "🪾" }
+  - { trigger: ":tree.palm:", replace: "🌴" }
+  - { trigger: ":tree.xmas:", replace: "🎄" }
+  - { trigger: ":triangle.r:", replace: "▶" }
+  - { trigger: ":triangle.l:", replace: "◀" }
+  - { trigger: ":triangle.t:", replace: "🔼" }
+  - { trigger: ":triangle.b:", replace: "🔽" }
+  - { trigger: ":triangle.t.red:", replace: "🔺" }
+  - { trigger: ":triangle.b.red:", replace: "🔻" }
   - { trigger: ":trident:", replace: "🔱" }
   - { trigger: ":troll:", replace: "🧌" }
   - { trigger: ":trophy:", replace: "🏆" }
   - { trigger: ":truck:", replace: "🚚" }
-  - { trigger: ":trucktrailer:", replace: "🚛" }
+  - { trigger: ":truck.trailer:", replace: "🚛" }
   - { trigger: ":trumpet:", replace: "🎺" }
   - { trigger: ":tsukimi:", replace: "🎑" }
   - { trigger: ":turkey:", replace: "🦃" }
   - { trigger: ":turtle:", replace: "🐢" }
   - { trigger: ":tv:", replace: "📺" }
   - { trigger: ":ufo:", replace: "🛸" }
-  - { trigger: ":umbrellaopen:", replace: "☂" }
-  - { trigger: ":umbrellaclosed:", replace: "🌂" }
-  - { trigger: ":umbrellarain:", replace: "☔" }
-  - { trigger: ":umbrellasun:", replace: "⛱" }
+  - { trigger: ":umbrella.open:", replace: "☂" }
+  - { trigger: ":umbrella.closed:", replace: "🌂" }
+  - { trigger: ":umbrella.rain:", replace: "☔" }
+  - { trigger: ":umbrella.sun:", replace: "⛱" }
   - { trigger: ":unicorn:", replace: "🦄" }
   - { trigger: ":unknown:", replace: "🦳" }
   - { trigger: ":up:", replace: "🆙" }
@@ -1310,28 +1310,28 @@ matches:
   - { trigger: ":wand:", replace: "🪄" }
   - { trigger: ":warning:", replace: "⚠" }
   - { trigger: ":watch:", replace: "⌚" }
-  - { trigger: ":watchstop:", replace: "⏱" }
+  - { trigger: ":watch.stop:", replace: "⏱" }
   - { trigger: ":watermelon:", replace: "🍉" }
   - { trigger: ":waterpolo:", replace: "🤽" }
   - { trigger: ":wave:", replace: "🌊" }
   - { trigger: ":wc:", replace: "🚾" }
   - { trigger: ":weightlifting:", replace: "🏋" }
   - { trigger: ":whale:", replace: "🐋" }
-  - { trigger: ":whalespout:", replace: "🐳" }
+  - { trigger: ":whale.spout:", replace: "🐳" }
   - { trigger: ":wheel:", replace: "🛞" }
   - { trigger: ":wheelchair:", replace: "🦽" }
-  - { trigger: ":wheelchairbox:", replace: "♿" }
-  - { trigger: ":wheelchairmotor:", replace: "🦼" }
+  - { trigger: ":wheelchair.box:", replace: "♿" }
+  - { trigger: ":wheelchair.motor:", replace: "🦼" }
   - { trigger: ":wind:", replace: "🌬" }
   - { trigger: ":windchime:", replace: "🎐" }
   - { trigger: ":window:", replace: "🪟" }
   - { trigger: ":wine:", replace: "🍷" }
   - { trigger: ":wolf:", replace: "🐺" }
   - { trigger: ":woman:", replace: "👩" }
-  - { trigger: ":womanbox:", replace: "🚺" }
-  - { trigger: ":womancrown:", replace: "👸" }
-  - { trigger: ":womanold:", replace: "👵" }
-  - { trigger: ":womanpregnant:", replace: "🤰" }
+  - { trigger: ":woman.box:", replace: "🚺" }
+  - { trigger: ":woman.crown:", replace: "👸" }
+  - { trigger: ":woman.old:", replace: "👵" }
+  - { trigger: ":woman.pregnant:", replace: "🤰" }
   - { trigger: ":wood:", replace: "🪵" }
   - { trigger: ":worm:", replace: "🪱" }
   - { trigger: ":wrench:", replace: "🔧" }
@@ -1340,18 +1340,18 @@ matches:
   - { trigger: ":yarn:", replace: "🧶" }
   - { trigger: ":yoyo:", replace: "🪀" }
   - { trigger: ":zebra:", replace: "🦓" }
-  - { trigger: ":zodiacaquarius:", replace: "♒" }
-  - { trigger: ":zodiacaries:", replace: "♈" }
-  - { trigger: ":zodiaccancer:", replace: "♋" }
-  - { trigger: ":zodiaccapri:", replace: "♑" }
-  - { trigger: ":zodiacgemini:", replace: "♊" }
-  - { trigger: ":zodiacleo:", replace: "♌" }
-  - { trigger: ":zodiaclibra:", replace: "♎" }
-  - { trigger: ":zodiacophi:", replace: "⛎" }
-  - { trigger: ":zodiacpisces:", replace: "♓" }
-  - { trigger: ":zodiacsagit:", replace: "♐" }
-  - { trigger: ":zodiacscorpio:", replace: "♏" }
-  - { trigger: ":zodiactaurus:", replace: "♉" }
-  - { trigger: ":zodiacvirgo:", replace: "♍" }
+  - { trigger: ":zodiac.aquarius:", replace: "♒" }
+  - { trigger: ":zodiac.aries:", replace: "♈" }
+  - { trigger: ":zodiac.cancer:", replace: "♋" }
+  - { trigger: ":zodiac.capri:", replace: "♑" }
+  - { trigger: ":zodiac.gemini:", replace: "♊" }
+  - { trigger: ":zodiac.leo:", replace: "♌" }
+  - { trigger: ":zodiac.libra:", replace: "♎" }
+  - { trigger: ":zodiac.ophi:", replace: "⛎" }
+  - { trigger: ":zodiac.pisces:", replace: "♓" }
+  - { trigger: ":zodiac.sagit:", replace: "♐" }
+  - { trigger: ":zodiac.scorpio:", replace: "♏" }
+  - { trigger: ":zodiac.taurus:", replace: "♉" }
+  - { trigger: ":zodiac.virgo:", replace: "♍" }
   - { trigger: ":zombie:", replace: "🧟" }
   - { trigger: ":zzz:", replace: "💤" }

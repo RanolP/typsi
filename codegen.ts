@@ -117,7 +117,7 @@ function parse(content: string): Replacement[] {
       }
       mostRecentStem = name;
       mostRecentDeprecation = null;
-    } else if ((match = /^[ ]*\.([^ ]+)[ ]*(.*)$/.exec(line))) {
+    } else if ((match = /^[ ]*(\.[^ ]+)[ ]*(.*)$/.exec(line))) {
       let [_, name, value] = match;
       name = refineString(name);
       value = refineString(value);

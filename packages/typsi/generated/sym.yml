@@ -7,174 +7,174 @@ matches:
   - { trigger: "\\lrm\\", replace: "U+200E" }
   - { trigger: "\\rlm\\", replace: "U+200F" }
   - { trigger: "\\space\\", replace: "U+20" }
-  - { trigger: "\\spacenobreak\\", replace: "U+A0" }
-  - { trigger: "\\spacenobreak.narrow\\", replace: "U+202F" }
-  - { trigger: "\\spaceen\\", replace: "U+2002" }
-  - { trigger: "\\spacequad\\", replace: "U+2003" }
-  - { trigger: "\\spacethird\\", replace: "U+2004" }
-  - { trigger: "\\spacequarter\\", replace: "U+2005" }
-  - { trigger: "\\spacesixth\\", replace: "U+2006" }
-  - { trigger: "\\spacemed\\", replace: "U+205F" }
-  - { trigger: "\\spacefig\\", replace: "U+2007" }
-  - { trigger: "\\spacepunct\\", replace: "U+2008" }
-  - { trigger: "\\spacethin\\", replace: "U+2009" }
-  - { trigger: "\\spacehair\\", replace: "U+200A" }
-  - { trigger: "\\parenl\\", replace: "(" }
-  - { trigger: "\\parenl.double\\", replace: "⦅" }
-  - { trigger: "\\parenr\\", replace: ")" }
-  - { trigger: "\\parenr.double\\", replace: "⦆" }
-  - { trigger: "\\parent\\", replace: "⏜" }
-  - { trigger: "\\parenb\\", replace: "⏝" }
-  - { trigger: "\\bracel\\", replace: "U+7B" }
-  - { trigger: "\\bracel.double\\", replace: "⦃" }
-  - { trigger: "\\bracer\\", replace: "U+7D" }
-  - { trigger: "\\bracer.double\\", replace: "⦄" }
-  - { trigger: "\\bracet\\", replace: "⏞" }
-  - { trigger: "\\braceb\\", replace: "⏟" }
-  - { trigger: "\\bracketl\\", replace: "[" }
-  - { trigger: "\\bracketl.double\\", replace: "⟦" }
-  - { trigger: "\\bracketr\\", replace: "]" }
-  - { trigger: "\\bracketr.double\\", replace: "⟧" }
-  - { trigger: "\\brackett\\", replace: "⎴" }
-  - { trigger: "\\bracketb\\", replace: "⎵" }
-  - { trigger: "\\shelll\\", replace: "❲" }
-  - { trigger: "\\shelll.double\\", replace: "⟬" }
-  - { trigger: "\\shellr\\", replace: "❳" }
-  - { trigger: "\\shellr.double\\", replace: "⟭" }
-  - { trigger: "\\shellt\\", replace: "⏠" }
-  - { trigger: "\\shellb\\", replace: "⏡" }
-  - { trigger: "\\barv\\", replace: "|" }
-  - { trigger: "\\barv.double\\", replace: "‖" }
-  - { trigger: "\\barv.triple\\", replace: "⦀" }
-  - { trigger: "\\barv.broken\\", replace: "¦" }
-  - { trigger: "\\barv.circle\\", replace: "⦶" }
-  - { trigger: "\\barh\\", replace: "―" }
-  - { trigger: "\\fencel\\", replace: "⧘" }
-  - { trigger: "\\fencel.double\\", replace: "⧚" }
-  - { trigger: "\\fencer\\", replace: "⧙" }
-  - { trigger: "\\fencer.double\\", replace: "⧛" }
-  - { trigger: "\\fencedotted\\", replace: "⦙" }
+  - { trigger: "\\space.nobreak\\", replace: "U+A0" }
+  - { trigger: "\\space.nobreak.narrow\\", replace: "U+202F" }
+  - { trigger: "\\space.en\\", replace: "U+2002" }
+  - { trigger: "\\space.quad\\", replace: "U+2003" }
+  - { trigger: "\\space.third\\", replace: "U+2004" }
+  - { trigger: "\\space.quarter\\", replace: "U+2005" }
+  - { trigger: "\\space.sixth\\", replace: "U+2006" }
+  - { trigger: "\\space.med\\", replace: "U+205F" }
+  - { trigger: "\\space.fig\\", replace: "U+2007" }
+  - { trigger: "\\space.punct\\", replace: "U+2008" }
+  - { trigger: "\\space.thin\\", replace: "U+2009" }
+  - { trigger: "\\space.hair\\", replace: "U+200A" }
+  - { trigger: "\\paren.l\\", replace: "(" }
+  - { trigger: "\\paren.l.double\\", replace: "⦅" }
+  - { trigger: "\\paren.r\\", replace: ")" }
+  - { trigger: "\\paren.r.double\\", replace: "⦆" }
+  - { trigger: "\\paren.t\\", replace: "⏜" }
+  - { trigger: "\\paren.b\\", replace: "⏝" }
+  - { trigger: "\\brace.l\\", replace: "U+7B" }
+  - { trigger: "\\brace.l.double\\", replace: "⦃" }
+  - { trigger: "\\brace.r\\", replace: "U+7D" }
+  - { trigger: "\\brace.r.double\\", replace: "⦄" }
+  - { trigger: "\\brace.t\\", replace: "⏞" }
+  - { trigger: "\\brace.b\\", replace: "⏟" }
+  - { trigger: "\\bracket.l\\", replace: "[" }
+  - { trigger: "\\bracket.l.double\\", replace: "⟦" }
+  - { trigger: "\\bracket.r\\", replace: "]" }
+  - { trigger: "\\bracket.r.double\\", replace: "⟧" }
+  - { trigger: "\\bracket.t\\", replace: "⎴" }
+  - { trigger: "\\bracket.b\\", replace: "⎵" }
+  - { trigger: "\\shell.l\\", replace: "❲" }
+  - { trigger: "\\shell.l.double\\", replace: "⟬" }
+  - { trigger: "\\shell.r\\", replace: "❳" }
+  - { trigger: "\\shell.r.double\\", replace: "⟭" }
+  - { trigger: "\\shell.t\\", replace: "⏠" }
+  - { trigger: "\\shell.b\\", replace: "⏡" }
+  - { trigger: "\\bar.v\\", replace: "|" }
+  - { trigger: "\\bar.v.double\\", replace: "‖" }
+  - { trigger: "\\bar.v.triple\\", replace: "⦀" }
+  - { trigger: "\\bar.v.broken\\", replace: "¦" }
+  - { trigger: "\\bar.v.circle\\", replace: "⦶" }
+  - { trigger: "\\bar.h\\", replace: "―" }
+  - { trigger: "\\fence.l\\", replace: "⧘" }
+  - { trigger: "\\fence.l.double\\", replace: "⧚" }
+  - { trigger: "\\fence.r\\", replace: "⧙" }
+  - { trigger: "\\fence.r.double\\", replace: "⧛" }
+  - { trigger: "\\fence.dotted\\", replace: "⦙" }
   - { trigger: "\\angle\\", replace: "∠" }
-  - { trigger: "\\anglel\\", replace: "⟨" }
-  - { trigger: "\\anglel.curly\\", replace: "⧼" }
-  - { trigger: "\\anglel.dot\\", replace: "⦑" }
-  - { trigger: "\\anglel.double\\", replace: "⟪" }
-  - { trigger: "\\angler\\", replace: "⟩" }
-  - { trigger: "\\angler.curly\\", replace: "⧽" }
-  - { trigger: "\\angler.dot\\", replace: "⦒" }
-  - { trigger: "\\angler.double\\", replace: "⟫" }
-  - { trigger: "\\angleacute\\", replace: "⦟" }
-  - { trigger: "\\anglearc\\", replace: "∡" }
-  - { trigger: "\\anglearc.rev\\", replace: "⦛" }
-  - { trigger: "\\angleoblique\\", replace: "⦦" }
-  - { trigger: "\\anglerev\\", replace: "⦣" }
-  - { trigger: "\\angleright\\", replace: "∟" }
-  - { trigger: "\\angleright.rev\\", replace: "⯾" }
-  - { trigger: "\\angleright.arc\\", replace: "⊾" }
-  - { trigger: "\\angleright.dot\\", replace: "⦝" }
-  - { trigger: "\\angleright.sq\\", replace: "⦜" }
-  - { trigger: "\\angles\\", replace: "⦞" }
-  - { trigger: "\\anglespatial\\", replace: "⟀" }
-  - { trigger: "\\anglespheric\\", replace: "∢" }
-  - { trigger: "\\anglespheric.rev\\", replace: "⦠" }
-  - { trigger: "\\anglespheric.top\\", replace: "⦡" }
-  - { trigger: "\\ceill\\", replace: "⌈" }
-  - { trigger: "\\ceilr\\", replace: "⌉" }
-  - { trigger: "\\floorl\\", replace: "⌊" }
-  - { trigger: "\\floorr\\", replace: "⌋" }
+  - { trigger: "\\angle.l\\", replace: "⟨" }
+  - { trigger: "\\angle.l.curly\\", replace: "⧼" }
+  - { trigger: "\\angle.l.dot\\", replace: "⦑" }
+  - { trigger: "\\angle.l.double\\", replace: "⟪" }
+  - { trigger: "\\angle.r\\", replace: "⟩" }
+  - { trigger: "\\angle.r.curly\\", replace: "⧽" }
+  - { trigger: "\\angle.r.dot\\", replace: "⦒" }
+  - { trigger: "\\angle.r.double\\", replace: "⟫" }
+  - { trigger: "\\angle.acute\\", replace: "⦟" }
+  - { trigger: "\\angle.arc\\", replace: "∡" }
+  - { trigger: "\\angle.arc.rev\\", replace: "⦛" }
+  - { trigger: "\\angle.oblique\\", replace: "⦦" }
+  - { trigger: "\\angle.rev\\", replace: "⦣" }
+  - { trigger: "\\angle.right\\", replace: "∟" }
+  - { trigger: "\\angle.right.rev\\", replace: "⯾" }
+  - { trigger: "\\angle.right.arc\\", replace: "⊾" }
+  - { trigger: "\\angle.right.dot\\", replace: "⦝" }
+  - { trigger: "\\angle.right.sq\\", replace: "⦜" }
+  - { trigger: "\\angle.s\\", replace: "⦞" }
+  - { trigger: "\\angle.spatial\\", replace: "⟀" }
+  - { trigger: "\\angle.spheric\\", replace: "∢" }
+  - { trigger: "\\angle.spheric.rev\\", replace: "⦠" }
+  - { trigger: "\\angle.spheric.top\\", replace: "⦡" }
+  - { trigger: "\\ceil.l\\", replace: "⌈" }
+  - { trigger: "\\ceil.r\\", replace: "⌉" }
+  - { trigger: "\\floor.l\\", replace: "⌊" }
+  - { trigger: "\\floor.r\\", replace: "⌋" }
   - { trigger: "\\amp\\", replace: "&" }
-  - { trigger: "\\ampinv\\", replace: "⅋" }
-  - { trigger: "\\astop\\", replace: "∗" }
-  - { trigger: "\\astbasic\\", replace: "*" }
-  - { trigger: "\\astlow\\", replace: "⁎" }
-  - { trigger: "\\astdouble\\", replace: "⁑" }
-  - { trigger: "\\asttriple\\", replace: "⁂" }
-  - { trigger: "\\astsmall\\", replace: "﹡" }
-  - { trigger: "\\astcircle\\", replace: "⊛" }
-  - { trigger: "\\astsquare\\", replace: "⧆" }
+  - { trigger: "\\amp.inv\\", replace: "⅋" }
+  - { trigger: "\\ast.op\\", replace: "∗" }
+  - { trigger: "\\ast.basic\\", replace: "*" }
+  - { trigger: "\\ast.low\\", replace: "⁎" }
+  - { trigger: "\\ast.double\\", replace: "⁑" }
+  - { trigger: "\\ast.triple\\", replace: "⁂" }
+  - { trigger: "\\ast.small\\", replace: "﹡" }
+  - { trigger: "\\ast.circle\\", replace: "⊛" }
+  - { trigger: "\\ast.square\\", replace: "⧆" }
   - { trigger: "\\at\\", replace: "@" }
   - { trigger: "\\backslash\\", replace: "\\" }
-  - { trigger: "\\backslashcircle\\", replace: "⦸" }
-  - { trigger: "\\backslashnot\\", replace: "⧷" }
+  - { trigger: "\\backslash.circle\\", replace: "⦸" }
+  - { trigger: "\\backslash.not\\", replace: "⧷" }
   - { trigger: "\\co\\", replace: "℅" }
   - { trigger: "\\colon\\", replace: ":" }
-  - { trigger: "\\colondouble\\", replace: "∷" }
-  - { trigger: "\\colontri\\", replace: "⁝" }
-  - { trigger: "\\colontri.op\\", replace: "⫶" }
-  - { trigger: "\\coloneq\\", replace: "≔" }
-  - { trigger: "\\colondouble.eq\\", replace: "⩴" }
+  - { trigger: "\\colon.double\\", replace: "∷" }
+  - { trigger: "\\colon.tri\\", replace: "⁝" }
+  - { trigger: "\\colon.tri.op\\", replace: "⫶" }
+  - { trigger: "\\colon.eq\\", replace: "≔" }
+  - { trigger: "\\colon.double.eq\\", replace: "⩴" }
   - { trigger: "\\comma\\", replace: "," }
   - { trigger: "\\dagger\\", replace: "†" }
-  - { trigger: "\\daggerdouble\\", replace: "‡" }
-  - { trigger: "\\daggertriple\\", replace: "⹋" }
-  - { trigger: "\\daggerl\\", replace: "⸶" }
-  - { trigger: "\\daggerr\\", replace: "⸷" }
-  - { trigger: "\\daggerinv\\", replace: "⸸" }
-  - { trigger: "\\dashen\\", replace: "–" }
-  - { trigger: "\\dashem\\", replace: "—" }
-  - { trigger: "\\dashem.two\\", replace: "⸺" }
-  - { trigger: "\\dashem.three\\", replace: "⸻" }
-  - { trigger: "\\dashfig\\", replace: "‒" }
-  - { trigger: "\\dashwave\\", replace: "〜" }
-  - { trigger: "\\dashcolon\\", replace: "∹" }
-  - { trigger: "\\dashcircle\\", replace: "⊝" }
-  - { trigger: "\\dashwave.double\\", replace: "〰" }
-  - { trigger: "\\dotop\\", replace: "⋅" }
-  - { trigger: "\\dotbasic\\", replace: "U+2E" }
-  - { trigger: "\\dotc\\", replace: "·" }
-  - { trigger: "\\dotcircle\\", replace: "⊙" }
-  - { trigger: "\\dotcircle.big\\", replace: "⨀" }
-  - { trigger: "\\dotsquare\\", replace: "⊡" }
-  - { trigger: "\\dotdouble\\", replace: "¨" }
-  - { trigger: "\\dottriple\\", replace: "U+20DB" }
-  - { trigger: "\\dotquad\\", replace: "U+20DC" }
+  - { trigger: "\\dagger.double\\", replace: "‡" }
+  - { trigger: "\\dagger.triple\\", replace: "⹋" }
+  - { trigger: "\\dagger.l\\", replace: "⸶" }
+  - { trigger: "\\dagger.r\\", replace: "⸷" }
+  - { trigger: "\\dagger.inv\\", replace: "⸸" }
+  - { trigger: "\\dash.en\\", replace: "–" }
+  - { trigger: "\\dash.em\\", replace: "—" }
+  - { trigger: "\\dash.em.two\\", replace: "⸺" }
+  - { trigger: "\\dash.em.three\\", replace: "⸻" }
+  - { trigger: "\\dash.fig\\", replace: "‒" }
+  - { trigger: "\\dash.wave\\", replace: "〜" }
+  - { trigger: "\\dash.colon\\", replace: "∹" }
+  - { trigger: "\\dash.circle\\", replace: "⊝" }
+  - { trigger: "\\dash.wave.double\\", replace: "〰" }
+  - { trigger: "\\dot.op\\", replace: "⋅" }
+  - { trigger: "\\dot.basic\\", replace: "U+2E" }
+  - { trigger: "\\dot.c\\", replace: "·" }
+  - { trigger: "\\dot.circle\\", replace: "⊙" }
+  - { trigger: "\\dot.circle.big\\", replace: "⨀" }
+  - { trigger: "\\dot.square\\", replace: "⊡" }
+  - { trigger: "\\dot.double\\", replace: "¨" }
+  - { trigger: "\\dot.triple\\", replace: "U+20DB" }
+  - { trigger: "\\dot.quad\\", replace: "U+20DC" }
   - { trigger: "\\excl\\", replace: "!" }
-  - { trigger: "\\excldouble\\", replace: "‼" }
-  - { trigger: "\\exclinv\\", replace: "¡" }
-  - { trigger: "\\exclquest\\", replace: "⁉" }
+  - { trigger: "\\excl.double\\", replace: "‼" }
+  - { trigger: "\\excl.inv\\", replace: "¡" }
+  - { trigger: "\\excl.quest\\", replace: "⁉" }
   - { trigger: "\\quest\\", replace: "?" }
-  - { trigger: "\\questdouble\\", replace: "⁇" }
-  - { trigger: "\\questexcl\\", replace: "⁈" }
-  - { trigger: "\\questinv\\", replace: "¿" }
+  - { trigger: "\\quest.double\\", replace: "⁇" }
+  - { trigger: "\\quest.excl\\", replace: "⁈" }
+  - { trigger: "\\quest.inv\\", replace: "¿" }
   - { trigger: "\\interrobang\\", replace: "‽" }
   - { trigger: "\\hash\\", replace: "#" }
   - { trigger: "\\hyph\\", replace: "‐" }
-  - { trigger: "\\hyphminus\\", replace: "U+2D" }
-  - { trigger: "\\hyphnobreak\\", replace: "U+2011" }
-  - { trigger: "\\hyphpoint\\", replace: "‧" }
-  - { trigger: "\\hyphsoft\\", replace: "U+AD" }
+  - { trigger: "\\hyph.minus\\", replace: "U+2D" }
+  - { trigger: "\\hyph.nobreak\\", replace: "U+2011" }
+  - { trigger: "\\hyph.point\\", replace: "‧" }
+  - { trigger: "\\hyph.soft\\", replace: "U+AD" }
   - { trigger: "\\numero\\", replace: "№" }
   - { trigger: "\\percent\\", replace: "%" }
   - { trigger: "\\permille\\", replace: "‰" }
   - { trigger: "\\pilcrow\\", replace: "¶" }
-  - { trigger: "\\pilcrowrev\\", replace: "⁋" }
+  - { trigger: "\\pilcrow.rev\\", replace: "⁋" }
   - { trigger: "\\section\\", replace: "§" }
   - { trigger: "\\semi\\", replace: ";" }
-  - { trigger: "\\semirev\\", replace: "⁏" }
+  - { trigger: "\\semi.rev\\", replace: "⁏" }
   - { trigger: "\\slash\\", replace: "/" }
-  - { trigger: "\\slashdouble\\", replace: "⫽" }
-  - { trigger: "\\slashtriple\\", replace: "⫻" }
-  - { trigger: "\\slashbig\\", replace: "⧸" }
-  - { trigger: "\\dotsh.c\\", replace: "⋯" }
-  - { trigger: "\\dotsh\\", replace: "…" }
-  - { trigger: "\\dotsv\\", replace: "⋮" }
-  - { trigger: "\\dotsdown\\", replace: "⋱" }
-  - { trigger: "\\dotsup\\", replace: "⋰" }
-  - { trigger: "\\tildeop\\", replace: "∼" }
-  - { trigger: "\\tildebasic\\", replace: "~" }
-  - { trigger: "\\tildedot\\", replace: "⩪" }
-  - { trigger: "\\tildeeq\\", replace: "≃" }
-  - { trigger: "\\tildeeq.not\\", replace: "≄" }
-  - { trigger: "\\tildeeq.rev\\", replace: "⋍" }
-  - { trigger: "\\tildeequiv\\", replace: "≅" }
-  - { trigger: "\\tildeequiv.not\\", replace: "≇" }
-  - { trigger: "\\tildenequiv\\", replace: "≆" }
-  - { trigger: "\\tildenot\\", replace: "≁" }
-  - { trigger: "\\tilderev\\", replace: "∽" }
-  - { trigger: "\\tilderev.equiv\\", replace: "≌" }
-  - { trigger: "\\tildetriple\\", replace: "≋" }
+  - { trigger: "\\slash.double\\", replace: "⫽" }
+  - { trigger: "\\slash.triple\\", replace: "⫻" }
+  - { trigger: "\\slash.big\\", replace: "⧸" }
+  - { trigger: "\\dots.h.c\\", replace: "⋯" }
+  - { trigger: "\\dots.h\\", replace: "…" }
+  - { trigger: "\\dots.v\\", replace: "⋮" }
+  - { trigger: "\\dots.down\\", replace: "⋱" }
+  - { trigger: "\\dots.up\\", replace: "⋰" }
+  - { trigger: "\\tilde.op\\", replace: "∼" }
+  - { trigger: "\\tilde.basic\\", replace: "~" }
+  - { trigger: "\\tilde.dot\\", replace: "⩪" }
+  - { trigger: "\\tilde.eq\\", replace: "≃" }
+  - { trigger: "\\tilde.eq.not\\", replace: "≄" }
+  - { trigger: "\\tilde.eq.rev\\", replace: "⋍" }
+  - { trigger: "\\tilde.equiv\\", replace: "≅" }
+  - { trigger: "\\tilde.equiv.not\\", replace: "≇" }
+  - { trigger: "\\tilde.nequiv\\", replace: "≆" }
+  - { trigger: "\\tilde.not\\", replace: "≁" }
+  - { trigger: "\\tilde.rev\\", replace: "∽" }
+  - { trigger: "\\tilde.rev.equiv\\", replace: "≌" }
+  - { trigger: "\\tilde.triple\\", replace: "≋" }
   - { trigger: "\\acute\\", replace: "´" }
-  - { trigger: "\\acutedouble\\", replace: "˝" }
+  - { trigger: "\\acute.double\\", replace: "˝" }
   - { trigger: "\\breve\\", replace: "˘" }
   - { trigger: "\\caret\\", replace: "‸" }
   - { trigger: "\\caron\\", replace: "ˇ" }
@@ -182,345 +182,345 @@ matches:
   - { trigger: "\\diaer\\", replace: "¨" }
   - { trigger: "\\grave\\", replace: "`" }
   - { trigger: "\\macron\\", replace: "¯" }
-  - { trigger: "\\quotedouble\\", replace: "\"" }
-  - { trigger: "\\quotesingle\\", replace: "'" }
-  - { trigger: "\\quotel.double\\", replace: "“" }
-  - { trigger: "\\quotel.single\\", replace: "‘" }
-  - { trigger: "\\quoter.double\\", replace: "”" }
-  - { trigger: "\\quoter.single\\", replace: "’" }
-  - { trigger: "\\quoteangle.l.double\\", replace: "«" }
-  - { trigger: "\\quoteangle.l.single\\", replace: "‹" }
-  - { trigger: "\\quoteangle.r.double\\", replace: "»" }
-  - { trigger: "\\quoteangle.r.single\\", replace: "›" }
-  - { trigger: "\\quotehigh.double\\", replace: "‟" }
-  - { trigger: "\\quotehigh.single\\", replace: "‛" }
-  - { trigger: "\\quotelow.double\\", replace: "„" }
-  - { trigger: "\\quotelow.single\\", replace: "‚" }
+  - { trigger: "\\quote.double\\", replace: "\"" }
+  - { trigger: "\\quote.single\\", replace: "'" }
+  - { trigger: "\\quote.l.double\\", replace: "“" }
+  - { trigger: "\\quote.l.single\\", replace: "‘" }
+  - { trigger: "\\quote.r.double\\", replace: "”" }
+  - { trigger: "\\quote.r.single\\", replace: "’" }
+  - { trigger: "\\quote.angle.l.double\\", replace: "«" }
+  - { trigger: "\\quote.angle.l.single\\", replace: "‹" }
+  - { trigger: "\\quote.angle.r.double\\", replace: "»" }
+  - { trigger: "\\quote.angle.r.single\\", replace: "›" }
+  - { trigger: "\\quote.high.double\\", replace: "‟" }
+  - { trigger: "\\quote.high.single\\", replace: "‛" }
+  - { trigger: "\\quote.low.double\\", replace: "„" }
+  - { trigger: "\\quote.low.single\\", replace: "‚" }
   - { trigger: "\\prime\\", replace: "′" }
-  - { trigger: "\\primerev\\", replace: "‵" }
-  - { trigger: "\\primedouble\\", replace: "″" }
-  - { trigger: "\\primedouble.rev\\", replace: "‶" }
-  - { trigger: "\\primetriple\\", replace: "‴" }
-  - { trigger: "\\primetriple.rev\\", replace: "‷" }
-  - { trigger: "\\primequad\\", replace: "⁗" }
+  - { trigger: "\\prime.rev\\", replace: "‵" }
+  - { trigger: "\\prime.double\\", replace: "″" }
+  - { trigger: "\\prime.double.rev\\", replace: "‶" }
+  - { trigger: "\\prime.triple\\", replace: "‴" }
+  - { trigger: "\\prime.triple.rev\\", replace: "‷" }
+  - { trigger: "\\prime.quad\\", replace: "⁗" }
   - { trigger: "\\plus\\", replace: "+" }
-  - { trigger: "\\pluscircle\\", replace: "⊕" }
-  - { trigger: "\\pluscircle.arrow\\", replace: "⟴" }
-  - { trigger: "\\pluscircle.big\\", replace: "⨁" }
-  - { trigger: "\\plusdot\\", replace: "∔" }
-  - { trigger: "\\plusdouble\\", replace: "⧺" }
-  - { trigger: "\\plusminus\\", replace: "±" }
-  - { trigger: "\\plussmall\\", replace: "﹢" }
-  - { trigger: "\\plussquare\\", replace: "⊞" }
-  - { trigger: "\\plustriangle\\", replace: "⨹" }
-  - { trigger: "\\plustriple\\", replace: "⧻" }
+  - { trigger: "\\plus.circle\\", replace: "⊕" }
+  - { trigger: "\\plus.circle.arrow\\", replace: "⟴" }
+  - { trigger: "\\plus.circle.big\\", replace: "⨁" }
+  - { trigger: "\\plus.dot\\", replace: "∔" }
+  - { trigger: "\\plus.double\\", replace: "⧺" }
+  - { trigger: "\\plus.minus\\", replace: "±" }
+  - { trigger: "\\plus.small\\", replace: "﹢" }
+  - { trigger: "\\plus.square\\", replace: "⊞" }
+  - { trigger: "\\plus.triangle\\", replace: "⨹" }
+  - { trigger: "\\plus.triple\\", replace: "⧻" }
   - { trigger: "\\minus\\", replace: "−" }
-  - { trigger: "\\minuscircle\\", replace: "⊖" }
-  - { trigger: "\\minusdot\\", replace: "∸" }
-  - { trigger: "\\minusplus\\", replace: "∓" }
-  - { trigger: "\\minussquare\\", replace: "⊟" }
-  - { trigger: "\\minustilde\\", replace: "≂" }
-  - { trigger: "\\minustriangle\\", replace: "⨺" }
+  - { trigger: "\\minus.circle\\", replace: "⊖" }
+  - { trigger: "\\minus.dot\\", replace: "∸" }
+  - { trigger: "\\minus.plus\\", replace: "∓" }
+  - { trigger: "\\minus.square\\", replace: "⊟" }
+  - { trigger: "\\minus.tilde\\", replace: "≂" }
+  - { trigger: "\\minus.triangle\\", replace: "⨺" }
   - { trigger: "\\div\\", replace: "÷" }
-  - { trigger: "\\divcircle\\", replace: "⨸" }
+  - { trigger: "\\div.circle\\", replace: "⨸" }
   - { trigger: "\\times\\", replace: "×" }
-  - { trigger: "\\timesbig\\", replace: "⨉" }
-  - { trigger: "\\timescircle\\", replace: "⊗" }
-  - { trigger: "\\timescircle.big\\", replace: "⨂" }
-  - { trigger: "\\timesdiv\\", replace: "⋇" }
-  - { trigger: "\\timesthree.l\\", replace: "⋋" }
-  - { trigger: "\\timesthree.r\\", replace: "⋌" }
-  - { trigger: "\\timesl\\", replace: "⋉" }
-  - { trigger: "\\timesr\\", replace: "⋊" }
-  - { trigger: "\\timessquare\\", replace: "⊠" }
-  - { trigger: "\\timestriangle\\", replace: "⨻" }
+  - { trigger: "\\times.big\\", replace: "⨉" }
+  - { trigger: "\\times.circle\\", replace: "⊗" }
+  - { trigger: "\\times.circle.big\\", replace: "⨂" }
+  - { trigger: "\\times.div\\", replace: "⋇" }
+  - { trigger: "\\times.three.l\\", replace: "⋋" }
+  - { trigger: "\\times.three.r\\", replace: "⋌" }
+  - { trigger: "\\times.l\\", replace: "⋉" }
+  - { trigger: "\\times.r\\", replace: "⋊" }
+  - { trigger: "\\times.square\\", replace: "⊠" }
+  - { trigger: "\\times.triangle\\", replace: "⨻" }
   - { trigger: "\\ratio\\", replace: "∶" }
   - { trigger: "\\eq\\", replace: "=" }
-  - { trigger: "\\eqstar\\", replace: "≛" }
-  - { trigger: "\\eqcircle\\", replace: "⊜" }
-  - { trigger: "\\eqcolon\\", replace: "≕" }
-  - { trigger: "\\eqdots\\", replace: "≑" }
-  - { trigger: "\\eqdots.down\\", replace: "≒" }
-  - { trigger: "\\eqdots.up\\", replace: "≓" }
-  - { trigger: "\\eqdef\\", replace: "≝" }
-  - { trigger: "\\eqdelta\\", replace: "≜" }
-  - { trigger: "\\eqequi\\", replace: "≚" }
-  - { trigger: "\\eqest\\", replace: "≙" }
-  - { trigger: "\\eqgt\\", replace: "⋝" }
-  - { trigger: "\\eqlt\\", replace: "⋜" }
-  - { trigger: "\\eqm\\", replace: "≞" }
-  - { trigger: "\\eqnot\\", replace: "≠" }
-  - { trigger: "\\eqprec\\", replace: "⋞" }
-  - { trigger: "\\eqquest\\", replace: "≟" }
-  - { trigger: "\\eqsmall\\", replace: "﹦" }
-  - { trigger: "\\eqsucc\\", replace: "⋟" }
-  - { trigger: "\\eqtriple\\", replace: "≡" }
-  - { trigger: "\\eqtriple.not\\", replace: "≢" }
-  - { trigger: "\\eqquad\\", replace: "≣" }
+  - { trigger: "\\eq.star\\", replace: "≛" }
+  - { trigger: "\\eq.circle\\", replace: "⊜" }
+  - { trigger: "\\eq.colon\\", replace: "≕" }
+  - { trigger: "\\eq.dots\\", replace: "≑" }
+  - { trigger: "\\eq.dots.down\\", replace: "≒" }
+  - { trigger: "\\eq.dots.up\\", replace: "≓" }
+  - { trigger: "\\eq.def\\", replace: "≝" }
+  - { trigger: "\\eq.delta\\", replace: "≜" }
+  - { trigger: "\\eq.equi\\", replace: "≚" }
+  - { trigger: "\\eq.est\\", replace: "≙" }
+  - { trigger: "\\eq.gt\\", replace: "⋝" }
+  - { trigger: "\\eq.lt\\", replace: "⋜" }
+  - { trigger: "\\eq.m\\", replace: "≞" }
+  - { trigger: "\\eq.not\\", replace: "≠" }
+  - { trigger: "\\eq.prec\\", replace: "⋞" }
+  - { trigger: "\\eq.quest\\", replace: "≟" }
+  - { trigger: "\\eq.small\\", replace: "﹦" }
+  - { trigger: "\\eq.succ\\", replace: "⋟" }
+  - { trigger: "\\eq.triple\\", replace: "≡" }
+  - { trigger: "\\eq.triple.not\\", replace: "≢" }
+  - { trigger: "\\eq.quad\\", replace: "≣" }
   - { trigger: "\\gt\\", replace: ">" }
-  - { trigger: "\\gtcircle\\", replace: "⧁" }
-  - { trigger: "\\gtdot\\", replace: "⋗" }
-  - { trigger: "\\gtapprox\\", replace: "⪆" }
-  - { trigger: "\\gtdouble\\", replace: "≫" }
-  - { trigger: "\\gteq\\", replace: "≥" }
-  - { trigger: "\\gteq.slant\\", replace: "⩾" }
-  - { trigger: "\\gteq.lt\\", replace: "⋛" }
-  - { trigger: "\\gteq.not\\", replace: "≱" }
-  - { trigger: "\\gtequiv\\", replace: "≧" }
-  - { trigger: "\\gtlt\\", replace: "≷" }
-  - { trigger: "\\gtlt.not\\", replace: "≹" }
-  - { trigger: "\\gtneq\\", replace: "⪈" }
-  - { trigger: "\\gtnapprox\\", replace: "⪊" }
-  - { trigger: "\\gtnequiv\\", replace: "≩" }
-  - { trigger: "\\gtnot\\", replace: "≯" }
-  - { trigger: "\\gtntilde\\", replace: "⋧" }
-  - { trigger: "\\gtsmall\\", replace: "﹥" }
-  - { trigger: "\\gttilde\\", replace: "≳" }
-  - { trigger: "\\gttilde.not\\", replace: "≵" }
-  - { trigger: "\\gttri\\", replace: "⊳" }
-  - { trigger: "\\gttri.eq\\", replace: "⊵" }
-  - { trigger: "\\gttri.eq.not\\", replace: "⋭" }
-  - { trigger: "\\gttri.not\\", replace: "⋫" }
-  - { trigger: "\\gttriple\\", replace: "⋙" }
-  - { trigger: "\\gttriple.nested\\", replace: "⫸" }
+  - { trigger: "\\gt.circle\\", replace: "⧁" }
+  - { trigger: "\\gt.dot\\", replace: "⋗" }
+  - { trigger: "\\gt.approx\\", replace: "⪆" }
+  - { trigger: "\\gt.double\\", replace: "≫" }
+  - { trigger: "\\gt.eq\\", replace: "≥" }
+  - { trigger: "\\gt.eq.slant\\", replace: "⩾" }
+  - { trigger: "\\gt.eq.lt\\", replace: "⋛" }
+  - { trigger: "\\gt.eq.not\\", replace: "≱" }
+  - { trigger: "\\gt.equiv\\", replace: "≧" }
+  - { trigger: "\\gt.lt\\", replace: "≷" }
+  - { trigger: "\\gt.lt.not\\", replace: "≹" }
+  - { trigger: "\\gt.neq\\", replace: "⪈" }
+  - { trigger: "\\gt.napprox\\", replace: "⪊" }
+  - { trigger: "\\gt.nequiv\\", replace: "≩" }
+  - { trigger: "\\gt.not\\", replace: "≯" }
+  - { trigger: "\\gt.ntilde\\", replace: "⋧" }
+  - { trigger: "\\gt.small\\", replace: "﹥" }
+  - { trigger: "\\gt.tilde\\", replace: "≳" }
+  - { trigger: "\\gt.tilde.not\\", replace: "≵" }
+  - { trigger: "\\gt.tri\\", replace: "⊳" }
+  - { trigger: "\\gt.tri.eq\\", replace: "⊵" }
+  - { trigger: "\\gt.tri.eq.not\\", replace: "⋭" }
+  - { trigger: "\\gt.tri.not\\", replace: "⋫" }
+  - { trigger: "\\gt.triple\\", replace: "⋙" }
+  - { trigger: "\\gt.triple.nested\\", replace: "⫸" }
   - { trigger: "\\lt\\", replace: "<" }
-  - { trigger: "\\ltcircle\\", replace: "⧀" }
-  - { trigger: "\\ltdot\\", replace: "⋖" }
-  - { trigger: "\\ltapprox\\", replace: "⪅" }
-  - { trigger: "\\ltdouble\\", replace: "≪" }
-  - { trigger: "\\lteq\\", replace: "≤" }
-  - { trigger: "\\lteq.slant\\", replace: "⩽" }
-  - { trigger: "\\lteq.gt\\", replace: "⋚" }
-  - { trigger: "\\lteq.not\\", replace: "≰" }
-  - { trigger: "\\ltequiv\\", replace: "≦" }
-  - { trigger: "\\ltgt\\", replace: "≶" }
-  - { trigger: "\\ltgt.not\\", replace: "≸" }
-  - { trigger: "\\ltneq\\", replace: "⪇" }
-  - { trigger: "\\ltnapprox\\", replace: "⪉" }
-  - { trigger: "\\ltnequiv\\", replace: "≨" }
-  - { trigger: "\\ltnot\\", replace: "≮" }
-  - { trigger: "\\ltntilde\\", replace: "⋦" }
-  - { trigger: "\\ltsmall\\", replace: "﹤" }
-  - { trigger: "\\lttilde\\", replace: "≲" }
-  - { trigger: "\\lttilde.not\\", replace: "≴" }
-  - { trigger: "\\lttri\\", replace: "⊲" }
-  - { trigger: "\\lttri.eq\\", replace: "⊴" }
-  - { trigger: "\\lttri.eq.not\\", replace: "⋬" }
-  - { trigger: "\\lttri.not\\", replace: "⋪" }
-  - { trigger: "\\lttriple\\", replace: "⋘" }
-  - { trigger: "\\lttriple.nested\\", replace: "⫷" }
+  - { trigger: "\\lt.circle\\", replace: "⧀" }
+  - { trigger: "\\lt.dot\\", replace: "⋖" }
+  - { trigger: "\\lt.approx\\", replace: "⪅" }
+  - { trigger: "\\lt.double\\", replace: "≪" }
+  - { trigger: "\\lt.eq\\", replace: "≤" }
+  - { trigger: "\\lt.eq.slant\\", replace: "⩽" }
+  - { trigger: "\\lt.eq.gt\\", replace: "⋚" }
+  - { trigger: "\\lt.eq.not\\", replace: "≰" }
+  - { trigger: "\\lt.equiv\\", replace: "≦" }
+  - { trigger: "\\lt.gt\\", replace: "≶" }
+  - { trigger: "\\lt.gt.not\\", replace: "≸" }
+  - { trigger: "\\lt.neq\\", replace: "⪇" }
+  - { trigger: "\\lt.napprox\\", replace: "⪉" }
+  - { trigger: "\\lt.nequiv\\", replace: "≨" }
+  - { trigger: "\\lt.not\\", replace: "≮" }
+  - { trigger: "\\lt.ntilde\\", replace: "⋦" }
+  - { trigger: "\\lt.small\\", replace: "﹤" }
+  - { trigger: "\\lt.tilde\\", replace: "≲" }
+  - { trigger: "\\lt.tilde.not\\", replace: "≴" }
+  - { trigger: "\\lt.tri\\", replace: "⊲" }
+  - { trigger: "\\lt.tri.eq\\", replace: "⊴" }
+  - { trigger: "\\lt.tri.eq.not\\", replace: "⋬" }
+  - { trigger: "\\lt.tri.not\\", replace: "⋪" }
+  - { trigger: "\\lt.triple\\", replace: "⋘" }
+  - { trigger: "\\lt.triple.nested\\", replace: "⫷" }
   - { trigger: "\\approx\\", replace: "≈" }
-  - { trigger: "\\approxeq\\", replace: "≊" }
-  - { trigger: "\\approxnot\\", replace: "≉" }
+  - { trigger: "\\approx.eq\\", replace: "≊" }
+  - { trigger: "\\approx.not\\", replace: "≉" }
   - { trigger: "\\prec\\", replace: "≺" }
-  - { trigger: "\\precapprox\\", replace: "⪷" }
-  - { trigger: "\\preccurly.eq\\", replace: "≼" }
-  - { trigger: "\\preccurly.eq.not\\", replace: "⋠" }
-  - { trigger: "\\precdouble\\", replace: "⪻" }
-  - { trigger: "\\preceq\\", replace: "⪯" }
-  - { trigger: "\\precequiv\\", replace: "⪳" }
-  - { trigger: "\\precnapprox\\", replace: "⪹" }
-  - { trigger: "\\precneq\\", replace: "⪱" }
-  - { trigger: "\\precnequiv\\", replace: "⪵" }
-  - { trigger: "\\precnot\\", replace: "⊀" }
-  - { trigger: "\\precntilde\\", replace: "⋨" }
-  - { trigger: "\\prectilde\\", replace: "≾" }
+  - { trigger: "\\prec.approx\\", replace: "⪷" }
+  - { trigger: "\\prec.curly.eq\\", replace: "≼" }
+  - { trigger: "\\prec.curly.eq.not\\", replace: "⋠" }
+  - { trigger: "\\prec.double\\", replace: "⪻" }
+  - { trigger: "\\prec.eq\\", replace: "⪯" }
+  - { trigger: "\\prec.equiv\\", replace: "⪳" }
+  - { trigger: "\\prec.napprox\\", replace: "⪹" }
+  - { trigger: "\\prec.neq\\", replace: "⪱" }
+  - { trigger: "\\prec.nequiv\\", replace: "⪵" }
+  - { trigger: "\\prec.not\\", replace: "⊀" }
+  - { trigger: "\\prec.ntilde\\", replace: "⋨" }
+  - { trigger: "\\prec.tilde\\", replace: "≾" }
   - { trigger: "\\succ\\", replace: "≻" }
-  - { trigger: "\\succapprox\\", replace: "⪸" }
-  - { trigger: "\\succcurly.eq\\", replace: "≽" }
-  - { trigger: "\\succcurly.eq.not\\", replace: "⋡" }
-  - { trigger: "\\succdouble\\", replace: "⪼" }
-  - { trigger: "\\succeq\\", replace: "⪰" }
-  - { trigger: "\\succequiv\\", replace: "⪴" }
-  - { trigger: "\\succnapprox\\", replace: "⪺" }
-  - { trigger: "\\succneq\\", replace: "⪲" }
-  - { trigger: "\\succnequiv\\", replace: "⪶" }
-  - { trigger: "\\succnot\\", replace: "⊁" }
-  - { trigger: "\\succntilde\\", replace: "⋩" }
-  - { trigger: "\\succtilde\\", replace: "≿" }
+  - { trigger: "\\succ.approx\\", replace: "⪸" }
+  - { trigger: "\\succ.curly.eq\\", replace: "≽" }
+  - { trigger: "\\succ.curly.eq.not\\", replace: "⋡" }
+  - { trigger: "\\succ.double\\", replace: "⪼" }
+  - { trigger: "\\succ.eq\\", replace: "⪰" }
+  - { trigger: "\\succ.equiv\\", replace: "⪴" }
+  - { trigger: "\\succ.napprox\\", replace: "⪺" }
+  - { trigger: "\\succ.neq\\", replace: "⪲" }
+  - { trigger: "\\succ.nequiv\\", replace: "⪶" }
+  - { trigger: "\\succ.not\\", replace: "⊁" }
+  - { trigger: "\\succ.ntilde\\", replace: "⋩" }
+  - { trigger: "\\succ.tilde\\", replace: "≿" }
   - { trigger: "\\equiv\\", replace: "≡" }
-  - { trigger: "\\equivnot\\", replace: "≢" }
+  - { trigger: "\\equiv.not\\", replace: "≢" }
   - { trigger: "\\smt\\", replace: "⪪" }
-  - { trigger: "\\smteq\\", replace: "⪬" }
+  - { trigger: "\\smt.eq\\", replace: "⪬" }
   - { trigger: "\\lat\\", replace: "⪫" }
-  - { trigger: "\\lateq\\", replace: "⪭" }
+  - { trigger: "\\lat.eq\\", replace: "⪭" }
   - { trigger: "\\prop\\", replace: "∝" }
   - { trigger: "\\original\\", replace: "⊶" }
   - { trigger: "\\image\\", replace: "⊷" }
   - { trigger: "\\asymp\\", replace: "≍" }
-  - { trigger: "\\asympnot\\", replace: "≭" }
+  - { trigger: "\\asymp.not\\", replace: "≭" }
   - { trigger: "\\emptyset\\", replace: "∅" }
-  - { trigger: "\\emptysetarrow.r\\", replace: "⦳" }
-  - { trigger: "\\emptysetarrow.l\\", replace: "⦴" }
-  - { trigger: "\\emptysetbar\\", replace: "⦱" }
-  - { trigger: "\\emptysetcircle\\", replace: "⦲" }
-  - { trigger: "\\emptysetrev\\", replace: "⦰" }
+  - { trigger: "\\emptyset.arrow.r\\", replace: "⦳" }
+  - { trigger: "\\emptyset.arrow.l\\", replace: "⦴" }
+  - { trigger: "\\emptyset.bar\\", replace: "⦱" }
+  - { trigger: "\\emptyset.circle\\", replace: "⦲" }
+  - { trigger: "\\emptyset.rev\\", replace: "⦰" }
   - { trigger: "\\nothing\\", replace: "∅" }
-  - { trigger: "\\nothingarrow.r\\", replace: "⦳" }
-  - { trigger: "\\nothingarrow.l\\", replace: "⦴" }
-  - { trigger: "\\nothingbar\\", replace: "⦱" }
-  - { trigger: "\\nothingcircle\\", replace: "⦲" }
-  - { trigger: "\\nothingrev\\", replace: "⦰" }
+  - { trigger: "\\nothing.arrow.r\\", replace: "⦳" }
+  - { trigger: "\\nothing.arrow.l\\", replace: "⦴" }
+  - { trigger: "\\nothing.bar\\", replace: "⦱" }
+  - { trigger: "\\nothing.circle\\", replace: "⦲" }
+  - { trigger: "\\nothing.rev\\", replace: "⦰" }
   - { trigger: "\\without\\", replace: "∖" }
   - { trigger: "\\complement\\", replace: "∁" }
   - { trigger: "\\in\\", replace: "∈" }
-  - { trigger: "\\innot\\", replace: "∉" }
-  - { trigger: "\\inrev\\", replace: "∋" }
-  - { trigger: "\\inrev.not\\", replace: "∌" }
-  - { trigger: "\\inrev.small\\", replace: "∍" }
-  - { trigger: "\\insmall\\", replace: "∊" }
+  - { trigger: "\\in.not\\", replace: "∉" }
+  - { trigger: "\\in.rev\\", replace: "∋" }
+  - { trigger: "\\in.rev.not\\", replace: "∌" }
+  - { trigger: "\\in.rev.small\\", replace: "∍" }
+  - { trigger: "\\in.small\\", replace: "∊" }
   - { trigger: "\\subset\\", replace: "⊂" }
-  - { trigger: "\\subsetdot\\", replace: "⪽" }
-  - { trigger: "\\subsetdouble\\", replace: "⋐" }
-  - { trigger: "\\subseteq\\", replace: "⊆" }
-  - { trigger: "\\subseteq.not\\", replace: "⊈" }
-  - { trigger: "\\subseteq.sq\\", replace: "⊑" }
-  - { trigger: "\\subseteq.sq.not\\", replace: "⋢" }
-  - { trigger: "\\subsetneq\\", replace: "⊊" }
-  - { trigger: "\\subsetnot\\", replace: "⊄" }
-  - { trigger: "\\subsetsq\\", replace: "⊏" }
-  - { trigger: "\\subsetsq.neq\\", replace: "⋤" }
+  - { trigger: "\\subset.dot\\", replace: "⪽" }
+  - { trigger: "\\subset.double\\", replace: "⋐" }
+  - { trigger: "\\subset.eq\\", replace: "⊆" }
+  - { trigger: "\\subset.eq.not\\", replace: "⊈" }
+  - { trigger: "\\subset.eq.sq\\", replace: "⊑" }
+  - { trigger: "\\subset.eq.sq.not\\", replace: "⋢" }
+  - { trigger: "\\subset.neq\\", replace: "⊊" }
+  - { trigger: "\\subset.not\\", replace: "⊄" }
+  - { trigger: "\\subset.sq\\", replace: "⊏" }
+  - { trigger: "\\subset.sq.neq\\", replace: "⋤" }
   - { trigger: "\\supset\\", replace: "⊃" }
-  - { trigger: "\\supsetdot\\", replace: "⪾" }
-  - { trigger: "\\supsetdouble\\", replace: "⋑" }
-  - { trigger: "\\supseteq\\", replace: "⊇" }
-  - { trigger: "\\supseteq.not\\", replace: "⊉" }
-  - { trigger: "\\supseteq.sq\\", replace: "⊒" }
-  - { trigger: "\\supseteq.sq.not\\", replace: "⋣" }
-  - { trigger: "\\supsetneq\\", replace: "⊋" }
-  - { trigger: "\\supsetnot\\", replace: "⊅" }
-  - { trigger: "\\supsetsq\\", replace: "⊐" }
-  - { trigger: "\\supsetsq.neq\\", replace: "⋥" }
+  - { trigger: "\\supset.dot\\", replace: "⪾" }
+  - { trigger: "\\supset.double\\", replace: "⋑" }
+  - { trigger: "\\supset.eq\\", replace: "⊇" }
+  - { trigger: "\\supset.eq.not\\", replace: "⊉" }
+  - { trigger: "\\supset.eq.sq\\", replace: "⊒" }
+  - { trigger: "\\supset.eq.sq.not\\", replace: "⋣" }
+  - { trigger: "\\supset.neq\\", replace: "⊋" }
+  - { trigger: "\\supset.not\\", replace: "⊅" }
+  - { trigger: "\\supset.sq\\", replace: "⊐" }
+  - { trigger: "\\supset.sq.neq\\", replace: "⋥" }
   - { trigger: "\\union\\", replace: "∪" }
-  - { trigger: "\\unionarrow\\", replace: "⊌" }
-  - { trigger: "\\unionbig\\", replace: "⋃" }
-  - { trigger: "\\uniondot\\", replace: "⊍" }
-  - { trigger: "\\uniondot.big\\", replace: "⨃" }
-  - { trigger: "\\uniondouble\\", replace: "⋓" }
-  - { trigger: "\\unionminus\\", replace: "⩁" }
-  - { trigger: "\\unionor\\", replace: "⩅" }
-  - { trigger: "\\unionplus\\", replace: "⊎" }
-  - { trigger: "\\unionplus.big\\", replace: "⨄" }
-  - { trigger: "\\unionsq\\", replace: "⊔" }
-  - { trigger: "\\unionsq.big\\", replace: "⨆" }
-  - { trigger: "\\unionsq.double\\", replace: "⩏" }
+  - { trigger: "\\union.arrow\\", replace: "⊌" }
+  - { trigger: "\\union.big\\", replace: "⋃" }
+  - { trigger: "\\union.dot\\", replace: "⊍" }
+  - { trigger: "\\union.dot.big\\", replace: "⨃" }
+  - { trigger: "\\union.double\\", replace: "⋓" }
+  - { trigger: "\\union.minus\\", replace: "⩁" }
+  - { trigger: "\\union.or\\", replace: "⩅" }
+  - { trigger: "\\union.plus\\", replace: "⊎" }
+  - { trigger: "\\union.plus.big\\", replace: "⨄" }
+  - { trigger: "\\union.sq\\", replace: "⊔" }
+  - { trigger: "\\union.sq.big\\", replace: "⨆" }
+  - { trigger: "\\union.sq.double\\", replace: "⩏" }
   - { trigger: "\\inter\\", replace: "∩" }
-  - { trigger: "\\interand\\", replace: "⩄" }
-  - { trigger: "\\interbig\\", replace: "⋂" }
-  - { trigger: "\\interdot\\", replace: "⩀" }
-  - { trigger: "\\interdouble\\", replace: "⋒" }
-  - { trigger: "\\intersq\\", replace: "⊓" }
-  - { trigger: "\\intersq.big\\", replace: "⨅" }
-  - { trigger: "\\intersq.double\\", replace: "⩎" }
+  - { trigger: "\\inter.and\\", replace: "⩄" }
+  - { trigger: "\\inter.big\\", replace: "⋂" }
+  - { trigger: "\\inter.dot\\", replace: "⩀" }
+  - { trigger: "\\inter.double\\", replace: "⋒" }
+  - { trigger: "\\inter.sq\\", replace: "⊓" }
+  - { trigger: "\\inter.sq.big\\", replace: "⨅" }
+  - { trigger: "\\inter.sq.double\\", replace: "⩎" }
   # deprecated: `sect` is deprecated, use `inter` instead
   - { trigger: "\\sect\\", replace: "∩" }
-  - { trigger: "\\sectand\\", replace: "⩄" }
-  - { trigger: "\\sectbig\\", replace: "⋂" }
-  - { trigger: "\\sectdot\\", replace: "⩀" }
-  - { trigger: "\\sectdouble\\", replace: "⋒" }
-  - { trigger: "\\sectsq\\", replace: "⊓" }
-  - { trigger: "\\sectsq.big\\", replace: "⨅" }
-  - { trigger: "\\sectsq.double\\", replace: "⩎" }
+  - { trigger: "\\sect.and\\", replace: "⩄" }
+  - { trigger: "\\sect.big\\", replace: "⋂" }
+  - { trigger: "\\sect.dot\\", replace: "⩀" }
+  - { trigger: "\\sect.double\\", replace: "⋒" }
+  - { trigger: "\\sect.sq\\", replace: "⊓" }
+  - { trigger: "\\sect.sq.big\\", replace: "⨅" }
+  - { trigger: "\\sect.sq.double\\", replace: "⩎" }
   - { trigger: "\\infinity\\", replace: "∞" }
-  - { trigger: "\\infinitybar\\", replace: "⧞" }
-  - { trigger: "\\infinityincomplete\\", replace: "⧜" }
-  - { trigger: "\\infinitytie\\", replace: "⧝" }
+  - { trigger: "\\infinity.bar\\", replace: "⧞" }
+  - { trigger: "\\infinity.incomplete\\", replace: "⧜" }
+  - { trigger: "\\infinity.tie\\", replace: "⧝" }
   - { trigger: "\\oo\\", replace: "∞" }
   - { trigger: "\\diff\\", replace: "∂" }
   - { trigger: "\\partial\\", replace: "∂" }
   - { trigger: "\\gradient\\", replace: "∇" }
   - { trigger: "\\nabla\\", replace: "∇" }
   - { trigger: "\\sum\\", replace: "∑" }
-  - { trigger: "\\sumintegral\\", replace: "⨋" }
+  - { trigger: "\\sum.integral\\", replace: "⨋" }
   - { trigger: "\\product\\", replace: "∏" }
-  - { trigger: "\\productco\\", replace: "∐" }
+  - { trigger: "\\product.co\\", replace: "∐" }
   - { trigger: "\\integral\\", replace: "∫" }
-  - { trigger: "\\integralarrow.hook\\", replace: "⨗" }
-  - { trigger: "\\integralccw\\", replace: "⨑" }
-  - { trigger: "\\integralcont\\", replace: "∮" }
-  - { trigger: "\\integralcont.ccw\\", replace: "∳" }
-  - { trigger: "\\integralcont.cw\\", replace: "∲" }
-  - { trigger: "\\integralcw\\", replace: "∱" }
-  - { trigger: "\\integraldash\\", replace: "⨍" }
-  - { trigger: "\\integraldash.double\\", replace: "⨎" }
-  - { trigger: "\\integraldouble\\", replace: "∬" }
-  - { trigger: "\\integralquad\\", replace: "⨌" }
-  - { trigger: "\\integralinter\\", replace: "⨙" }
-  - { trigger: "\\integralsect\\", replace: "⨙" }
-  - { trigger: "\\integralslash\\", replace: "⨏" }
-  - { trigger: "\\integralsquare\\", replace: "⨖" }
-  - { trigger: "\\integralsurf\\", replace: "∯" }
-  - { trigger: "\\integraltimes\\", replace: "⨘" }
-  - { trigger: "\\integraltriple\\", replace: "∭" }
-  - { trigger: "\\integralunion\\", replace: "⨚" }
-  - { trigger: "\\integralvol\\", replace: "∰" }
+  - { trigger: "\\integral.arrow.hook\\", replace: "⨗" }
+  - { trigger: "\\integral.ccw\\", replace: "⨑" }
+  - { trigger: "\\integral.cont\\", replace: "∮" }
+  - { trigger: "\\integral.cont.ccw\\", replace: "∳" }
+  - { trigger: "\\integral.cont.cw\\", replace: "∲" }
+  - { trigger: "\\integral.cw\\", replace: "∱" }
+  - { trigger: "\\integral.dash\\", replace: "⨍" }
+  - { trigger: "\\integral.dash.double\\", replace: "⨎" }
+  - { trigger: "\\integral.double\\", replace: "∬" }
+  - { trigger: "\\integral.quad\\", replace: "⨌" }
+  - { trigger: "\\integral.inter\\", replace: "⨙" }
+  - { trigger: "\\integral.sect\\", replace: "⨙" }
+  - { trigger: "\\integral.slash\\", replace: "⨏" }
+  - { trigger: "\\integral.square\\", replace: "⨖" }
+  - { trigger: "\\integral.surf\\", replace: "∯" }
+  - { trigger: "\\integral.times\\", replace: "⨘" }
+  - { trigger: "\\integral.triple\\", replace: "∭" }
+  - { trigger: "\\integral.union\\", replace: "⨚" }
+  - { trigger: "\\integral.vol\\", replace: "∰" }
   - { trigger: "\\laplace\\", replace: "∆" }
   - { trigger: "\\forall\\", replace: "∀" }
   - { trigger: "\\exists\\", replace: "∃" }
-  - { trigger: "\\existsnot\\", replace: "∄" }
+  - { trigger: "\\exists.not\\", replace: "∄" }
   - { trigger: "\\top\\", replace: "⊤" }
   - { trigger: "\\bot\\", replace: "⊥" }
   - { trigger: "\\not\\", replace: "¬" }
   - { trigger: "\\and\\", replace: "∧" }
-  - { trigger: "\\andbig\\", replace: "⋀" }
-  - { trigger: "\\andcurly\\", replace: "⋏" }
-  - { trigger: "\\anddot\\", replace: "⟑" }
-  - { trigger: "\\anddouble\\", replace: "⩓" }
+  - { trigger: "\\and.big\\", replace: "⋀" }
+  - { trigger: "\\and.curly\\", replace: "⋏" }
+  - { trigger: "\\and.dot\\", replace: "⟑" }
+  - { trigger: "\\and.double\\", replace: "⩓" }
   - { trigger: "\\or\\", replace: "∨" }
-  - { trigger: "\\orbig\\", replace: "⋁" }
-  - { trigger: "\\orcurly\\", replace: "⋎" }
-  - { trigger: "\\ordot\\", replace: "⟇" }
-  - { trigger: "\\ordouble\\", replace: "⩔" }
+  - { trigger: "\\or.big\\", replace: "⋁" }
+  - { trigger: "\\or.curly\\", replace: "⋎" }
+  - { trigger: "\\or.dot\\", replace: "⟇" }
+  - { trigger: "\\or.double\\", replace: "⩔" }
   - { trigger: "\\xor\\", replace: "⊕" }
-  - { trigger: "\\xorbig\\", replace: "⨁" }
+  - { trigger: "\\xor.big\\", replace: "⨁" }
   - { trigger: "\\models\\", replace: "⊧" }
   - { trigger: "\\forces\\", replace: "⊩" }
-  - { trigger: "\\forcesnot\\", replace: "⊮" }
+  - { trigger: "\\forces.not\\", replace: "⊮" }
   - { trigger: "\\therefore\\", replace: "∴" }
   - { trigger: "\\because\\", replace: "∵" }
   - { trigger: "\\qed\\", replace: "∎" }
   - { trigger: "\\mapsto\\", replace: "↦" }
-  - { trigger: "\\mapstolong\\", replace: "⟼" }
+  - { trigger: "\\mapsto.long\\", replace: "⟼" }
   - { trigger: "\\compose\\", replace: "∘" }
   - { trigger: "\\convolve\\", replace: "∗" }
   - { trigger: "\\multimap\\", replace: "⊸" }
-  - { trigger: "\\multimapdouble\\", replace: "⧟" }
+  - { trigger: "\\multimap.double\\", replace: "⧟" }
   - { trigger: "\\tiny\\", replace: "⧾" }
   - { trigger: "\\miny\\", replace: "⧿" }
   - { trigger: "\\divides\\", replace: "∣" }
-  - { trigger: "\\dividesnot\\", replace: "∤" }
-  - { trigger: "\\dividesnot.rev\\", replace: "⫮" }
-  - { trigger: "\\dividesstruck\\", replace: "⟊" }
+  - { trigger: "\\divides.not\\", replace: "∤" }
+  - { trigger: "\\divides.not.rev\\", replace: "⫮" }
+  - { trigger: "\\divides.struck\\", replace: "⟊" }
   - { trigger: "\\wreath\\", replace: "≀" }
   - { trigger: "\\parallel\\", replace: "∥" }
-  - { trigger: "\\parallelstruck\\", replace: "⫲" }
-  - { trigger: "\\parallelcircle\\", replace: "⦷" }
-  - { trigger: "\\paralleleq\\", replace: "⋕" }
-  - { trigger: "\\parallelequiv\\", replace: "⩨" }
-  - { trigger: "\\parallelnot\\", replace: "∦" }
-  - { trigger: "\\parallelslanted.eq\\", replace: "⧣" }
-  - { trigger: "\\parallelslanted.eq.tilde\\", replace: "⧤" }
-  - { trigger: "\\parallelslanted.equiv\\", replace: "⧥" }
-  - { trigger: "\\paralleltilde\\", replace: "⫳" }
+  - { trigger: "\\parallel.struck\\", replace: "⫲" }
+  - { trigger: "\\parallel.circle\\", replace: "⦷" }
+  - { trigger: "\\parallel.eq\\", replace: "⋕" }
+  - { trigger: "\\parallel.equiv\\", replace: "⩨" }
+  - { trigger: "\\parallel.not\\", replace: "∦" }
+  - { trigger: "\\parallel.slanted.eq\\", replace: "⧣" }
+  - { trigger: "\\parallel.slanted.eq.tilde\\", replace: "⧤" }
+  - { trigger: "\\parallel.slanted.equiv\\", replace: "⧥" }
+  - { trigger: "\\parallel.tilde\\", replace: "⫳" }
   - { trigger: "\\perp\\", replace: "⟂" }
-  - { trigger: "\\perpcircle\\", replace: "⦹" }
+  - { trigger: "\\perp.circle\\", replace: "⦹" }
   - { trigger: "\\diameter\\", replace: "⌀" }
   - { trigger: "\\interleave\\", replace: "⫴" }
-  - { trigger: "\\interleavebig\\", replace: "⫼" }
-  - { trigger: "\\interleavestruck\\", replace: "⫵" }
+  - { trigger: "\\interleave.big\\", replace: "⫼" }
+  - { trigger: "\\interleave.struck\\", replace: "⫵" }
   - { trigger: "\\join\\", replace: "⨝" }
-  - { trigger: "\\joinr\\", replace: "⟖" }
-  - { trigger: "\\joinl\\", replace: "⟕" }
-  - { trigger: "\\joinl.r\\", replace: "⟗" }
-  - { trigger: "\\hourglassstroked\\", replace: "⧖" }
-  - { trigger: "\\hourglassfilled\\", replace: "⧗" }
+  - { trigger: "\\join.r\\", replace: "⟖" }
+  - { trigger: "\\join.l\\", replace: "⟕" }
+  - { trigger: "\\join.l.r\\", replace: "⟗" }
+  - { trigger: "\\hourglass.stroked\\", replace: "⧖" }
+  - { trigger: "\\hourglass.filled\\", replace: "⧗" }
   - { trigger: "\\degree\\", replace: "°" }
   - { trigger: "\\smash\\", replace: "⨳" }
-  - { trigger: "\\powerstandby\\", replace: "⏻" }
-  - { trigger: "\\poweron\\", replace: "⏽" }
-  - { trigger: "\\poweroff\\", replace: "⭘" }
-  - { trigger: "\\poweron.off\\", replace: "⏼" }
-  - { trigger: "\\powersleep\\", replace: "⏾" }
+  - { trigger: "\\power.standby\\", replace: "⏻" }
+  - { trigger: "\\power.on\\", replace: "⏽" }
+  - { trigger: "\\power.off\\", replace: "⭘" }
+  - { trigger: "\\power.on.off\\", replace: "⏼" }
+  - { trigger: "\\power.sleep\\", replace: "⏾" }
   - { trigger: "\\bitcoin\\", replace: "₿" }
   - { trigger: "\\dollar\\", replace: "$" }
   - { trigger: "\\euro\\", replace: "€" }
@@ -533,402 +533,402 @@ matches:
   - { trigger: "\\won\\", replace: "₩" }
   - { trigger: "\\yen\\", replace: "¥" }
   - { trigger: "\\ballot\\", replace: "☐" }
-  - { trigger: "\\ballotcross\\", replace: "☒" }
-  - { trigger: "\\ballotcheck\\", replace: "☑" }
-  - { trigger: "\\ballotcheck.heavy\\", replace: "🗹" }
+  - { trigger: "\\ballot.cross\\", replace: "☒" }
+  - { trigger: "\\ballot.check\\", replace: "☑" }
+  - { trigger: "\\ballot.check.heavy\\", replace: "🗹" }
   - { trigger: "\\checkmark\\", replace: "✓" }
-  - { trigger: "\\checkmarklight\\", replace: "🗸" }
-  - { trigger: "\\checkmarkheavy\\", replace: "✔" }
+  - { trigger: "\\checkmark.light\\", replace: "🗸" }
+  - { trigger: "\\checkmark.heavy\\", replace: "✔" }
   - { trigger: "\\crossmark\\", replace: "✗" }
-  - { trigger: "\\crossmarkheavy\\", replace: "✘" }
+  - { trigger: "\\crossmark.heavy\\", replace: "✘" }
   - { trigger: "\\floral\\", replace: "❦" }
-  - { trigger: "\\florall\\", replace: "☙" }
-  - { trigger: "\\floralr\\", replace: "❧" }
+  - { trigger: "\\floral.l\\", replace: "☙" }
+  - { trigger: "\\floral.r\\", replace: "❧" }
   - { trigger: "\\refmark\\", replace: "※" }
   - { trigger: "\\copyright\\", replace: "©" }
-  - { trigger: "\\copyrightsound\\", replace: "℗" }
+  - { trigger: "\\copyright.sound\\", replace: "℗" }
   - { trigger: "\\copyleft\\", replace: "🄯" }
   - { trigger: "\\trademark\\", replace: "™" }
-  - { trigger: "\\trademarkregistered\\", replace: "®" }
-  - { trigger: "\\trademarkservice\\", replace: "℠" }
+  - { trigger: "\\trademark.registered\\", replace: "®" }
+  - { trigger: "\\trademark.service\\", replace: "℠" }
   - { trigger: "\\maltese\\", replace: "✠" }
-  - { trigger: "\\suitclub.filled\\", replace: "♣" }
-  - { trigger: "\\suitclub.stroked\\", replace: "♧" }
-  - { trigger: "\\suitdiamond.filled\\", replace: "♦" }
-  - { trigger: "\\suitdiamond.stroked\\", replace: "♢" }
-  - { trigger: "\\suitheart.filled\\", replace: "♥" }
-  - { trigger: "\\suitheart.stroked\\", replace: "♡" }
-  - { trigger: "\\suitspade.filled\\", replace: "♠" }
-  - { trigger: "\\suitspade.stroked\\", replace: "♤" }
-  - { trigger: "\\noteup\\", replace: "🎜" }
-  - { trigger: "\\notedown\\", replace: "🎝" }
-  - { trigger: "\\notewhole\\", replace: "𝅝" }
-  - { trigger: "\\notehalf\\", replace: "𝅗𝅥" }
-  - { trigger: "\\notequarter\\", replace: "𝅘𝅥" }
-  - { trigger: "\\notequarter.alt\\", replace: "♩" }
-  - { trigger: "\\noteeighth\\", replace: "𝅘𝅥𝅮" }
-  - { trigger: "\\noteeighth.alt\\", replace: "♪" }
-  - { trigger: "\\noteeighth.beamed\\", replace: "♫" }
-  - { trigger: "\\notesixteenth\\", replace: "𝅘𝅥𝅯" }
-  - { trigger: "\\notesixteenth.beamed\\", replace: "♬" }
-  - { trigger: "\\notegrace\\", replace: "𝆕" }
-  - { trigger: "\\notegrace.slash\\", replace: "𝆔" }
-  - { trigger: "\\restwhole\\", replace: "𝄻" }
-  - { trigger: "\\restmultiple\\", replace: "𝄺" }
-  - { trigger: "\\restmultiple.measure\\", replace: "𝄩" }
-  - { trigger: "\\resthalf\\", replace: "𝄼" }
-  - { trigger: "\\restquarter\\", replace: "𝄽" }
-  - { trigger: "\\resteighth\\", replace: "𝄾" }
-  - { trigger: "\\restsixteenth\\", replace: "𝄿" }
+  - { trigger: "\\suit.club.filled\\", replace: "♣" }
+  - { trigger: "\\suit.club.stroked\\", replace: "♧" }
+  - { trigger: "\\suit.diamond.filled\\", replace: "♦" }
+  - { trigger: "\\suit.diamond.stroked\\", replace: "♢" }
+  - { trigger: "\\suit.heart.filled\\", replace: "♥" }
+  - { trigger: "\\suit.heart.stroked\\", replace: "♡" }
+  - { trigger: "\\suit.spade.filled\\", replace: "♠" }
+  - { trigger: "\\suit.spade.stroked\\", replace: "♤" }
+  - { trigger: "\\note.up\\", replace: "🎜" }
+  - { trigger: "\\note.down\\", replace: "🎝" }
+  - { trigger: "\\note.whole\\", replace: "𝅝" }
+  - { trigger: "\\note.half\\", replace: "𝅗𝅥" }
+  - { trigger: "\\note.quarter\\", replace: "𝅘𝅥" }
+  - { trigger: "\\note.quarter.alt\\", replace: "♩" }
+  - { trigger: "\\note.eighth\\", replace: "𝅘𝅥𝅮" }
+  - { trigger: "\\note.eighth.alt\\", replace: "♪" }
+  - { trigger: "\\note.eighth.beamed\\", replace: "♫" }
+  - { trigger: "\\note.sixteenth\\", replace: "𝅘𝅥𝅯" }
+  - { trigger: "\\note.sixteenth.beamed\\", replace: "♬" }
+  - { trigger: "\\note.grace\\", replace: "𝆕" }
+  - { trigger: "\\note.grace.slash\\", replace: "𝆔" }
+  - { trigger: "\\rest.whole\\", replace: "𝄻" }
+  - { trigger: "\\rest.multiple\\", replace: "𝄺" }
+  - { trigger: "\\rest.multiple.measure\\", replace: "𝄩" }
+  - { trigger: "\\rest.half\\", replace: "𝄼" }
+  - { trigger: "\\rest.quarter\\", replace: "𝄽" }
+  - { trigger: "\\rest.eighth\\", replace: "𝄾" }
+  - { trigger: "\\rest.sixteenth\\", replace: "𝄿" }
   - { trigger: "\\natural\\", replace: "♮" }
-  - { trigger: "\\naturalt\\", replace: "𝄮" }
-  - { trigger: "\\naturalb\\", replace: "𝄯" }
+  - { trigger: "\\natural.t\\", replace: "𝄮" }
+  - { trigger: "\\natural.b\\", replace: "𝄯" }
   - { trigger: "\\flat\\", replace: "♭" }
-  - { trigger: "\\flatt\\", replace: "𝄬" }
-  - { trigger: "\\flatb\\", replace: "𝄭" }
-  - { trigger: "\\flatdouble\\", replace: "𝄫" }
-  - { trigger: "\\flatquarter\\", replace: "𝄳" }
+  - { trigger: "\\flat.t\\", replace: "𝄬" }
+  - { trigger: "\\flat.b\\", replace: "𝄭" }
+  - { trigger: "\\flat.double\\", replace: "𝄫" }
+  - { trigger: "\\flat.quarter\\", replace: "𝄳" }
   - { trigger: "\\sharp\\", replace: "♯" }
-  - { trigger: "\\sharpt\\", replace: "𝄰" }
-  - { trigger: "\\sharpb\\", replace: "𝄱" }
-  - { trigger: "\\sharpdouble\\", replace: "𝄪" }
-  - { trigger: "\\sharpquarter\\", replace: "𝄲" }
+  - { trigger: "\\sharp.t\\", replace: "𝄰" }
+  - { trigger: "\\sharp.b\\", replace: "𝄱" }
+  - { trigger: "\\sharp.double\\", replace: "𝄪" }
+  - { trigger: "\\sharp.quarter\\", replace: "𝄲" }
   - { trigger: "\\bullet\\", replace: "•" }
-  - { trigger: "\\circlestroked\\", replace: "○" }
-  - { trigger: "\\circlestroked.tiny\\", replace: "∘" }
-  - { trigger: "\\circlestroked.small\\", replace: "⚬" }
-  - { trigger: "\\circlestroked.big\\", replace: "◯" }
-  - { trigger: "\\circlefilled\\", replace: "●" }
-  - { trigger: "\\circlefilled.tiny\\", replace: "⦁" }
-  - { trigger: "\\circlefilled.small\\", replace: "∙" }
-  - { trigger: "\\circlefilled.big\\", replace: "⬤" }
-  - { trigger: "\\circledotted\\", replace: "◌" }
-  - { trigger: "\\circlenested\\", replace: "⊚" }
-  - { trigger: "\\ellipsestroked.h\\", replace: "⬭" }
-  - { trigger: "\\ellipsestroked.v\\", replace: "⬯" }
-  - { trigger: "\\ellipsefilled.h\\", replace: "⬬" }
-  - { trigger: "\\ellipsefilled.v\\", replace: "⬮" }
-  - { trigger: "\\trianglestroked.t\\", replace: "△" }
-  - { trigger: "\\trianglestroked.b\\", replace: "▽" }
-  - { trigger: "\\trianglestroked.r\\", replace: "▷" }
-  - { trigger: "\\trianglestroked.l\\", replace: "◁" }
-  - { trigger: "\\trianglestroked.bl\\", replace: "◺" }
-  - { trigger: "\\trianglestroked.br\\", replace: "◿" }
-  - { trigger: "\\trianglestroked.tl\\", replace: "◸" }
-  - { trigger: "\\trianglestroked.tr\\", replace: "◹" }
-  - { trigger: "\\trianglestroked.small.t\\", replace: "▵" }
-  - { trigger: "\\trianglestroked.small.b\\", replace: "▿" }
-  - { trigger: "\\trianglestroked.small.r\\", replace: "▹" }
-  - { trigger: "\\trianglestroked.small.l\\", replace: "◃" }
-  - { trigger: "\\trianglestroked.rounded\\", replace: "🛆" }
-  - { trigger: "\\trianglestroked.nested\\", replace: "⟁" }
-  - { trigger: "\\trianglestroked.dot\\", replace: "◬" }
-  - { trigger: "\\trianglefilled.t\\", replace: "▲" }
-  - { trigger: "\\trianglefilled.b\\", replace: "▼" }
-  - { trigger: "\\trianglefilled.r\\", replace: "▶" }
-  - { trigger: "\\trianglefilled.l\\", replace: "◀" }
-  - { trigger: "\\trianglefilled.bl\\", replace: "◣" }
-  - { trigger: "\\trianglefilled.br\\", replace: "◢" }
-  - { trigger: "\\trianglefilled.tl\\", replace: "◤" }
-  - { trigger: "\\trianglefilled.tr\\", replace: "◥" }
-  - { trigger: "\\trianglefilled.small.t\\", replace: "▴" }
-  - { trigger: "\\trianglefilled.small.b\\", replace: "▾" }
-  - { trigger: "\\trianglefilled.small.r\\", replace: "▸" }
-  - { trigger: "\\trianglefilled.small.l\\", replace: "◂" }
-  - { trigger: "\\squarestroked\\", replace: "□" }
-  - { trigger: "\\squarestroked.tiny\\", replace: "▫" }
-  - { trigger: "\\squarestroked.small\\", replace: "◽" }
-  - { trigger: "\\squarestroked.medium\\", replace: "◻" }
-  - { trigger: "\\squarestroked.big\\", replace: "⬜" }
-  - { trigger: "\\squarestroked.dotted\\", replace: "⬚" }
-  - { trigger: "\\squarestroked.rounded\\", replace: "▢" }
-  - { trigger: "\\squarefilled\\", replace: "■" }
-  - { trigger: "\\squarefilled.tiny\\", replace: "▪" }
-  - { trigger: "\\squarefilled.small\\", replace: "◾" }
-  - { trigger: "\\squarefilled.medium\\", replace: "◼" }
-  - { trigger: "\\squarefilled.big\\", replace: "⬛" }
-  - { trigger: "\\rectstroked.h\\", replace: "▭" }
-  - { trigger: "\\rectstroked.v\\", replace: "▯" }
-  - { trigger: "\\rectfilled.h\\", replace: "▬" }
-  - { trigger: "\\rectfilled.v\\", replace: "▮" }
-  - { trigger: "\\pentastroked\\", replace: "⬠" }
-  - { trigger: "\\pentafilled\\", replace: "⬟" }
-  - { trigger: "\\hexastroked\\", replace: "⬡" }
-  - { trigger: "\\hexafilled\\", replace: "⬢" }
-  - { trigger: "\\diamondstroked\\", replace: "◇" }
-  - { trigger: "\\diamondstroked.small\\", replace: "⋄" }
-  - { trigger: "\\diamondstroked.medium\\", replace: "⬦" }
-  - { trigger: "\\diamondstroked.dot\\", replace: "⟐" }
-  - { trigger: "\\diamondfilled\\", replace: "◆" }
-  - { trigger: "\\diamondfilled.medium\\", replace: "⬥" }
-  - { trigger: "\\diamondfilled.small\\", replace: "⬩" }
-  - { trigger: "\\lozengestroked\\", replace: "◊" }
-  - { trigger: "\\lozengestroked.small\\", replace: "⬫" }
-  - { trigger: "\\lozengestroked.medium\\", replace: "⬨" }
-  - { trigger: "\\lozengefilled\\", replace: "⧫" }
-  - { trigger: "\\lozengefilled.small\\", replace: "⬪" }
-  - { trigger: "\\lozengefilled.medium\\", replace: "⬧" }
-  - { trigger: "\\parallelogramstroked\\", replace: "▱" }
-  - { trigger: "\\parallelogramfilled\\", replace: "▰" }
-  - { trigger: "\\starop\\", replace: "⋆" }
-  - { trigger: "\\starstroked\\", replace: "☆" }
-  - { trigger: "\\starfilled\\", replace: "★" }
-  - { trigger: "\\arrowr\\", replace: "→" }
-  - { trigger: "\\arrowr.long.bar\\", replace: "⟼" }
-  - { trigger: "\\arrowr.bar\\", replace: "↦" }
-  - { trigger: "\\arrowr.curve\\", replace: "⤷" }
-  - { trigger: "\\arrowr.turn\\", replace: "⮎" }
-  - { trigger: "\\arrowr.dashed\\", replace: "⇢" }
-  - { trigger: "\\arrowr.dotted\\", replace: "⤑" }
-  - { trigger: "\\arrowr.double\\", replace: "⇒" }
-  - { trigger: "\\arrowr.double.bar\\", replace: "⤇" }
-  - { trigger: "\\arrowr.double.long\\", replace: "⟹" }
-  - { trigger: "\\arrowr.double.long.bar\\", replace: "⟾" }
-  - { trigger: "\\arrowr.double.not\\", replace: "⇏" }
-  - { trigger: "\\arrowr.double.struck\\", replace: "⤃" }
-  - { trigger: "\\arrowr.filled\\", replace: "➡" }
-  - { trigger: "\\arrowr.hook\\", replace: "↪" }
-  - { trigger: "\\arrowr.long\\", replace: "⟶" }
-  - { trigger: "\\arrowr.long.squiggly\\", replace: "⟿" }
-  - { trigger: "\\arrowr.loop\\", replace: "↬" }
-  - { trigger: "\\arrowr.not\\", replace: "↛" }
-  - { trigger: "\\arrowr.quad\\", replace: "⭆" }
-  - { trigger: "\\arrowr.squiggly\\", replace: "⇝" }
-  - { trigger: "\\arrowr.stop\\", replace: "⇥" }
-  - { trigger: "\\arrowr.stroked\\", replace: "⇨" }
-  - { trigger: "\\arrowr.struck\\", replace: "⇸" }
-  - { trigger: "\\arrowr.dstruck\\", replace: "⇻" }
-  - { trigger: "\\arrowr.tail\\", replace: "↣" }
-  - { trigger: "\\arrowr.tail.struck\\", replace: "⤔" }
-  - { trigger: "\\arrowr.tail.dstruck\\", replace: "⤕" }
-  - { trigger: "\\arrowr.tilde\\", replace: "⥲" }
-  - { trigger: "\\arrowr.triple\\", replace: "⇛" }
-  - { trigger: "\\arrowr.twohead\\", replace: "↠" }
-  - { trigger: "\\arrowr.twohead.bar\\", replace: "⤅" }
-  - { trigger: "\\arrowr.twohead.struck\\", replace: "⤀" }
-  - { trigger: "\\arrowr.twohead.dstruck\\", replace: "⤁" }
-  - { trigger: "\\arrowr.twohead.tail\\", replace: "⤖" }
-  - { trigger: "\\arrowr.twohead.tail.struck\\", replace: "⤗" }
-  - { trigger: "\\arrowr.twohead.tail.dstruck\\", replace: "⤘" }
-  - { trigger: "\\arrowr.open\\", replace: "⇾" }
-  - { trigger: "\\arrowr.wave\\", replace: "↝" }
-  - { trigger: "\\arrowl\\", replace: "←" }
-  - { trigger: "\\arrowl.bar\\", replace: "↤" }
-  - { trigger: "\\arrowl.curve\\", replace: "⤶" }
-  - { trigger: "\\arrowl.turn\\", replace: "⮌" }
-  - { trigger: "\\arrowl.dashed\\", replace: "⇠" }
-  - { trigger: "\\arrowl.dotted\\", replace: "⬸" }
-  - { trigger: "\\arrowl.double\\", replace: "⇐" }
-  - { trigger: "\\arrowl.double.bar\\", replace: "⤆" }
-  - { trigger: "\\arrowl.double.long\\", replace: "⟸" }
-  - { trigger: "\\arrowl.double.long.bar\\", replace: "⟽" }
-  - { trigger: "\\arrowl.double.not\\", replace: "⇍" }
-  - { trigger: "\\arrowl.double.struck\\", replace: "⤂" }
-  - { trigger: "\\arrowl.filled\\", replace: "⬅" }
-  - { trigger: "\\arrowl.hook\\", replace: "↩" }
-  - { trigger: "\\arrowl.long\\", replace: "⟵" }
-  - { trigger: "\\arrowl.long.bar\\", replace: "⟻" }
-  - { trigger: "\\arrowl.long.squiggly\\", replace: "⬳" }
-  - { trigger: "\\arrowl.loop\\", replace: "↫" }
-  - { trigger: "\\arrowl.not\\", replace: "↚" }
-  - { trigger: "\\arrowl.quad\\", replace: "⭅" }
-  - { trigger: "\\arrowl.squiggly\\", replace: "⇜" }
-  - { trigger: "\\arrowl.stop\\", replace: "⇤" }
-  - { trigger: "\\arrowl.stroked\\", replace: "⇦" }
-  - { trigger: "\\arrowl.struck\\", replace: "⇷" }
-  - { trigger: "\\arrowl.dstruck\\", replace: "⇺" }
-  - { trigger: "\\arrowl.tail\\", replace: "↢" }
-  - { trigger: "\\arrowl.tail.struck\\", replace: "⬹" }
-  - { trigger: "\\arrowl.tail.dstruck\\", replace: "⬺" }
-  - { trigger: "\\arrowl.tilde\\", replace: "⭉" }
-  - { trigger: "\\arrowl.triple\\", replace: "⇚" }
-  - { trigger: "\\arrowl.twohead\\", replace: "↞" }
-  - { trigger: "\\arrowl.twohead.bar\\", replace: "⬶" }
-  - { trigger: "\\arrowl.twohead.struck\\", replace: "⬴" }
-  - { trigger: "\\arrowl.twohead.dstruck\\", replace: "⬵" }
-  - { trigger: "\\arrowl.twohead.tail\\", replace: "⬻" }
-  - { trigger: "\\arrowl.twohead.tail.struck\\", replace: "⬼" }
-  - { trigger: "\\arrowl.twohead.tail.dstruck\\", replace: "⬽" }
-  - { trigger: "\\arrowl.open\\", replace: "⇽" }
-  - { trigger: "\\arrowl.wave\\", replace: "↜" }
-  - { trigger: "\\arrowt\\", replace: "↑" }
-  - { trigger: "\\arrowt.bar\\", replace: "↥" }
-  - { trigger: "\\arrowt.curve\\", replace: "⤴" }
-  - { trigger: "\\arrowt.turn\\", replace: "⮍" }
-  - { trigger: "\\arrowt.dashed\\", replace: "⇡" }
-  - { trigger: "\\arrowt.double\\", replace: "⇑" }
-  - { trigger: "\\arrowt.filled\\", replace: "⬆" }
-  - { trigger: "\\arrowt.quad\\", replace: "⟰" }
-  - { trigger: "\\arrowt.stop\\", replace: "⤒" }
-  - { trigger: "\\arrowt.stroked\\", replace: "⇧" }
-  - { trigger: "\\arrowt.struck\\", replace: "⤉" }
-  - { trigger: "\\arrowt.dstruck\\", replace: "⇞" }
-  - { trigger: "\\arrowt.triple\\", replace: "⤊" }
-  - { trigger: "\\arrowt.twohead\\", replace: "↟" }
-  - { trigger: "\\arrowb\\", replace: "↓" }
-  - { trigger: "\\arrowb.bar\\", replace: "↧" }
-  - { trigger: "\\arrowb.curve\\", replace: "⤵" }
-  - { trigger: "\\arrowb.turn\\", replace: "⮏" }
-  - { trigger: "\\arrowb.dashed\\", replace: "⇣" }
-  - { trigger: "\\arrowb.double\\", replace: "⇓" }
-  - { trigger: "\\arrowb.filled\\", replace: "⬇" }
-  - { trigger: "\\arrowb.quad\\", replace: "⟱" }
-  - { trigger: "\\arrowb.stop\\", replace: "⤓" }
-  - { trigger: "\\arrowb.stroked\\", replace: "⇩" }
-  - { trigger: "\\arrowb.struck\\", replace: "⤈" }
-  - { trigger: "\\arrowb.dstruck\\", replace: "⇟" }
-  - { trigger: "\\arrowb.triple\\", replace: "⤋" }
-  - { trigger: "\\arrowb.twohead\\", replace: "↡" }
-  - { trigger: "\\arrowl.r\\", replace: "↔" }
-  - { trigger: "\\arrowl.r.double\\", replace: "⇔" }
-  - { trigger: "\\arrowl.r.double.long\\", replace: "⟺" }
-  - { trigger: "\\arrowl.r.double.not\\", replace: "⇎" }
-  - { trigger: "\\arrowl.r.double.struck\\", replace: "⤄" }
-  - { trigger: "\\arrowl.r.filled\\", replace: "⬌" }
-  - { trigger: "\\arrowl.r.long\\", replace: "⟷" }
-  - { trigger: "\\arrowl.r.not\\", replace: "↮" }
-  - { trigger: "\\arrowl.r.stroked\\", replace: "⬄" }
-  - { trigger: "\\arrowl.r.struck\\", replace: "⇹" }
-  - { trigger: "\\arrowl.r.dstruck\\", replace: "⇼" }
-  - { trigger: "\\arrowl.r.open\\", replace: "⇿" }
-  - { trigger: "\\arrowl.r.wave\\", replace: "↭" }
-  - { trigger: "\\arrowt.b\\", replace: "↕" }
-  - { trigger: "\\arrowt.b.double\\", replace: "⇕" }
-  - { trigger: "\\arrowt.b.filled\\", replace: "⬍" }
-  - { trigger: "\\arrowt.b.stroked\\", replace: "⇳" }
-  - { trigger: "\\arrowtr\\", replace: "↗" }
-  - { trigger: "\\arrowtr.double\\", replace: "⇗" }
-  - { trigger: "\\arrowtr.filled\\", replace: "⬈" }
-  - { trigger: "\\arrowtr.hook\\", replace: "⤤" }
-  - { trigger: "\\arrowtr.stroked\\", replace: "⬀" }
-  - { trigger: "\\arrowbr\\", replace: "↘" }
-  - { trigger: "\\arrowbr.double\\", replace: "⇘" }
-  - { trigger: "\\arrowbr.filled\\", replace: "⬊" }
-  - { trigger: "\\arrowbr.hook\\", replace: "⤥" }
-  - { trigger: "\\arrowbr.stroked\\", replace: "⬂" }
-  - { trigger: "\\arrowtl\\", replace: "↖" }
-  - { trigger: "\\arrowtl.double\\", replace: "⇖" }
-  - { trigger: "\\arrowtl.filled\\", replace: "⬉" }
-  - { trigger: "\\arrowtl.hook\\", replace: "⤣" }
-  - { trigger: "\\arrowtl.stroked\\", replace: "⬁" }
-  - { trigger: "\\arrowbl\\", replace: "↙" }
-  - { trigger: "\\arrowbl.double\\", replace: "⇙" }
-  - { trigger: "\\arrowbl.filled\\", replace: "⬋" }
-  - { trigger: "\\arrowbl.hook\\", replace: "⤦" }
-  - { trigger: "\\arrowbl.stroked\\", replace: "⬃" }
-  - { trigger: "\\arrowtl.br\\", replace: "⤡" }
-  - { trigger: "\\arrowtr.bl\\", replace: "⤢" }
-  - { trigger: "\\arrowccw\\", replace: "↺" }
-  - { trigger: "\\arrowccw.half\\", replace: "↶" }
-  - { trigger: "\\arrowcw\\", replace: "↻" }
-  - { trigger: "\\arrowcw.half\\", replace: "↷" }
-  - { trigger: "\\arrowzigzag\\", replace: "↯" }
-  - { trigger: "\\arrowsrr\\", replace: "⇉" }
-  - { trigger: "\\arrowsll\\", replace: "⇇" }
-  - { trigger: "\\arrowstt\\", replace: "⇈" }
-  - { trigger: "\\arrowsbb\\", replace: "⇊" }
-  - { trigger: "\\arrowslr\\", replace: "⇆" }
-  - { trigger: "\\arrowslr.stop\\", replace: "↹" }
-  - { trigger: "\\arrowsrl\\", replace: "⇄" }
-  - { trigger: "\\arrowstb\\", replace: "⇅" }
-  - { trigger: "\\arrowsbt\\", replace: "⇵" }
-  - { trigger: "\\arrowsrrr\\", replace: "⇶" }
-  - { trigger: "\\arrowslll\\", replace: "⬱" }
-  - { trigger: "\\arrowheadt\\", replace: "⌃" }
-  - { trigger: "\\arrowheadb\\", replace: "⌄" }
-  - { trigger: "\\harpoonrt\\", replace: "⇀" }
-  - { trigger: "\\harpoonrt.bar\\", replace: "⥛" }
-  - { trigger: "\\harpoonrt.stop\\", replace: "⥓" }
-  - { trigger: "\\harpoonrb\\", replace: "⇁" }
-  - { trigger: "\\harpoonrb.bar\\", replace: "⥟" }
-  - { trigger: "\\harpoonrb.stop\\", replace: "⥗" }
-  - { trigger: "\\harpoonlt\\", replace: "↼" }
-  - { trigger: "\\harpoonlt.bar\\", replace: "⥚" }
-  - { trigger: "\\harpoonlt.stop\\", replace: "⥒" }
-  - { trigger: "\\harpoonlb\\", replace: "↽" }
-  - { trigger: "\\harpoonlb.bar\\", replace: "⥞" }
-  - { trigger: "\\harpoonlb.stop\\", replace: "⥖" }
-  - { trigger: "\\harpoontl\\", replace: "↿" }
-  - { trigger: "\\harpoontl.bar\\", replace: "⥠" }
-  - { trigger: "\\harpoontl.stop\\", replace: "⥘" }
-  - { trigger: "\\harpoontr\\", replace: "↾" }
-  - { trigger: "\\harpoontr.bar\\", replace: "⥜" }
-  - { trigger: "\\harpoontr.stop\\", replace: "⥔" }
-  - { trigger: "\\harpoonbl\\", replace: "⇃" }
-  - { trigger: "\\harpoonbl.bar\\", replace: "⥡" }
-  - { trigger: "\\harpoonbl.stop\\", replace: "⥙" }
-  - { trigger: "\\harpoonbr\\", replace: "⇂" }
-  - { trigger: "\\harpoonbr.bar\\", replace: "⥝" }
-  - { trigger: "\\harpoonbr.stop\\", replace: "⥕" }
-  - { trigger: "\\harpoonlt.rt\\", replace: "⥎" }
-  - { trigger: "\\harpoonlb.rb\\", replace: "⥐" }
-  - { trigger: "\\harpoonlb.rt\\", replace: "⥋" }
-  - { trigger: "\\harpoonlt.rb\\", replace: "⥊" }
-  - { trigger: "\\harpoontl.bl\\", replace: "⥑" }
-  - { trigger: "\\harpoontr.br\\", replace: "⥏" }
-  - { trigger: "\\harpoontl.br\\", replace: "⥍" }
-  - { trigger: "\\harpoontr.bl\\", replace: "⥌" }
-  - { trigger: "\\harpoonsrtrb\\", replace: "⥤" }
-  - { trigger: "\\harpoonsblbr\\", replace: "⥥" }
-  - { trigger: "\\harpoonsbltr\\", replace: "⥯" }
-  - { trigger: "\\harpoonslbrb\\", replace: "⥧" }
-  - { trigger: "\\harpoonsltlb\\", replace: "⥢" }
-  - { trigger: "\\harpoonsltrb\\", replace: "⇋" }
-  - { trigger: "\\harpoonsltrt\\", replace: "⥦" }
-  - { trigger: "\\harpoonsrblb\\", replace: "⥩" }
-  - { trigger: "\\harpoonsrtlb\\", replace: "⇌" }
-  - { trigger: "\\harpoonsrtlt\\", replace: "⥨" }
-  - { trigger: "\\harpoonstlbr\\", replace: "⥮" }
-  - { trigger: "\\harpoonstltr\\", replace: "⥣" }
-  - { trigger: "\\tackr\\", replace: "⊢" }
-  - { trigger: "\\tackr.not\\", replace: "⊬" }
-  - { trigger: "\\tackr.long\\", replace: "⟝" }
-  - { trigger: "\\tackr.short\\", replace: "⊦" }
-  - { trigger: "\\tackr.double\\", replace: "⊨" }
-  - { trigger: "\\tackr.double.not\\", replace: "⊭" }
-  - { trigger: "\\tackl\\", replace: "⊣" }
-  - { trigger: "\\tackl.long\\", replace: "⟞" }
-  - { trigger: "\\tackl.short\\", replace: "⫞" }
-  - { trigger: "\\tackl.double\\", replace: "⫤" }
-  - { trigger: "\\tackt\\", replace: "⊥" }
-  - { trigger: "\\tackt.big\\", replace: "⟘" }
-  - { trigger: "\\tackt.double\\", replace: "⫫" }
-  - { trigger: "\\tackt.short\\", replace: "⫠" }
-  - { trigger: "\\tackb\\", replace: "⊤" }
-  - { trigger: "\\tackb.big\\", replace: "⟙" }
-  - { trigger: "\\tackb.double\\", replace: "⫪" }
-  - { trigger: "\\tackb.short\\", replace: "⫟" }
-  - { trigger: "\\tackl.r\\", replace: "⟛" }
+  - { trigger: "\\circle.stroked\\", replace: "○" }
+  - { trigger: "\\circle.stroked.tiny\\", replace: "∘" }
+  - { trigger: "\\circle.stroked.small\\", replace: "⚬" }
+  - { trigger: "\\circle.stroked.big\\", replace: "◯" }
+  - { trigger: "\\circle.filled\\", replace: "●" }
+  - { trigger: "\\circle.filled.tiny\\", replace: "⦁" }
+  - { trigger: "\\circle.filled.small\\", replace: "∙" }
+  - { trigger: "\\circle.filled.big\\", replace: "⬤" }
+  - { trigger: "\\circle.dotted\\", replace: "◌" }
+  - { trigger: "\\circle.nested\\", replace: "⊚" }
+  - { trigger: "\\ellipse.stroked.h\\", replace: "⬭" }
+  - { trigger: "\\ellipse.stroked.v\\", replace: "⬯" }
+  - { trigger: "\\ellipse.filled.h\\", replace: "⬬" }
+  - { trigger: "\\ellipse.filled.v\\", replace: "⬮" }
+  - { trigger: "\\triangle.stroked.t\\", replace: "△" }
+  - { trigger: "\\triangle.stroked.b\\", replace: "▽" }
+  - { trigger: "\\triangle.stroked.r\\", replace: "▷" }
+  - { trigger: "\\triangle.stroked.l\\", replace: "◁" }
+  - { trigger: "\\triangle.stroked.bl\\", replace: "◺" }
+  - { trigger: "\\triangle.stroked.br\\", replace: "◿" }
+  - { trigger: "\\triangle.stroked.tl\\", replace: "◸" }
+  - { trigger: "\\triangle.stroked.tr\\", replace: "◹" }
+  - { trigger: "\\triangle.stroked.small.t\\", replace: "▵" }
+  - { trigger: "\\triangle.stroked.small.b\\", replace: "▿" }
+  - { trigger: "\\triangle.stroked.small.r\\", replace: "▹" }
+  - { trigger: "\\triangle.stroked.small.l\\", replace: "◃" }
+  - { trigger: "\\triangle.stroked.rounded\\", replace: "🛆" }
+  - { trigger: "\\triangle.stroked.nested\\", replace: "⟁" }
+  - { trigger: "\\triangle.stroked.dot\\", replace: "◬" }
+  - { trigger: "\\triangle.filled.t\\", replace: "▲" }
+  - { trigger: "\\triangle.filled.b\\", replace: "▼" }
+  - { trigger: "\\triangle.filled.r\\", replace: "▶" }
+  - { trigger: "\\triangle.filled.l\\", replace: "◀" }
+  - { trigger: "\\triangle.filled.bl\\", replace: "◣" }
+  - { trigger: "\\triangle.filled.br\\", replace: "◢" }
+  - { trigger: "\\triangle.filled.tl\\", replace: "◤" }
+  - { trigger: "\\triangle.filled.tr\\", replace: "◥" }
+  - { trigger: "\\triangle.filled.small.t\\", replace: "▴" }
+  - { trigger: "\\triangle.filled.small.b\\", replace: "▾" }
+  - { trigger: "\\triangle.filled.small.r\\", replace: "▸" }
+  - { trigger: "\\triangle.filled.small.l\\", replace: "◂" }
+  - { trigger: "\\square.stroked\\", replace: "□" }
+  - { trigger: "\\square.stroked.tiny\\", replace: "▫" }
+  - { trigger: "\\square.stroked.small\\", replace: "◽" }
+  - { trigger: "\\square.stroked.medium\\", replace: "◻" }
+  - { trigger: "\\square.stroked.big\\", replace: "⬜" }
+  - { trigger: "\\square.stroked.dotted\\", replace: "⬚" }
+  - { trigger: "\\square.stroked.rounded\\", replace: "▢" }
+  - { trigger: "\\square.filled\\", replace: "■" }
+  - { trigger: "\\square.filled.tiny\\", replace: "▪" }
+  - { trigger: "\\square.filled.small\\", replace: "◾" }
+  - { trigger: "\\square.filled.medium\\", replace: "◼" }
+  - { trigger: "\\square.filled.big\\", replace: "⬛" }
+  - { trigger: "\\rect.stroked.h\\", replace: "▭" }
+  - { trigger: "\\rect.stroked.v\\", replace: "▯" }
+  - { trigger: "\\rect.filled.h\\", replace: "▬" }
+  - { trigger: "\\rect.filled.v\\", replace: "▮" }
+  - { trigger: "\\penta.stroked\\", replace: "⬠" }
+  - { trigger: "\\penta.filled\\", replace: "⬟" }
+  - { trigger: "\\hexa.stroked\\", replace: "⬡" }
+  - { trigger: "\\hexa.filled\\", replace: "⬢" }
+  - { trigger: "\\diamond.stroked\\", replace: "◇" }
+  - { trigger: "\\diamond.stroked.small\\", replace: "⋄" }
+  - { trigger: "\\diamond.stroked.medium\\", replace: "⬦" }
+  - { trigger: "\\diamond.stroked.dot\\", replace: "⟐" }
+  - { trigger: "\\diamond.filled\\", replace: "◆" }
+  - { trigger: "\\diamond.filled.medium\\", replace: "⬥" }
+  - { trigger: "\\diamond.filled.small\\", replace: "⬩" }
+  - { trigger: "\\lozenge.stroked\\", replace: "◊" }
+  - { trigger: "\\lozenge.stroked.small\\", replace: "⬫" }
+  - { trigger: "\\lozenge.stroked.medium\\", replace: "⬨" }
+  - { trigger: "\\lozenge.filled\\", replace: "⧫" }
+  - { trigger: "\\lozenge.filled.small\\", replace: "⬪" }
+  - { trigger: "\\lozenge.filled.medium\\", replace: "⬧" }
+  - { trigger: "\\parallelogram.stroked\\", replace: "▱" }
+  - { trigger: "\\parallelogram.filled\\", replace: "▰" }
+  - { trigger: "\\star.op\\", replace: "⋆" }
+  - { trigger: "\\star.stroked\\", replace: "☆" }
+  - { trigger: "\\star.filled\\", replace: "★" }
+  - { trigger: "\\arrow.r\\", replace: "→" }
+  - { trigger: "\\arrow.r.long.bar\\", replace: "⟼" }
+  - { trigger: "\\arrow.r.bar\\", replace: "↦" }
+  - { trigger: "\\arrow.r.curve\\", replace: "⤷" }
+  - { trigger: "\\arrow.r.turn\\", replace: "⮎" }
+  - { trigger: "\\arrow.r.dashed\\", replace: "⇢" }
+  - { trigger: "\\arrow.r.dotted\\", replace: "⤑" }
+  - { trigger: "\\arrow.r.double\\", replace: "⇒" }
+  - { trigger: "\\arrow.r.double.bar\\", replace: "⤇" }
+  - { trigger: "\\arrow.r.double.long\\", replace: "⟹" }
+  - { trigger: "\\arrow.r.double.long.bar\\", replace: "⟾" }
+  - { trigger: "\\arrow.r.double.not\\", replace: "⇏" }
+  - { trigger: "\\arrow.r.double.struck\\", replace: "⤃" }
+  - { trigger: "\\arrow.r.filled\\", replace: "➡" }
+  - { trigger: "\\arrow.r.hook\\", replace: "↪" }
+  - { trigger: "\\arrow.r.long\\", replace: "⟶" }
+  - { trigger: "\\arrow.r.long.squiggly\\", replace: "⟿" }
+  - { trigger: "\\arrow.r.loop\\", replace: "↬" }
+  - { trigger: "\\arrow.r.not\\", replace: "↛" }
+  - { trigger: "\\arrow.r.quad\\", replace: "⭆" }
+  - { trigger: "\\arrow.r.squiggly\\", replace: "⇝" }
+  - { trigger: "\\arrow.r.stop\\", replace: "⇥" }
+  - { trigger: "\\arrow.r.stroked\\", replace: "⇨" }
+  - { trigger: "\\arrow.r.struck\\", replace: "⇸" }
+  - { trigger: "\\arrow.r.dstruck\\", replace: "⇻" }
+  - { trigger: "\\arrow.r.tail\\", replace: "↣" }
+  - { trigger: "\\arrow.r.tail.struck\\", replace: "⤔" }
+  - { trigger: "\\arrow.r.tail.dstruck\\", replace: "⤕" }
+  - { trigger: "\\arrow.r.tilde\\", replace: "⥲" }
+  - { trigger: "\\arrow.r.triple\\", replace: "⇛" }
+  - { trigger: "\\arrow.r.twohead\\", replace: "↠" }
+  - { trigger: "\\arrow.r.twohead.bar\\", replace: "⤅" }
+  - { trigger: "\\arrow.r.twohead.struck\\", replace: "⤀" }
+  - { trigger: "\\arrow.r.twohead.dstruck\\", replace: "⤁" }
+  - { trigger: "\\arrow.r.twohead.tail\\", replace: "⤖" }
+  - { trigger: "\\arrow.r.twohead.tail.struck\\", replace: "⤗" }
+  - { trigger: "\\arrow.r.twohead.tail.dstruck\\", replace: "⤘" }
+  - { trigger: "\\arrow.r.open\\", replace: "⇾" }
+  - { trigger: "\\arrow.r.wave\\", replace: "↝" }
+  - { trigger: "\\arrow.l\\", replace: "←" }
+  - { trigger: "\\arrow.l.bar\\", replace: "↤" }
+  - { trigger: "\\arrow.l.curve\\", replace: "⤶" }
+  - { trigger: "\\arrow.l.turn\\", replace: "⮌" }
+  - { trigger: "\\arrow.l.dashed\\", replace: "⇠" }
+  - { trigger: "\\arrow.l.dotted\\", replace: "⬸" }
+  - { trigger: "\\arrow.l.double\\", replace: "⇐" }
+  - { trigger: "\\arrow.l.double.bar\\", replace: "⤆" }
+  - { trigger: "\\arrow.l.double.long\\", replace: "⟸" }
+  - { trigger: "\\arrow.l.double.long.bar\\", replace: "⟽" }
+  - { trigger: "\\arrow.l.double.not\\", replace: "⇍" }
+  - { trigger: "\\arrow.l.double.struck\\", replace: "⤂" }
+  - { trigger: "\\arrow.l.filled\\", replace: "⬅" }
+  - { trigger: "\\arrow.l.hook\\", replace: "↩" }
+  - { trigger: "\\arrow.l.long\\", replace: "⟵" }
+  - { trigger: "\\arrow.l.long.bar\\", replace: "⟻" }
+  - { trigger: "\\arrow.l.long.squiggly\\", replace: "⬳" }
+  - { trigger: "\\arrow.l.loop\\", replace: "↫" }
+  - { trigger: "\\arrow.l.not\\", replace: "↚" }
+  - { trigger: "\\arrow.l.quad\\", replace: "⭅" }
+  - { trigger: "\\arrow.l.squiggly\\", replace: "⇜" }
+  - { trigger: "\\arrow.l.stop\\", replace: "⇤" }
+  - { trigger: "\\arrow.l.stroked\\", replace: "⇦" }
+  - { trigger: "\\arrow.l.struck\\", replace: "⇷" }
+  - { trigger: "\\arrow.l.dstruck\\", replace: "⇺" }
+  - { trigger: "\\arrow.l.tail\\", replace: "↢" }
+  - { trigger: "\\arrow.l.tail.struck\\", replace: "⬹" }
+  - { trigger: "\\arrow.l.tail.dstruck\\", replace: "⬺" }
+  - { trigger: "\\arrow.l.tilde\\", replace: "⭉" }
+  - { trigger: "\\arrow.l.triple\\", replace: "⇚" }
+  - { trigger: "\\arrow.l.twohead\\", replace: "↞" }
+  - { trigger: "\\arrow.l.twohead.bar\\", replace: "⬶" }
+  - { trigger: "\\arrow.l.twohead.struck\\", replace: "⬴" }
+  - { trigger: "\\arrow.l.twohead.dstruck\\", replace: "⬵" }
+  - { trigger: "\\arrow.l.twohead.tail\\", replace: "⬻" }
+  - { trigger: "\\arrow.l.twohead.tail.struck\\", replace: "⬼" }
+  - { trigger: "\\arrow.l.twohead.tail.dstruck\\", replace: "⬽" }
+  - { trigger: "\\arrow.l.open\\", replace: "⇽" }
+  - { trigger: "\\arrow.l.wave\\", replace: "↜" }
+  - { trigger: "\\arrow.t\\", replace: "↑" }
+  - { trigger: "\\arrow.t.bar\\", replace: "↥" }
+  - { trigger: "\\arrow.t.curve\\", replace: "⤴" }
+  - { trigger: "\\arrow.t.turn\\", replace: "⮍" }
+  - { trigger: "\\arrow.t.dashed\\", replace: "⇡" }
+  - { trigger: "\\arrow.t.double\\", replace: "⇑" }
+  - { trigger: "\\arrow.t.filled\\", replace: "⬆" }
+  - { trigger: "\\arrow.t.quad\\", replace: "⟰" }
+  - { trigger: "\\arrow.t.stop\\", replace: "⤒" }
+  - { trigger: "\\arrow.t.stroked\\", replace: "⇧" }
+  - { trigger: "\\arrow.t.struck\\", replace: "⤉" }
+  - { trigger: "\\arrow.t.dstruck\\", replace: "⇞" }
+  - { trigger: "\\arrow.t.triple\\", replace: "⤊" }
+  - { trigger: "\\arrow.t.twohead\\", replace: "↟" }
+  - { trigger: "\\arrow.b\\", replace: "↓" }
+  - { trigger: "\\arrow.b.bar\\", replace: "↧" }
+  - { trigger: "\\arrow.b.curve\\", replace: "⤵" }
+  - { trigger: "\\arrow.b.turn\\", replace: "⮏" }
+  - { trigger: "\\arrow.b.dashed\\", replace: "⇣" }
+  - { trigger: "\\arrow.b.double\\", replace: "⇓" }
+  - { trigger: "\\arrow.b.filled\\", replace: "⬇" }
+  - { trigger: "\\arrow.b.quad\\", replace: "⟱" }
+  - { trigger: "\\arrow.b.stop\\", replace: "⤓" }
+  - { trigger: "\\arrow.b.stroked\\", replace: "⇩" }
+  - { trigger: "\\arrow.b.struck\\", replace: "⤈" }
+  - { trigger: "\\arrow.b.dstruck\\", replace: "⇟" }
+  - { trigger: "\\arrow.b.triple\\", replace: "⤋" }
+  - { trigger: "\\arrow.b.twohead\\", replace: "↡" }
+  - { trigger: "\\arrow.l.r\\", replace: "↔" }
+  - { trigger: "\\arrow.l.r.double\\", replace: "⇔" }
+  - { trigger: "\\arrow.l.r.double.long\\", replace: "⟺" }
+  - { trigger: "\\arrow.l.r.double.not\\", replace: "⇎" }
+  - { trigger: "\\arrow.l.r.double.struck\\", replace: "⤄" }
+  - { trigger: "\\arrow.l.r.filled\\", replace: "⬌" }
+  - { trigger: "\\arrow.l.r.long\\", replace: "⟷" }
+  - { trigger: "\\arrow.l.r.not\\", replace: "↮" }
+  - { trigger: "\\arrow.l.r.stroked\\", replace: "⬄" }
+  - { trigger: "\\arrow.l.r.struck\\", replace: "⇹" }
+  - { trigger: "\\arrow.l.r.dstruck\\", replace: "⇼" }
+  - { trigger: "\\arrow.l.r.open\\", replace: "⇿" }
+  - { trigger: "\\arrow.l.r.wave\\", replace: "↭" }
+  - { trigger: "\\arrow.t.b\\", replace: "↕" }
+  - { trigger: "\\arrow.t.b.double\\", replace: "⇕" }
+  - { trigger: "\\arrow.t.b.filled\\", replace: "⬍" }
+  - { trigger: "\\arrow.t.b.stroked\\", replace: "⇳" }
+  - { trigger: "\\arrow.tr\\", replace: "↗" }
+  - { trigger: "\\arrow.tr.double\\", replace: "⇗" }
+  - { trigger: "\\arrow.tr.filled\\", replace: "⬈" }
+  - { trigger: "\\arrow.tr.hook\\", replace: "⤤" }
+  - { trigger: "\\arrow.tr.stroked\\", replace: "⬀" }
+  - { trigger: "\\arrow.br\\", replace: "↘" }
+  - { trigger: "\\arrow.br.double\\", replace: "⇘" }
+  - { trigger: "\\arrow.br.filled\\", replace: "⬊" }
+  - { trigger: "\\arrow.br.hook\\", replace: "⤥" }
+  - { trigger: "\\arrow.br.stroked\\", replace: "⬂" }
+  - { trigger: "\\arrow.tl\\", replace: "↖" }
+  - { trigger: "\\arrow.tl.double\\", replace: "⇖" }
+  - { trigger: "\\arrow.tl.filled\\", replace: "⬉" }
+  - { trigger: "\\arrow.tl.hook\\", replace: "⤣" }
+  - { trigger: "\\arrow.tl.stroked\\", replace: "⬁" }
+  - { trigger: "\\arrow.bl\\", replace: "↙" }
+  - { trigger: "\\arrow.bl.double\\", replace: "⇙" }
+  - { trigger: "\\arrow.bl.filled\\", replace: "⬋" }
+  - { trigger: "\\arrow.bl.hook\\", replace: "⤦" }
+  - { trigger: "\\arrow.bl.stroked\\", replace: "⬃" }
+  - { trigger: "\\arrow.tl.br\\", replace: "⤡" }
+  - { trigger: "\\arrow.tr.bl\\", replace: "⤢" }
+  - { trigger: "\\arrow.ccw\\", replace: "↺" }
+  - { trigger: "\\arrow.ccw.half\\", replace: "↶" }
+  - { trigger: "\\arrow.cw\\", replace: "↻" }
+  - { trigger: "\\arrow.cw.half\\", replace: "↷" }
+  - { trigger: "\\arrow.zigzag\\", replace: "↯" }
+  - { trigger: "\\arrows.rr\\", replace: "⇉" }
+  - { trigger: "\\arrows.ll\\", replace: "⇇" }
+  - { trigger: "\\arrows.tt\\", replace: "⇈" }
+  - { trigger: "\\arrows.bb\\", replace: "⇊" }
+  - { trigger: "\\arrows.lr\\", replace: "⇆" }
+  - { trigger: "\\arrows.lr.stop\\", replace: "↹" }
+  - { trigger: "\\arrows.rl\\", replace: "⇄" }
+  - { trigger: "\\arrows.tb\\", replace: "⇅" }
+  - { trigger: "\\arrows.bt\\", replace: "⇵" }
+  - { trigger: "\\arrows.rrr\\", replace: "⇶" }
+  - { trigger: "\\arrows.lll\\", replace: "⬱" }
+  - { trigger: "\\arrowhead.t\\", replace: "⌃" }
+  - { trigger: "\\arrowhead.b\\", replace: "⌄" }
+  - { trigger: "\\harpoon.rt\\", replace: "⇀" }
+  - { trigger: "\\harpoon.rt.bar\\", replace: "⥛" }
+  - { trigger: "\\harpoon.rt.stop\\", replace: "⥓" }
+  - { trigger: "\\harpoon.rb\\", replace: "⇁" }
+  - { trigger: "\\harpoon.rb.bar\\", replace: "⥟" }
+  - { trigger: "\\harpoon.rb.stop\\", replace: "⥗" }
+  - { trigger: "\\harpoon.lt\\", replace: "↼" }
+  - { trigger: "\\harpoon.lt.bar\\", replace: "⥚" }
+  - { trigger: "\\harpoon.lt.stop\\", replace: "⥒" }
+  - { trigger: "\\harpoon.lb\\", replace: "↽" }
+  - { trigger: "\\harpoon.lb.bar\\", replace: "⥞" }
+  - { trigger: "\\harpoon.lb.stop\\", replace: "⥖" }
+  - { trigger: "\\harpoon.tl\\", replace: "↿" }
+  - { trigger: "\\harpoon.tl.bar\\", replace: "⥠" }
+  - { trigger: "\\harpoon.tl.stop\\", replace: "⥘" }
+  - { trigger: "\\harpoon.tr\\", replace: "↾" }
+  - { trigger: "\\harpoon.tr.bar\\", replace: "⥜" }
+  - { trigger: "\\harpoon.tr.stop\\", replace: "⥔" }
+  - { trigger: "\\harpoon.bl\\", replace: "⇃" }
+  - { trigger: "\\harpoon.bl.bar\\", replace: "⥡" }
+  - { trigger: "\\harpoon.bl.stop\\", replace: "⥙" }
+  - { trigger: "\\harpoon.br\\", replace: "⇂" }
+  - { trigger: "\\harpoon.br.bar\\", replace: "⥝" }
+  - { trigger: "\\harpoon.br.stop\\", replace: "⥕" }
+  - { trigger: "\\harpoon.lt.rt\\", replace: "⥎" }
+  - { trigger: "\\harpoon.lb.rb\\", replace: "⥐" }
+  - { trigger: "\\harpoon.lb.rt\\", replace: "⥋" }
+  - { trigger: "\\harpoon.lt.rb\\", replace: "⥊" }
+  - { trigger: "\\harpoon.tl.bl\\", replace: "⥑" }
+  - { trigger: "\\harpoon.tr.br\\", replace: "⥏" }
+  - { trigger: "\\harpoon.tl.br\\", replace: "⥍" }
+  - { trigger: "\\harpoon.tr.bl\\", replace: "⥌" }
+  - { trigger: "\\harpoons.rtrb\\", replace: "⥤" }
+  - { trigger: "\\harpoons.blbr\\", replace: "⥥" }
+  - { trigger: "\\harpoons.bltr\\", replace: "⥯" }
+  - { trigger: "\\harpoons.lbrb\\", replace: "⥧" }
+  - { trigger: "\\harpoons.ltlb\\", replace: "⥢" }
+  - { trigger: "\\harpoons.ltrb\\", replace: "⇋" }
+  - { trigger: "\\harpoons.ltrt\\", replace: "⥦" }
+  - { trigger: "\\harpoons.rblb\\", replace: "⥩" }
+  - { trigger: "\\harpoons.rtlb\\", replace: "⇌" }
+  - { trigger: "\\harpoons.rtlt\\", replace: "⥨" }
+  - { trigger: "\\harpoons.tlbr\\", replace: "⥮" }
+  - { trigger: "\\harpoons.tltr\\", replace: "⥣" }
+  - { trigger: "\\tack.r\\", replace: "⊢" }
+  - { trigger: "\\tack.r.not\\", replace: "⊬" }
+  - { trigger: "\\tack.r.long\\", replace: "⟝" }
+  - { trigger: "\\tack.r.short\\", replace: "⊦" }
+  - { trigger: "\\tack.r.double\\", replace: "⊨" }
+  - { trigger: "\\tack.r.double.not\\", replace: "⊭" }
+  - { trigger: "\\tack.l\\", replace: "⊣" }
+  - { trigger: "\\tack.l.long\\", replace: "⟞" }
+  - { trigger: "\\tack.l.short\\", replace: "⫞" }
+  - { trigger: "\\tack.l.double\\", replace: "⫤" }
+  - { trigger: "\\tack.t\\", replace: "⊥" }
+  - { trigger: "\\tack.t.big\\", replace: "⟘" }
+  - { trigger: "\\tack.t.double\\", replace: "⫫" }
+  - { trigger: "\\tack.t.short\\", replace: "⫠" }
+  - { trigger: "\\tack.b\\", replace: "⊤" }
+  - { trigger: "\\tack.b.big\\", replace: "⟙" }
+  - { trigger: "\\tack.b.double\\", replace: "⫪" }
+  - { trigger: "\\tack.b.short\\", replace: "⫟" }
+  - { trigger: "\\tack.l.r\\", replace: "⟛" }
   - { trigger: "\\alpha\\", replace: "α" }
   - { trigger: "\\beta\\", replace: "β" }
-  - { trigger: "\\betaalt\\", replace: "ϐ" }
+  - { trigger: "\\beta.alt\\", replace: "ϐ" }
   - { trigger: "\\chi\\", replace: "χ" }
   - { trigger: "\\delta\\", replace: "δ" }
   - { trigger: "\\epsilon\\", replace: "ε" }
-  - { trigger: "\\epsilonalt\\", replace: "ϵ" }
+  - { trigger: "\\epsilon.alt\\", replace: "ϵ" }
   - { trigger: "\\eta\\", replace: "η" }
   - { trigger: "\\gamma\\", replace: "γ" }
   - { trigger: "\\iota\\", replace: "ι" }
   - { trigger: "\\kai\\", replace: "ϗ" }
   - { trigger: "\\kappa\\", replace: "κ" }
-  - { trigger: "\\kappaalt\\", replace: "ϰ" }
+  - { trigger: "\\kappa.alt\\", replace: "ϰ" }
   - { trigger: "\\lambda\\", replace: "λ" }
   - { trigger: "\\mu\\", replace: "μ" }
   - { trigger: "\\nu\\", replace: "ν" }
   - { trigger: "\\omega\\", replace: "ω" }
   - { trigger: "\\omicron\\", replace: "ο" }
   - { trigger: "\\phi\\", replace: "φ" }
-  - { trigger: "\\phialt\\", replace: "ϕ" }
+  - { trigger: "\\phi.alt\\", replace: "ϕ" }
   - { trigger: "\\pi\\", replace: "π" }
-  - { trigger: "\\pialt\\", replace: "ϖ" }
+  - { trigger: "\\pi.alt\\", replace: "ϖ" }
   - { trigger: "\\psi\\", replace: "ψ" }
   - { trigger: "\\rho\\", replace: "ρ" }
-  - { trigger: "\\rhoalt\\", replace: "ϱ" }
+  - { trigger: "\\rho.alt\\", replace: "ϱ" }
   - { trigger: "\\sigma\\", replace: "σ" }
-  - { trigger: "\\sigmaalt\\", replace: "ς" }
+  - { trigger: "\\sigma.alt\\", replace: "ς" }
   - { trigger: "\\tau\\", replace: "τ" }
   - { trigger: "\\theta\\", replace: "θ" }
-  - { trigger: "\\thetaalt\\", replace: "ϑ" }
+  - { trigger: "\\theta.alt\\", replace: "ϑ" }
   - { trigger: "\\upsilon\\", replace: "υ" }
   - { trigger: "\\xi\\", replace: "ξ" }
   - { trigger: "\\zeta\\", replace: "ζ" }
@@ -946,7 +946,7 @@ matches:
   - { trigger: "\\Mu\\", replace: "Μ" }
   - { trigger: "\\Nu\\", replace: "Ν" }
   - { trigger: "\\Omega\\", replace: "Ω" }
-  - { trigger: "\\Omegainv\\", replace: "℧" }
+  - { trigger: "\\Omega.inv\\", replace: "℧" }
   - { trigger: "\\Omicron\\", replace: "Ο" }
   - { trigger: "\\Phi\\", replace: "Φ" }
   - { trigger: "\\Pi\\", replace: "Π" }
@@ -998,17 +998,17 @@ matches:
   - { trigger: "\\planck\\", replace: "ħ" }
   - { trigger: "\\Re\\", replace: "ℜ" }
   - { trigger: "\\Im\\", replace: "ℑ" }
-  - { trigger: "\\dotlessi\\", replace: "ı" }
-  - { trigger: "\\dotlessj\\", replace: "ȷ" }
-  - { trigger: "\\diesix\\", replace: "⚅" }
-  - { trigger: "\\diefive\\", replace: "⚄" }
-  - { trigger: "\\diefour\\", replace: "⚃" }
-  - { trigger: "\\diethree\\", replace: "⚂" }
-  - { trigger: "\\dietwo\\", replace: "⚁" }
-  - { trigger: "\\dieone\\", replace: "⚀" }
-  - { trigger: "\\errorbarsquare.stroked\\", replace: "⧮" }
-  - { trigger: "\\errorbarsquare.filled\\", replace: "⧯" }
-  - { trigger: "\\errorbardiamond.stroked\\", replace: "⧰" }
-  - { trigger: "\\errorbardiamond.filled\\", replace: "⧱" }
-  - { trigger: "\\errorbarcircle.stroked\\", replace: "⧲" }
-  - { trigger: "\\errorbarcircle.filled\\", replace: "⧳" }
+  - { trigger: "\\dotless.i\\", replace: "ı" }
+  - { trigger: "\\dotless.j\\", replace: "ȷ" }
+  - { trigger: "\\die.six\\", replace: "⚅" }
+  - { trigger: "\\die.five\\", replace: "⚄" }
+  - { trigger: "\\die.four\\", replace: "⚃" }
+  - { trigger: "\\die.three\\", replace: "⚂" }
+  - { trigger: "\\die.two\\", replace: "⚁" }
+  - { trigger: "\\die.one\\", replace: "⚀" }
+  - { trigger: "\\errorbar.square.stroked\\", replace: "⧮" }
+  - { trigger: "\\errorbar.square.filled\\", replace: "⧯" }
+  - { trigger: "\\errorbar.diamond.stroked\\", replace: "⧰" }
+  - { trigger: "\\errorbar.diamond.filled\\", replace: "⧱" }
+  - { trigger: "\\errorbar.circle.stroked\\", replace: "⧲" }
+  - { trigger: "\\errorbar.circle.filled\\", replace: "⧳" }
