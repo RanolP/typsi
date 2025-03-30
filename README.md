@@ -18,7 +18,7 @@ Refer the [typst docs](https://typst.app/docs/reference/symbols/sym/) for symbol
 
 For example: `\subset.eq\` will gives you `⊆`.
 
-You can play with natural arrows hard-coded to Typst. like `<->`.
+You can play with natural arrows hard-coded to Typst. like `<->\`. Ends with `\` for conversion.
 
 ## Contributing
 
