@@ -1,0 +1,13 @@
+{
+  "name": "typsi",
+  "private": true,
+  "scripts": {
+    "typsi:codegen": "bun run codegen.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
