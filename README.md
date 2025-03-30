@@ -26,8 +26,7 @@ Most of our symbols are based on [typst/codex](https://github.com/typst/codex). 
 
 And several hard-coded symbols.
 
-You'll need to setup those files for contributing.
+You'll need to setup those tools for contributing.
 
 - Mise (for managing runtimes like Bun)
 - Git (for fetching typst/codex)
-- Bash or Nushell compatible shell environment
