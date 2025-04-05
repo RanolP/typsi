@@ -18,7 +18,7 @@ matches:
   - { trigger: "-->\\", replace: "⟶", word: false }
   - { trigger: "|->\\", replace: "↦", word: false }
   - { trigger: ">->\\", replace: "↣", word: false }
-  - { trigger: "->>\\", replace: "\"↠\"onfig", word: false }
+  - { trigger: "->>\\", replace: "↠", word: false }
   - { trigger: "<-\\", replace: "←", word: false }
   - { trigger: "<--\\", replace: "⟵", word: false }
   - { trigger: "<-<\\", replace: "↢", word: false }
