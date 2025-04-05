@@ -1,5 +1,5 @@
 matches:
-  - regex: "^(?P<content>[a-z0-9]+)\\\\"
+  - regex: "\\^(?P<content>[a-z0-9]+)\\\\"
     label: "Superscript"
     replace: '{{output}}'
     vars:
