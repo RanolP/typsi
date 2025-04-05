@@ -2,7 +2,8 @@
   "name": "typsi",
   "private": true,
   "scripts": {
-    "typsi:codegen": "bun run codegen.ts"
+    "typsi:gen:code": "bun run codegen.ts",
+    "typsi:gen:variant": "bun run variantgen.ts"
   },
   "devDependencies": {
     "@types/bun": "latest"

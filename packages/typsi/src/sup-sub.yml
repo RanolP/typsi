@@ -1,0 +1,21 @@
+matches:
+  - regex: "^(?P<content>[a-z0-9]+)\\\\"
+    replace: '{{output}}'
+    word: true
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: |
+            bash -c "echo $ESPANSO_CONTENT | $CONFIG/match/packages/typsi/scripts/sup.sh"
+          shell: wsl
+  - regex: "_(?P<content>[a-z0-9]+)\\\\"
+    replace: '{{output}}'
+    word: true
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: |
+            bash -c "echo $ESPANSO_CONTENT | $CONFIG/match/packages/typsi/scripts/sub.sh"
+          shell: wsl

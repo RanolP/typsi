@@ -14,6 +14,7 @@ const Paths = {
   },
   src: {
     customRules: './packages/typsi/src/custom-rules.txt',
+    variant: './packages/typsi/src/variant.txt',
   },
   typsi: {
     root: './packages/typsi',
@@ -21,6 +22,7 @@ const Paths = {
   generated: {
     emoji: './packages/typsi/generated/emoji.yml',
     sym: './packages/typsi/generated/sym.yml',
+    variant: './packages/typsi/generated/variant.yml',
     customRules: './packages/typsi/generated/custom-rules.yml',
   },
   packageYml: './packages/typsi/package.yml',
@@ -55,24 +57,35 @@ const targetSeq: Array<{
   output: string;
   prefix: string;
   suffix: string;
+  word: boolean;
 }> = [
   {
     path: Paths.codegen.codex.emoji,
     output: Paths.generated.emoji,
     prefix: ':',
     suffix: ':',
+    word: false,
   },
   {
     path: Paths.codegen.codex.sym,
     output: Paths.generated.sym,
     prefix: '\\',
-    suffix: '\\',
+    suffix: '',
+    word: true,
+  },
+  {
+    path: Paths.src.variant,
+    output: Paths.generated.variant,
+    prefix: '\\',
+    suffix: '',
+    word: true,
   },
   {
     path: Paths.src.customRules,
     output: Paths.generated.customRules,
     prefix: '',
-    suffix: '\\',
+    suffix: '',
+    word: true,
   },
 ];
 
@@ -81,7 +94,12 @@ for (const target of targetSeq) {
     encoding: 'utf-8',
   });
   const parsed = parse(src);
-  const file = generateEspansoFile(target.prefix, target.suffix, parsed);
+  const file = generateEspansoFile(
+    target.prefix,
+    target.suffix,
+    target.word,
+    parsed,
+  );
   await fs.mkdir(path.dirname(target.output), { recursive: true });
   await fs.writeFile(target.output, file, { encoding: 'utf-8' });
 }
@@ -161,10 +179,11 @@ interface Replacement {
 function generateEspansoFile(
   prefix: string,
   suffix: string,
+  word: boolean,
   map: Map<string, Replacement>,
 ): string {
   const lines = Array.from(map).map(([_, replacement]) =>
-    generateEspansoEntry(prefix, suffix, replacement)
+    generateEspansoEntry(prefix, suffix, word, replacement)
       .split('\n')
       .map((line) => `  ${line}`)
       .join('\n'),
@@ -176,13 +195,14 @@ function generateEspansoFile(
 function generateEspansoEntry(
   prefix: string,
   suffix: string,
+  word: boolean,
   replacement: Replacement,
 ): string {
   return `${
     replacement.deprecation ? `# ${replacement.deprecation}\n` : ''
   }- { trigger: ${JSON.stringify(
     `${prefix}${replacement.match}${suffix}`,
-  )}, replace: ${JSON.stringify(replacement.replacement)} }`;
+  )}, replace: ${JSON.stringify(replacement.replacement)}, word: ${word} }`;
 }
 
 function simpleFlag({
