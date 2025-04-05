@@ -7,7 +7,7 @@ matches:
         type: shell
         params:
           cmd: |
-            bash -c "echo $ESPANSO_CONTENT | $CONFIG/match/packages/typsi/scripts/sup.sh"
+            bash -c "echo '$ESPANSO_CONTENT' | '$CONFIG/match/packages/typsi/scripts/sup.sh'"
           shell: wsl
   - regex: "_(?P<content>[a-z0-9]+)\\\\"
     replace: '{{output}}'
@@ -17,5 +17,5 @@ matches:
         type: shell
         params:
           cmd: |
-            bash -c "echo $ESPANSO_CONTENT | $CONFIG/match/packages/typsi/scripts/sub.sh"
+            bash -c "echo '$ESPANSO_CONTENT' | '$CONFIG/match/packages/typsi/scripts/sub.sh'"
           shell: wsl

@@ -5,4 +5,3 @@ includes:
   - generated/sym.yml
   - generated/variant.yml
   - generated/custom-rules.yml
-  - src/sup-sub.yml
