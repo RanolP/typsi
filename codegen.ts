@@ -85,7 +85,7 @@ const targetSeq: Array<{
     output: Paths.generated.customRules,
     prefix: '',
     suffix: '\\',
-    word: true,
+    word: false,
   },
 ];
 
