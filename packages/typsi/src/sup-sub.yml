@@ -1,5 +1,5 @@
 matches:
-  - regex: "\\^(?P<content>[a-z0-9+-=]+)\\\\"
+  - regex: "\\^(?P<content>[a-z0-9+\\-=]+)\\\\"
     label: "Superscript"
     replace: '{{output}}'
     vars:
@@ -22,7 +22,7 @@ matches:
                   }->{`echo \\\\$`1} || `echo \\\\$`1
               /ge
             '"
-  - regex: "_(?P<content>[a-z0-9]+)\\\\"
+  - regex: "_(?P<content>[a-z0-9+\\-=]+)\\\\"
     label: "Subscript"
     replace: '{{output}}'
     vars:
