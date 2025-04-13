@@ -220,12 +220,19 @@ function simpleFlag({
   };
 }
 
-function refineString(text: string | undefined): string {
+function refineString(
+  text: string | undefined,
+  noQuote: boolean = false,
+): string {
   if (typeof text !== 'string') return '';
-  if (text.at(0) === '"') {
+  if (text.at(0) === '"' && !noQuote) {
     try {
-      return JSON.parse(text);
+      return refineString(JSON.parse(text), true);
     } catch {}
+  }
+  let group;
+  if ((group = /^U\+([0-9a-fA-F]+)$/.exec(text))) {
+    return String.fromCodePoint(Number('0x' + group[1]));
   }
   return text;
 }
