@@ -12,6 +12,12 @@ Anyway you can install this if you really want to do.
 espanso install typsi --git https://github.com/RanolP/typsi --external
 ```
 
+Also if you liked my symbol set, also try nannosym by
+
+```sh
+espanso install nannosym --git https://github.com/RanolP/typsi --external
+```
+
 ## Features
 
 ### Typst Symbols
